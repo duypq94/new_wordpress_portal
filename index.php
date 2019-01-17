@@ -130,7 +130,18 @@
                 </div>
 
                 <div class="icon card">
-
+                     <div class="card-title">
+                        社内システム
+                    </div>
+                    <div class="company-connect">
+                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/logo_bkwh-1.jpg"/></a>
+                        <img class="connect-logo"></img>
+                        <img class="connect-logo"></img>
+                        <img class="connect-logo"></img>
+                        <img class="connect-logo"></img>
+                        <img class="connect-logo"></img>
+                        <img class="connect-logo"></img>
+                    </div>
                 </div>
                 <div class="news card">
 
