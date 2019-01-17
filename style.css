@@ -1,0 +1,314 @@
+/*
+ * Theme Name: Mediado Portal
+ * Description: New Portal Theme for Mediado compay
+ * Theme URI: 
+ * Version: 1.0
+ * Theme Author: 
+ * Author URI: 
+ * Tags: 
+ * Textdomain: mediado_portal
+ */
+/* Basis css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: #F5F5F5;   
+ font-family: 'Noto Sans Japanese', 'Hiragino Kaku Gothic ProN', Meiryo, 'Open Sans', Helvetica, Arial, sans-serif;
+ color: #333333;
+ font-size: 100%; 
+ padding-bottom: 50px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    color: #F6591C;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.8em;
+}
+h4 {
+    font-size: 1.55em;
+}
+h5 {
+    font-size: 1.3em;
+}
+table, table tr, table td {
+    border: 1px solid #e7e7e7;
+    padding: 8px;
+}
+li{
+    list-style: none;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.4);
+    padding: 15px;
+    margin-top: 20px;
+}
+.card .card-title{
+    text-align: center;
+    font-size:14px;
+    padding-bottom:10px;
+    margin: 0px 20px;
+    border-bottom: 1px solid #ECEFF1;
+    font-weight: 600;
+}
+
+/* end basis css */
+
+/* logo */
+.container{
+    max-width: 1023px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.logo .container img{
+    height: 50px;
+    width: auto;
+}
+
+/* end logo */
+
+/* navigation menu */
+.primary-menu .menu{
+    color: #8a8a8a;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.primary-menu .menu li.drop-menu{
+    
+}
+
+.primary-menu .menu li ul.sub-menu{
+   position: absolute;
+   min-width: 22rem;
+   opacity: 0;
+   visibility: hidden;
+   background-color: #F5F5F5;  
+   border-radius:3px;
+   padding: 10px 15px;
+   box-shadow: 0 0 5px rgba(0,0,0,0.4); 
+   z-index: 999;
+   left: 0;
+   transition: 0.3s all;
+   
+}
+.primary-menu .menu ul.sub-menu li{
+    text-align: center;
+    margin-bottom:10px; 
+    border-bottom: 1px solid #ECEFF1;
+ }
+
+.primary-menu .menu > li{
+    font-weight: 700;
+    padding: 10px 0;
+    margin-right: 30px;
+    font-size: 14px;
+    display: block;
+    position: relative;
+}
+.primary-menu .menu li:hover{
+    color: #45a6f3;
+    cursor: pointer;
+}
+
+.primary-menu .menu li:hover ul li{
+    color: #8a8a8a;
+}
+
+.primary-menu .menu li:hover ul li:hover{
+    color: #45a6f3;
+    cursor: pointer;
+}
+
+.primary-menu .menu li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+/* end navigation */
+
+/* main content */
+.main-content{
+    background: url(/wp-content/themes/new_portal/asset/imgs/jumbotron_003.jpg) no-repeat; 
+    background-size: 100% 250px; 
+    height: auto;
+}
+
+.main-content .main-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-content .main-page .left-column{
+    flex-basis : 60%;
+} 
+
+.main-content .main-page .left-column .calendar{
+    width: 100%;
+    height: 250px;
+    
+}
+
+.main-content .main-page .left-column .tabs{
+    width: 100%;
+    height: auto;   
+}
+
+.main-content .main-page .left-column .icon{
+    width: 100%;
+    height: 200px;   
+}
+
+.main-content .main-page .left-column .news{
+    width: 100%;
+    height: 400px;   
+}
+
+
+.main-content .main-page .right-column{    
+    flex-basis : 33%;
+} 
+
+.main-content .main-page .right-column .md-graph{
+    background-color: #FFFFFF;
+    padding-bottom:15px; 
+    text-align: center;
+}
+
+/* notification  */
+
+.main-content .main-page .left-column  .noti {
+    position: relative;
+    display: block;
+    min-height: 28rem; 
+    background-color: #fff; 
+  }
+  
+.main-content .main-page .left-column  .noti  ul.tabs { 
+    display: block;
+    padding: 0; 
+    margin: 0;
+    border-bottom: 1px solid #ECEFF1;
+  }
+.main-content .main-page .left-column  .noti  ul.tabs:after { 
+    content: "";
+    display: table;
+    clear: both;
+}
+.main-content .main-page .left-column  .noti ul.tabs li { 
+    list-style: none; 
+    float: left; 
+}
+
+.main-content .main-page .left-column  .noti ul.tabs li input[type="radio"] { display: none; }
+
+.main-content .main-page .left-column  .noti ul.tabs li input[type="radio"]:checked ~ label:after { 
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    margin-bottom: -1px;
+    height: 0.25rem;
+    background-color: #03A9F4;
+  }
+.main-content .main-page .left-column  .noti ul.tabs li label {
+    position:relative;
+    display: block;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0.5rem 1rem 0.75rem;
+    margin-right: 0.25rem;
+    line-height: 1.25rem;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+  }
+.main-content .main-page .left-column  .noti ul.tabs li label:hover:after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    margin-bottom: -1px;
+    background-color: #B3E5FC;
+    height: 0.25rem;
+  }
+  .main-content .main-page .left-column  .noti ul.tabs li input[type="radio"]:checked ~ .tabBody { 
+    display: block;
+  }
+  .main-content .main-page .left-column  .noti ul.tabs li .tabBody { 
+    position: absolute;
+    display: none; 
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin-top: 3.5rem;
+    padding: 1rem 1.5rem;
+  }
+
+.main-content .main-page .left-column  .noti ul.tabs li .tabBody .link-info{
+    border-bottom: 1px solid #ECEFF1;
+    margin-bottom: 15px;
+  }
+
+.main-content .main-page .left-column  .noti ul.tabs li .tabBody .link-info p.publish-date{
+      font-size: 10px;
+      font-weight: 600;
+      color: #8c8c8c;
+}
+
+.main-content .main-page .left-column  .noti ul.tabs li .tabBody .link-info .link-info-title{
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+}
+
+.main-content .main-page .left-column  .noti ul.tabs li .tabBody .link-info .link-info-title .link-info-label{
+    font-size: 10px;
+    padding: 3px 4px;
+    color: #FFFFFF;
+    background-color: #45a6f3;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.main-content .main-page .left-column  .noti ul.tabs li .tabBody .link-info p.link-info-short-details{
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+.main-content .main-page .left-column  .noti ul.tabs li .tabBody .link-info p{
+    margin: 0 0 0.3rem;
+}
+ 
+
+/* end notification */
+
+.main-content .main-page .right-column .md-graph img{ 
+    width: 90%;
+    margin-top:20px; 
+} 
+
+/* end main content */

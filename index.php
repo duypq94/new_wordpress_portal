@@ -1,0 +1,156 @@
+<?php get_header(); ?>
+
+<body>
+    <div class="container-fluid logo">
+        <div class="container">
+            <img src="/wp-content/themes/new_portal/asset/imgs/logo_bkwh-1.jpg" alt="Logo">
+        </div>
+    </div>
+
+    <div class="container primary-menu">
+        <ul class="menu">
+            <li>Top</li>
+            <li>ビジョン</li>
+            <li>ナレッジ</li>
+            <li>グループ</li>
+            <li>ライブラリ</li>
+            <li>各種申請</li>
+            <li>各種リンク</li>
+            <li class="drop-menu">お問合せ
+                <ul class="sub-menu">
+                    <li>総務部へ問い合わせ</li>
+                    <li>管理へ問い合わせ</li>
+                    <li>人事部べ問い合わせ</li>
+                    <li>インフラ部へ問い合わせ</li>
+                    <li>情シスへ問い合わ</li>
+                    <li>どこへ問い合わせすればわからない場合コチラ</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container-fluid main-content">
+        <div class="container main-page">
+            <div class="left-column">
+                <div class="calendar card">
+
+                </div>
+
+                <div class="noti card">
+                    <ul class="tabs">
+                        <li>
+                            <input type="radio" name="tab" id="playlists" value="playlists" checked>
+                            <label for="playlists">最新</label>
+                            <div class="tabBody">
+                                <div class="link-info">
+                                    <p class="publish-date">2018 12 18</p>
+                                    <p class="link-info-title">新人事制度 人事評価 <span class="link-info-label">人事部</span></p>
+                                    <p class="link-info-short-details">
+                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
+                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
+                                    </p>
+                                </div>
+                                <div class="link-info">
+                                    <p class="publish-date">2018 12 18</p>
+                                    <p class="link-info-title">新人事制度 人事評価<span class="link-info-label">人事部</span> </p>
+                                    <p class="link-info-short-details">
+                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
+                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
+                                    </p>
+                                </div>
+                                <div class="link-info">
+                                    <p class="publish-date">2018 12 18</p>
+                                    <p class="link-info-title">新人事制度 人事評価<span class="link-info-label">人事部</span> </p>
+                                    <p class="link-info-short-details">
+                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
+                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="tab" id="artists" value="artists">
+                            <label for="artists">総務部</label>
+                            <div class="tabBody">
+                                <div class="link-info">
+                                    <p class="publish-date">2018 12 18</p>
+                                    <p class="link-info-title">新人事制度 人事評価 </p>
+                                    <p class="link-info-short-details">
+                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
+                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
+                                    </p>
+                                </div>
+                                <div class="link-info">
+                                    <p class="publish-date">2018 12 18</p>
+                                    <p class="link-info-title">新人事制度 人事評価 </p>
+                                    <p class="link-info-short-details">
+                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
+                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="tab" id="playlists-3" value="playlists">
+                            <label for="playlists-3">経理部</label>
+                            <div class="tabBody">
+                                <p>Lorem ipsum dolor sit amet, duo populo tincidunt sadipscing at, id appetere
+                                    suavitate eum. Ei ius movet accommodare, vim ex idque ponderum mandamus. Vis et
+                                    legimus luptatum accusamus, sea id audiam appetere. Ne mel zril argumentum, cu est
+                                    dicant putant, ad eirmod expetenda has. Nam no quidam regione, solet hendrerit
+                                    reprehendunt qui et.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="tab" id="albums" value="albums">
+                            <label for="albums">人事部</label>
+                            <div class="tabBody">
+                                <p>Populo platonem conclusionemque sit te, duo ad volumus appareat. Ullum dolorum eam
+                                    at, ut nam esse graecis inimicus. Ex brute illud mei. Cu tollit explicari laboramus
+                                    vis, idque movet dicam ad per.</p>
+
+                                <p>Mei mutat scribentur et, quas choro cum ut. Quot posidonium efficiendi duo at, est
+                                    et persius constituto. No modo suavitate vis. An nam case utroque, elitr affert ne
+                                    vix.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="tab" id="playlists-2" value="playlists">
+                            <label for="playlists-2">技術部</label>
+                            <div class="tabBody">
+                                <p>Lorem ipsum dolor sit amet, duo populo tincidunt sadipscing at, id appetere
+                                    suavitate eum. Ei ius movet accommodare, vim ex idque ponderum mandamus. Vis et
+                                    legimus luptatum accusamus, sea id audiam appetere. Ne mel zril argumentum, cu est
+                                    dicant putant, ad eirmod expetenda has. Nam no quidam regione, solet hendrerit
+                                    reprehendunt qui et.</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="icon card">
+
+                </div>
+                <div class="news card">
+
+                </div>
+            </div>
+            <div class="right-column">
+                <div class="md-graph card">
+                    <div class="card-title">
+                        メディアドゥHD株価
+                    </div>
+
+                    <img src="https://dimg.stockweather.co.jp/sw_dimg/swdaytimechartwriter.ashx?mkt=01&code=000036780"
+                        alt="">
+                    <img src="https://dimg.stockweather.co.jp/sw_dimg/swcandlechartwriter.ashx?mkt=01&code=000036780&term=2"
+                        alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
