@@ -28,7 +28,7 @@ img{
 }
 
 a{
-    color: #F6591C;
+    color: black;
     text-decoration: none;
 }
 
@@ -48,7 +48,6 @@ h5 {
     font-size: 1.3em;
 }
 table, table tr, table td {
-    border: 1px solid #e7e7e7;
     padding: 8px;
 }
 li{
@@ -305,6 +304,83 @@ li{
  
 
 /* end notification */
+
+/* system list  */
+.main-content .main-page .left-column  .system {
+    position: relative;
+    display: block;
+    min-height: 28rem; 
+    background-color: #fff; 
+  }
+  
+.main-content .main-page .left-column  .system  ul.tabs { 
+    display: block;
+    padding: 0; 
+    margin: 0;
+    border-bottom: 1px solid #ECEFF1;
+  }
+.main-content .main-page .left-column  .system  ul.tabs:after { 
+    content: "";
+    display: table;
+    clear: both;
+}
+.main-content .main-page .left-column  .system ul.tabs li { 
+    list-style: none; 
+    float: left; 
+}
+
+.main-content .main-page .left-column  .system ul.tabs li input[type="radio"] { display: none; }
+
+.main-content .main-page .left-column  .system ul.tabs li input[type="radio"]:checked ~ label:after { 
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    margin-bottom: -1px;
+    height: 0.25rem;
+    background-color: #03A9F4;
+  }
+.main-content .main-page .left-column  .system ul.tabs li label {
+    position:relative;
+    display: block;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0.5rem 1rem 0.75rem;
+    margin-right: 0.25rem;
+    line-height: 1.25rem;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+  }
+.main-content .main-page .left-column  .system ul.tabs li label:hover:after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    margin-bottom: -1px;
+    background-color: #B3E5FC;
+    height: 0.25rem;
+  }
+  .main-content .main-page .left-column  .system ul.tabs li input[type="radio"]:checked ~ .tabBody { 
+    display: block;
+  }
+  .main-content .main-page .left-column  .system ul.tabs li .tabBody { 
+    position: absolute;
+    display: none; 
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin-top: 3.5rem;
+    padding: 1rem 1.5rem;
+  }
+
+.main-content .main-page .left-column  .system ul.tabs li .tabBody .link-info table td {
+    text-align: left;
+}
+
+.main-content .main-page .left-column  .system ul.tabs li .tabBody .link-info table img {
+    width : 200px;
+    height: 150px;
+}
+/* end system list */
 
 
 .main-content .main-page .right-column .md-graph img{ 
