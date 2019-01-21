@@ -1,4 +1,4 @@
-<!-- <?php get_header(); ?>
+<?php get_header(); ?>
     <div class="container-fluid main-content" 
     style="background: url(<?php echo get_template_directory_uri()?>/asset/imgs/jumbotron_003.jpg) no-repeat;
     background-size: 100% 350px; 
@@ -9,12 +9,15 @@
                 </div>
 
                 <div class="noti card">
+                    <div class="card-title">
+                        メディアドゥHD株価
+                    </div>
                     <ul class="tabs">
                         <li>
                             <input type="radio" name="tab" id="id-1" value="playlists" checked>
                             <label for="id-1">最新</label>
                             <div class="tabBody">
-                                <div class="link-info">
+                                <!-- <div class="link-info">
                                     <p class="publish-date">2018 12 18</p>
                                     <p class="link-info-title">新人事制度 人事評価 <span class="link-info-label">人事部</span></p>
                                     <p class="link-info-short-details">
@@ -37,7 +40,33 @@
                                         新人事制度 人事評価のFAQを下記の通り作成いたしました。
                                         各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
                                     </p>
-                                </div>
+                                </div> -->
+                                <?php 
+                                    $the_query = new WP_Query( array( 'post_type'=> 'post', 
+                                    'posts_per_page' => '5',
+                                    'orderby'=>'date',
+                                    'ignore_sticky_posts' => 1,) ); ?>
+
+                                    <?php if ( $the_query->have_posts() ) : ?>
+
+                                        <!-- pagination here -->
+
+                                        <!-- the loop -->
+                                        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                            <div class="link-info">
+                                            <!-- <a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a> -->
+                                            <p class="publish-date"><?php echo get_the_date(); ?></p>
+                                            <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?><span class="link-info-label">人事部</span></a>
+                                        </div>
+                                        <?php endwhile; ?>
+                                        <!-- end of the loop -->
+                                        <!-- pagination here -->
+
+                                        <?php wp_reset_postdata(); ?>
+
+                                    <?php else : ?>
+                                        <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                                    <?php endif; ?>
                             </div>
                         </li>
                         <li>
@@ -296,8 +325,3 @@
     </div>
 
 <?php get_footer(); ?>
- -->
-
-<?php get_header(); ?>
-<h1>Index Page</h1>
- <?php get_footer(); ?>

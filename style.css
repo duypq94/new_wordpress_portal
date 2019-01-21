@@ -73,7 +73,7 @@ li{
     font-size:14px;
     padding-bottom:10px;
     margin: 10px 20px;
-    border-bottom: 1px solid #ECEFF1;
+    border-bottom: 1px solid #000;
     font-weight: 600;
 }
 
@@ -273,7 +273,7 @@ li{
     position: absolute;
     display: none; 
     top: 0; left: 0; right: 0; bottom: 0;
-    margin-top: 3.5rem;
+    margin-top: 6.5rem;
     padding: 1rem 1.5rem;
   }
 
@@ -292,6 +292,7 @@ li{
     font-size: 14px;
     font-weight: 600;
     display: flex;
+    padding-bottom: 5px;
 }
 
 .main-content .main-page .left-column  .noti ul.tabs li .tabBody .link-info .link-info-title .link-info-label{

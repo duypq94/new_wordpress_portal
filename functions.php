@@ -23,6 +23,10 @@
             register_sidebar( $sidebar );
 
         }
+        function my_excerpt_length($length) {
+            return 20;
+        }   
+        add_filter('excerpt_length', 'my_excerpt_length');
         add_action( 'after_setup_theme', 'portal_setup' );
     endif;
 
