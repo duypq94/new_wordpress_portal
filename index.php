@@ -1,12 +1,11 @@
 <?php get_header(); ?>
     <div class="container-fluid main-content" 
     style="background: url(<?php echo get_template_directory_uri()?>/asset/imgs/jumbotron_003.jpg) no-repeat;
-    background-size: 100% 250px; 
+    background-size: 100% 350px; 
     height: auto;">
         <div class="container main-page">
             <div class="left-column">
                 <div class="calendar card">
-
                 </div>
 
                 <div class="noti card">
@@ -110,19 +109,75 @@
                     </ul>
                 </div>
 
-                <div class="office-system card">
+                <!-- <div class="icon card">
                      <div class="card-title">
                         社内システム
                     </div>
                     <div class="company-connect">
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/biz.png"/></a>
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/cyberxeed.jpeg"/></img></a>
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/cyberxeed.jpeg"></img></a>
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/cyberxeed.jpeg"></img></a>
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/cyberxeed.jpeg"></img></a>
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/cyberxeed.jpeg"></img></a>
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/cyberxeed.jpeg"></img></a>
+                        <a href="#"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/logo_bkwh-1.jpg"/></a>
+                        <img class="connect-logo"></img>
+                        <img class="connect-logo"></img>
+                        <img class="connect-logo"></img>
+                        <img class="connect-logo"></img>
+                        <img class="connect-logo"></img>
+                        <img class="connect-logo"></img>
                     </div>
+                </div> -->
+                 <div class="system card">
+                    <ul class="tabs">
+                        <li>
+                            <input type="radio" name="system-tab" id="timesystem" value="timesystem" checked>
+                            <label for="timesystem">勤務</label>
+                            <div class="tabBody">
+                                <div class="link-info">
+                                    <div class="system-list">
+                                        <a href="https://s3.kingtime.jp/admin"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/kingoftime-logo.jpg" /></a>
+                                        <a href="https://s3.kingtime.jp/admin">勤務管理を行う（メディアドゥ対象）</a><br>
+                                    </div>
+                                    <div class="system-list">
+                                             <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/cyberxeed.jpeg"/></a>
+                                             <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp">勤務管理を行う（出版デジタル機構対象）</a><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="system-tab" id="manage" value="manage">
+                            <label for="manage">管理</label>
+                            <div class="tabBody">
+                                <div class="link-info">
+                                    <div class="system-list">
+                                        <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/mf-cloud-logo.jpg" /></a>
+                                        <a href="#">経費申請を行う</a><br>
+                                    </div>
+                                    <div class="system-list">
+                                        <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/biz.png"/></a>
+                                        <a href="#">予算申請を行う</a><br>
+                                    </div>
+                                    <div class="system-list">
+                                        <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/cyberxeed.jpeg"/></a>
+                                        <a href="#">資産管理を行う</a><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="system-tab" id="request" value="request">
+                            <label for="request">依頼</label>
+                            <div class="tabBody">
+                                <div class="link-info">
+                                    <div class="system-list">
+                                        <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/xpoint.png" /></a></td>
+                                        <a href="#">社内業務手続きを行う</a><br>
+                                    </div>
+                                    <div class="system-list">             
+                                        <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/Redmine_logo.png"/></a></td>
+                                        <a href="#">プロジェクト管理を行う</a><br>
+                                        </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
                 <div class="news noti card">
                     <ul class="tabs">
@@ -239,6 +294,14 @@
                  <div class="card">
                     <div class="card-title">FACEBOOK　- 株式会社メディアドゥ –</div>
                     <div class="fb-page" data-href="https://www.facebook.com/MediaDo3678/" data-tabs="timeline" data-width="330" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MediaDo3678/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MediaDo3678/">株式会社メディアドゥホールディングス</a></blockquote></div>
+                </div>
+
+                 <div class="card">
+                   <div class="card-title">天気予報</div>
+                   <a class="weatherwidget-io" href="https://forecast7.com/ja/35d69139d69/tokyo/" data-label_1="TOKYO" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >TOKYO WEATHER</a>
+                   <a class="weatherwidget-io" href="https://forecast7.com/ja/35d18136d91/nagoya/" data-label_1="NAGOYA" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >NAGOYA WEATHER</a>
+                   <a class="weatherwidget-io" href="https://forecast7.com/ja/34d07134d56/tokushima-prefecture/" data-label_1="TOKUSHIMA PREFECTURE" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >TOKUSHIMA PREFECTURE WEATHER</a>
+                   <a class="weatherwidget-io" href="https://forecast7.com/ja/32d72n117d16/san-diego/" data-label_1="SAN DIEGO" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >SAN DIEGO WEATHER</a>
                 </div>
 
             </div>
