@@ -361,6 +361,10 @@
                     <img src="https://dimg.stockweather.co.jp/sw_dimg/swcandlechartwriter.ashx?mkt=01&code=000036780&term=2"
                         alt="">
                 </div>
+                 <div class="card">
+                    <div class="card-title">FACEBOOK　- 株式会社メディアドゥ –</div>
+                    <div class="fb-page" data-href="https://www.facebook.com/MediaDo3678/" data-tabs="timeline" data-width="330" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MediaDo3678/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MediaDo3678/">株式会社メディアドゥホールディングス</a></blockquote></div>
+                </div>
 
             </div>
         </div>
