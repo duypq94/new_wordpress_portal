@@ -1,5 +1,8 @@
 <?php get_header(); ?>
-    <div class="container-fluid main-content">
+    <div class="container-fluid main-content" 
+    style="background: url(<?php echo get_template_directory_uri()?>/asset/imgs/jumbotron_003.jpg) no-repeat;
+    background-size: 100% 250px; 
+    height: auto;">
         <div class="container main-page">
             <div class="left-column">
                 <div class="calendar card">
