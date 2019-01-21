@@ -19,7 +19,7 @@
 
     <div class="container-fluid logo">
         <div class="container">
-            <img src="/wp-content/themes/new_portal/asset/imgs/logo_bkwh-1.jpg" alt="Logo">
+            <img src="<?php echo get_template_directory_uri() ?>/asset/imgs/logo_bkwh-1.jpg" alt="Logo">
         </div>
     </div>
 

@@ -159,11 +159,11 @@ li{
 /* end navigation */
 
 /* main content */
-.main-content{
+/*.main-content{
     background: url(/wp-content/themes/new_portal/asset/imgs/jumbotron_003.jpg) no-repeat; 
     background-size: 100% 250px; 
     height: auto;
-}
+}*/
 
 .main-content .main-page{
     display: flex;
