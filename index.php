@@ -111,18 +111,7 @@
                 </div>
 
                 <div class="office-system card">
-                     <div class="card-title">
-                        社内システム
-                    </div>
-                    <div class="company-connect">
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/biz.png"/></a>
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/cyberxeed.jpeg"/></img></a>
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/cyberxeed.jpeg"></img></a>
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/cyberxeed.jpeg"></img></a>
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/cyberxeed.jpeg"></img></a>
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/cyberxeed.jpeg"></img></a>
-                        <a href="#"><img class="connect-logo" src="/wp-content/themes/new_portal/asset/imgs/cyberxeed.jpeg"></img></a>
-                    </div>
+                     
                 </div>
                 <div class="news noti card">
                     <ul class="tabs">
