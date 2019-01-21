@@ -376,9 +376,16 @@ li{
     text-align: left;
 }
 
-.main-content .main-page .left-column  .system ul.tabs li .tabBody .link-info table img {
-    width : 200px;
-    height: 150px;
+.main-content .main-page .left-column  .system ul.tabs li .tabBody .link-info img {
+    width : 170px;
+    height: 100px;
+}
+
+.main-content .main-page .left-column  .system ul.tabs li .tabBody .link-info .system-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
 }
 /* end system list */
 

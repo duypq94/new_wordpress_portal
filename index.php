@@ -149,17 +149,14 @@
                             <label for="timesystem">勤務</label>
                             <div class="tabBody">
                                 <div class="link-info">
-                                    <table height="300px">
-                                        <tr>
-                                            <td> <a href="https://s3.kingtime.jp/admin"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/kingoftime-logo.jpg" /></a></td>
-                                            <td> <a href="https://s3.kingtime.jp/admin">勤務管理を行う（メディアドゥ対象）</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td> <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/cyberxeed.jpeg"/></a></td>
-                                            <td> <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp">勤務管理を行う（出版デジタル機構対象）</a></td>
-                                        </tr>
-
-                                    </table>
+                                    <div class="system-list">
+                                        <a href="https://s3.kingtime.jp/admin"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/kingoftime-logo.jpg" /></a>
+                                        <a href="https://s3.kingtime.jp/admin">勤務管理を行う（メディアドゥ対象）</a><br>
+                                    </div>
+                                    <div class="system-list">
+                                             <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/cyberxeed.jpeg"/></a>
+                                             <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp">勤務管理を行う（出版デジタル機構対象）</a><br>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -167,22 +164,19 @@
                             <input type="radio" name="system-tab" id="manage" value="manage">
                             <label for="manage">管理</label>
                             <div class="tabBody">
-                            <div class="link-info">
-                                    <table height="300px">
-                                        <tr>
-                                            <td> <a href="#"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/mf-cloud-logo.jpg" /></a></td>
-                                            <td> <a href="#">経費申請を行う</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td> <a href="#"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/biz.png"/></a></td>
-                                            <td> <a href="#">予算申請を行う</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td> <a href="#"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/logo_mjs.png"/></a></td>
-                                            <td> <a href="#">資産管理を行う</a></td>
-                                        </tr>
-
-                                    </table>
+                                <div class="link-info">
+                                    <div class="system-list">
+                                        <a href="#"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/mf-cloud-logo.jpg" /></a>
+                                        <a href="#">経費申請を行う</a><br>
+                                    </div>
+                                    <div class="system-list">
+                                        <a href="#"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/biz.png"/></a>
+                                        <a href="#">予算申請を行う</a><br>
+                                    </div>
+                                    <div class="system-list">
+                                        <a href="#"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/logo_mjs.png"/></a>
+                                        <a href="#">資産管理を行う</a><br>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -191,17 +185,14 @@
                             <label for="request">依頼</label>
                             <div class="tabBody">
                                 <div class="link-info">
-                                    <table height="300px">
-                                        <tr>
-                                            <td> <a href="#"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/xpoint.png" /></a></td>
-                                            <td> <a href="#">社内業務手続きを行う</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td> <a href="#"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/Redmine_logo.png"/></a></td>
-                                            <td> <a href="#">プロジェクト管理を行う</a></td>
-                                        </tr>
-
-                                    </table>
+                                    <div class="system-list">
+                                        <a href="#"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/xpoint.png" /></a></td>
+                                        <a href="#">社内業務手続きを行う</a><br>
+                                    </div>
+                                    <div class="system-list">             
+                                        <a href="#"><img class="connect-logo" src="/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/Redmine_logo.png"/></a></td>
+                                        <a href="#">プロジェクト管理を行う</a><br>
+                                        </div>
                                 </div>
                             </div>
                         </li>
