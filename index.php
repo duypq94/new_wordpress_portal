@@ -1,31 +1,8 @@
-<body>
 <?php get_header(); ?>
     <div class="container-fluid main-content" 
     style="background: url(<?php echo get_template_directory_uri()?>/asset/imgs/jumbotron_003.jpg) no-repeat;
     background-size: 100% 250px; 
     height: auto;">
-
-    <div class="container primary-menu">
-        <ul class="menu">
-            <li>Top</li>
-            <li>ビジョン</li>
-            <li>ナレッジ</li>
-            <li>グループ</li>
-            <li>ライブラリ</li>
-            <li>各種申請</li>
-            <li>各種リンク</li>
-            <li class="drop-menu">お問合せ
-                <ul class="sub-menu">
-                    <li>総務部へ問い合わせ</li>
-                    <li>管理へ問い合わせ</li>
-                    <li>人事部べ問い合わせ</li>
-                    <li>インフラ部へ問い合わせ</li>
-                    <li>情シスへ問い合わ</li>
-                    <li>どこへ問い合わせすればわからない場合コチラ</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
         <div class="container main-page">
             <div class="left-column">
                 <div class="calendar card">
