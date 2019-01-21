@@ -36,3 +36,16 @@
  }
 
  add_action('wp_enqueue_scripts','portal_script');
+
+
+// Menu function
+
+if(!function_exists('portal_menu')){
+    function portal_menu($menu){
+        $menu  = array('theme_location' => $menu ,  
+        'container' => 'div' ,
+        'container_class'=> $menu);
+        wp_nav_menu($menu);
+    }
+
+}

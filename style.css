@@ -8,6 +8,7 @@
  * Tags: 
  * Textdomain: mediado_portal
  */
+
 /* Basis css */
 * {
     margin: 0;
@@ -28,7 +29,6 @@ img{
 }
 
 a{
-    color: #F6591C;
     text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ h5 {
     font-size: 1.3em;
 }
 table, table tr, table td {
-    border: 1px solid #e7e7e7;
+    /*border: 1px solid #e7e7e7;*/
     padding: 8px;
 }
 li{
@@ -99,8 +99,9 @@ li{
     position: relative;
 }
 
-.primary-menu .menu li.drop-menu{
-    
+
+.primary-menu .menu a{
+	color: #8a8a8a;
 }
 
 .primary-menu .menu li ul.sub-menu{
@@ -113,7 +114,7 @@ li{
    padding: 10px 15px;
    box-shadow: 0 0 5px rgba(0,0,0,0.4); 
    z-index: 999;
-   left: 0;
+   left: -250%;
    transition: 0.3s all;
    
 }
@@ -131,7 +132,7 @@ li{
     display: block;
     position: relative;
 }
-.primary-menu .menu li:hover{
+.primary-menu .menu li a:hover{
     color: #45a6f3;
     cursor: pointer;
 }
@@ -165,7 +166,7 @@ li{
 }
 
 .main-content .main-page .left-column{
-    flex-basis : 60%;
+    flex-basis : 55%;
 } 
 
 .main-content .main-page .left-column .calendar{
@@ -174,14 +175,16 @@ li{
     
 }
 
-.main-content .main-page .left-column .tabs{
+.main-content .main-page .left-column .noti{
     width: 100%;
     height: auto;   
+    /*overflow-y:scroll; */
 }
 
-.main-content .main-page .left-column .icon{
+.main-content .main-page .left-column .office-system{
     width: 100%;
-    height: 200px;   
+    height: auto; 
+
 }
 
 .main-content .main-page .left-column .news{
@@ -302,7 +305,34 @@ li{
 .main-content .main-page .left-column  .noti ul.tabs li .tabBody .link-info p{
     margin: 0 0 0.3rem;
 }
- 
+
+/*社内システム*/
+
+.main-content .main-page .left-column .office-system .company-connect {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.main-content .main-page .left-column .office-system .company-connect a{
+	flex-basis: 20%;
+	height: 100px;
+	width: 100%;
+	border: 1px solid #000000;
+	margin-top:10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-content .main-page .left-column .office-system .company-connect img{
+	height: auto;
+	width: 90%;
+}
+
+
+/**/
 
 /* end notification */
 
@@ -312,4 +342,9 @@ li{
     margin-top:20px; 
 } 
 
-/* end main content */
+/* end main content 
+
+
+/* responsive Css */
+
+/* end responsive */
