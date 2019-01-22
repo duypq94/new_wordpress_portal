@@ -17,30 +17,6 @@
                             <input type="radio" name="tab" id="id-1" value="playlists" checked>
                             <label for="id-1">最新</label>
                             <div class="tabBody">
-                                <!-- <div class="link-info">
-                                    <p class="publish-date">2018 12 18</p>
-                                    <p class="link-info-title">新人事制度 人事評価 <span class="link-info-label">人事部</span></p>
-                                    <p class="link-info-short-details">
-                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
-                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
-                                    </p>
-                                </div>
-                                <div class="link-info">
-                                    <p class="publish-date">2018 12 18</p>
-                                    <p class="link-info-title">新人事制度 人事評価<span class="link-info-label">人事部</span> </p>
-                                    <p class="link-info-short-details">
-                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
-                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
-                                    </p>
-                                </div>
-                                <div class="link-info">
-                                    <p class="publish-date">2018 12 18</p>
-                                    <p class="link-info-title">新人事制度 人事評価<span class="link-info-label">人事部</span> </p>
-                                    <p class="link-info-short-details">
-                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
-                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
-                                    </p>
-                                </div> -->
                                 <?php 
                                     $the_query = new WP_Query( array( 'post_type'=> 'post', 
                                     'posts_per_page' => '3',

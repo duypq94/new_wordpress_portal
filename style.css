@@ -214,7 +214,7 @@ li{
 .main-content .main-page .left-column  .noti {
     position: relative;
     display: block;
-    min-height: 28rem; 
+    min-height: 32rem; 
     background-color: #fff; 
   }
   
@@ -232,6 +232,7 @@ li{
 .main-content .main-page .left-column  .noti ul.tabs li { 
     list-style: none; 
     float: left; 
+
 }
 
 .main-content .main-page .left-column  .noti ul.tabs li input[type="radio"] { display: none; }
@@ -273,13 +274,13 @@ li{
     position: absolute;
     display: none; 
     top: 0; left: 0; right: 0; bottom: 0;
-    margin-top: 6.5rem;
+    margin-top: 7rem;
     padding: 1rem 1.5rem;
   }
 
 .main-content .main-page .left-column  .noti ul.tabs li .tabBody .link-info{
     border-bottom: 1px solid #ECEFF1;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
 .main-content .main-page .left-column  .noti ul.tabs li .tabBody .link-info p.publish-date{
