@@ -17,7 +17,7 @@
                     </div>
                     <ul class="tabs">
                         <li>
-                            <input type="radio" name="tab" id="id-1" value="playlists" checked>
+                            <input type="radio" name="tab" id="id-1" value="newest" checked>
                             <label for="id-1">最新</label>
                             <div class="tabBody">
                                 <?php 
@@ -42,11 +42,11 @@
                             </div>
                         </li>
                         <li>
-                            <input type="radio" name="tab" id="id-2" value="artists">
+                            <input type="radio" name="tab" id="id-2" value="somubu">
                             <label for="id-2">総務部</label>
                             <div class="tabBody">
                                 <?php 
-                                    $the_query = new WP_Query( array( 'category_name' => 'news' ,'posts_per_page' => '3') ); ?>
+                                    $the_query = new WP_Query( array( 'category_name' => 'soumubu' ,'posts_per_page' => '3') ); ?>
                                     <?php if ( $the_query->have_posts() ) : ?>
                                         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                                             <div class="link-info">
@@ -64,38 +64,69 @@
                             </div>
                         </li>
                         <li>
-                            <input type="radio" name="tab" id="id-3" value="playlists">
+                            <input type="radio" name="tab" id="id-3" value="keiribu">
                             <label for="id-3">経理部</label>
                             <div class="tabBody">
-                                <p>Lorem ipsum dolor sit amet, duo populo tincidunt sadipscing at, id appetere
-                                    suavitate eum. Ei ius movet accommodare, vim ex idque ponderum mandamus. Vis et
-                                    legimus luptatum accusamus, sea id audiam appetere. Ne mel zril argumentum, cu est
-                                    dicant putant, ad eirmod expetenda has. Nam no quidam regione, solet hendrerit
-                                    reprehendunt qui et.</p>
+                                <?php 
+                                    $the_query = new WP_Query( array( 'category_name' => 'keiribu' ,'posts_per_page' => '3') ); ?>
+                                    <?php if ( $the_query->have_posts() ) : ?>
+                                        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                            <div class="link-info">
+                                            <p class="publish-date"><?php echo get_the_date(); ?></p>
+                                            <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?></a>
+                                             <p class="link-info-short-details">
+                                                <?php echo utf8_truncate(get_the_excerpt());  ?>
+                                            </p>
+                                        </div>
+                                        <?php endwhile; ?>
+                                        <?php wp_reset_postdata(); ?>
+                                    <?php else : ?>
+                                        <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                                    <?php endif; ?>
                             </div>
                         </li>
                         <li>
-                            <input type="radio" name="tab" id="id-4" value="albums">
+                            <input type="radio" name="tab" id="id-4" value="jinjibu">
                             <label for="id-4">人事部</label>
                             <div class="tabBody">
-                                <p>Populo platonem conclusionemque sit te, duo ad volumus appareat. Ullum dolorum eam
-                                    at, ut nam esse graecis inimicus. Ex brute illud mei. Cu tollit explicari laboramus
-                                    vis, idque movet dicam ad per.</p>
-
-                                <p>Mei mutat scribentur et, quas choro cum ut. Quot posidonium efficiendi duo at, est
-                                    et persius constituto. No modo suavitate vis. An nam case utroque, elitr affert ne
-                                    vix.</p>
+                                <?php 
+                                    $the_query = new WP_Query( array( 'category_name' => 'jinjibu' ,'posts_per_page' => '3') ); ?>
+                                    <?php if ( $the_query->have_posts() ) : ?>
+                                        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                            <div class="link-info">
+                                            <p class="publish-date"><?php echo get_the_date(); ?></p>
+                                            <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?></a>
+                                             <p class="link-info-short-details">
+                                                <?php echo utf8_truncate(get_the_excerpt());  ?>
+                                            </p>
+                                        </div>
+                                        <?php endwhile; ?>
+                                        <?php wp_reset_postdata(); ?>
+                                    <?php else : ?>
+                                        <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                                    <?php endif; ?>
                             </div>
                         </li>
                         <li>
-                            <input type="radio" name="tab" id="id-5" value="playlists">
+                            <input type="radio" name="tab" id="id-5" value="gijutsubu">
                             <label for="id-5">技術部</label>
                             <div class="tabBody">
-                                <p>Lorem ipsum dolor sit amet, duo populo tincidunt sadipscing at, id appetere
-                                    suavitate eum. Ei ius movet accommodare, vim ex idque ponderum mandamus. Vis et
-                                    legimus luptatum accusamus, sea id audiam appetere. Ne mel zril argumentum, cu est
-                                    dicant putant, ad eirmod expetenda has. Nam no quidam regione, solet hendrerit
-                                    reprehendunt qui et.</p>
+                            <?php 
+                                    $the_query = new WP_Query( array( 'category_name' => 'gijutsubu' ,'posts_per_page' => '3') ); ?>
+                                    <?php if ( $the_query->have_posts() ) : ?>
+                                        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                            <div class="link-info">
+                                            <p class="publish-date"><?php echo get_the_date(); ?></p>
+                                            <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?></a>
+                                             <p class="link-info-short-details">
+                                                <?php echo utf8_truncate(get_the_excerpt());  ?>
+                                            </p>
+                                        </div>
+                                        <?php endwhile; ?>
+                                        <?php wp_reset_postdata(); ?>
+                                    <?php else : ?>
+                                        <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                                    <?php endif; ?>
                             </div>
                         </li>
 
