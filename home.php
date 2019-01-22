@@ -8,7 +8,7 @@
                 <div class="calendar card">
                 </div>
 
-                <div class="noti card">
+                <div class="noti tab-card card">
                     <div class="card-title">
                         <i class="fas fa-clipboard"></i>各部署のお知らせ
                     </div>
@@ -164,7 +164,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="news noti card">
+                <div class="news tab-card card">
                     <ul class="tabs">
                         <li>
                             <input type="radio" name="tab-2" id="id-6" value="playlists1" checked>
