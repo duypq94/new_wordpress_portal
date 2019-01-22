@@ -6,6 +6,9 @@
         <div class="container main-page">
             <div class="left-column">
                 <div class="calendar card">
+                    <div class="card-title">
+                        <i class="fas fa-calendar-alt"></i>Calendar
+                    </div>
                 </div>
 
                 <div class="noti tab-card card">
@@ -108,7 +111,10 @@
                 </div>
 
                 
-                 <div class="system card">
+                 <div class="system tab-card card">
+                    <div class="card-title">
+                        <i class="fas fa-cogs"></i>社内システム
+                    </div>
                     <ul class="tabs">
                         <li>
                             <input type="radio" name="system-tab" id="timesystem" value="timesystem" checked>
@@ -165,6 +171,9 @@
                     </ul>
                 </div>
                 <div class="news tab-card card">
+                    <div class="card-title">
+                        <i class="fas fa-newspaper"></i>ニュース
+                    </div>
                     <ul class="tabs">
                         <li>
                             <input type="radio" name="tab-2" id="id-6" value="playlists1" checked>
