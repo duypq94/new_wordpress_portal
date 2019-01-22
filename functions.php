@@ -23,6 +23,10 @@
             register_sidebar( $sidebar );
 
         }
+        function my_excerpt_length($length) {
+            return 20;
+        }   
+        add_filter('excerpt_length', 'my_excerpt_length');
         add_action( 'after_setup_theme', 'portal_setup' );
     endif;
 
@@ -48,4 +52,48 @@ if(!function_exists('portal_menu')){
         wp_nav_menu($menu);
     }
 
+}
+
+// split string
+
+function utf8_truncate( $string, $max_chars = 100, $append = "\xC2\xA0…" )
+{
+    $string = strip_tags( $string );
+    $string = html_entity_decode( $string, ENT_QUOTES, 'utf-8' );
+    // \xC2\xA0 is the no-break space
+    $string = trim( $string, "\n\r\t .-;–,—\xC2\xA0" );
+    $length = strlen( utf8_decode( $string ) );
+
+    // Nothing to do.
+    if ( $length < $max_chars )
+    {
+        return $string;
+    }
+
+    // mb_substr() is in /wp-includes/compat.php as a fallback if
+    // your the current PHP installation doesn’t have it.
+    $string = mb_substr( $string, 0, $max_chars, 'utf-8' );
+
+    // No white space. One long word or chinese/korean/japanese text.
+    if ( FALSE === strpos( $string, ' ' ) )
+    {
+        return $string . $append;
+    }
+
+    // Avoid breaks within words. Find the last white space.
+    if ( extension_loaded( 'mbstring' ) )
+    {
+        $pos   = mb_strrpos( $string, ' ', 'utf-8' );
+        $short = mb_substr( $string, 0, $pos, 'utf-8' );
+    }
+    else
+    {
+        // Workaround. May be slow on long strings.
+        $words = explode( ' ', $string );
+        // Drop the last word.
+        array_pop( $words );
+        $short = implode( ' ', $words );
+    }
+
+    return $short . $append;
 }
