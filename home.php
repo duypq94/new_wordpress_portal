@@ -43,27 +43,20 @@
                                 </div> -->
                                 <?php 
                                     $the_query = new WP_Query( array( 'post_type'=> 'post', 
-                                    'posts_per_page' => '5',
+                                    'posts_per_page' => '3',
                                     'orderby'=>'date',
                                     'ignore_sticky_posts' => 1,) ); ?>
-
                                     <?php if ( $the_query->have_posts() ) : ?>
-
-                                        <!-- pagination here -->
-
-                                        <!-- the loop -->
                                         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                                             <div class="link-info">
-                                            <!-- <a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a> -->
                                             <p class="publish-date"><?php echo get_the_date(); ?></p>
                                             <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?><span class="link-info-label">人事部</span></a>
+                                             <p class="link-info-short-details">
+                                                <?php echo utf8_truncate(get_the_excerpt());  ?>
+                                            </p>
                                         </div>
                                         <?php endwhile; ?>
-                                        <!-- end of the loop -->
-                                        <!-- pagination here -->
-
                                         <?php wp_reset_postdata(); ?>
-
                                     <?php else : ?>
                                         <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
                                     <?php endif; ?>
