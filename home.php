@@ -10,7 +10,7 @@
 
                 <div class="noti card">
                     <div class="card-title">
-                        メディアドゥHD株価
+                        <i class="fas fa-clipboard"></i>各部署のお知らせ
                     </div>
                     <ul class="tabs">
                         <li>
@@ -268,7 +268,7 @@
             <div class="right-column">
                 <div class="md-graph card">
                     <div class="card-title">
-                        メディアドゥHD株価
+                        <i class="fas fa-chart-area"></i>メディアドゥHD株価
                     </div>
 
                     <img src="https://dimg.stockweather.co.jp/sw_dimg/swdaytimechartwriter.ashx?mkt=01&code=000036780"
@@ -277,12 +277,12 @@
                         alt="">
                 </div>
                  <div class="card">
-                    <div class="card-title">FACEBOOK　- 株式会社メディアドゥ –</div>
+                    <div class="card-title"><i class="fab fa-facebook-f"></i>FACEBOOK</div>
                     <div class="fb-page" data-href="https://www.facebook.com/MediaDo3678/" data-tabs="timeline" data-width="330" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MediaDo3678/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MediaDo3678/">株式会社メディアドゥホールディングス</a></blockquote></div>
                 </div>
 
                  <div class="card">
-                   <div class="card-title">天気予報</div>
+                   <div class="card-title"><i class="fas fa-cloud-sun"></i>天気予報</div>
                    <a class="weatherwidget-io" href="https://forecast7.com/ja/35d69139d69/tokyo/" data-label_1="TOKYO" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >TOKYO WEATHER</a>
                    <a class="weatherwidget-io" href="https://forecast7.com/ja/35d18136d91/nagoya/" data-label_1="NAGOYA" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >NAGOYA WEATHER</a>
                    <a class="weatherwidget-io" href="https://forecast7.com/ja/34d07134d56/tokushima-prefecture/" data-label_1="TOKUSHIMA PREFECTURE" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >TOKUSHIMA PREFECTURE WEATHER</a>
