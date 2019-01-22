@@ -45,30 +45,22 @@
                             <input type="radio" name="tab" id="id-2" value="artists">
                             <label for="id-2">総務部</label>
                             <div class="tabBody">
-                                <div class="link-info">
-                                    <p class="publish-date">2018 12 18</p>
-                                    <p class="link-info-title">新人事制度 人事評価 </p>
-                                    <p class="link-info-short-details">
-                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
-                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
-                                    </p>
-                                </div>
-                                <div class="link-info">
-                                    <p class="publish-date">2018 12 18</p>
-                                    <p class="link-info-title">新人事制度 人事評価 </p>
-                                    <p class="link-info-short-details">
-                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
-                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
-                                    </p>
-                                </div>
-                                <div class="link-info">
-                                    <p class="publish-date">2018 12 18</p>
-                                    <p class="link-info-title">新人事制度 人事評価 </p>
-                                    <p class="link-info-short-details">
-                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
-                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
-                                    </p>
-                                </div>
+                                <?php 
+                                    $the_query = new WP_Query( array( 'category_name' => 'news' ,'posts_per_page' => '3') ); ?>
+                                    <?php if ( $the_query->have_posts() ) : ?>
+                                        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                            <div class="link-info">
+                                            <p class="publish-date"><?php echo get_the_date(); ?></p>
+                                            <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?></a>
+                                             <p class="link-info-short-details">
+                                                <?php echo utf8_truncate(get_the_excerpt());  ?>
+                                            </p>
+                                        </div>
+                                        <?php endwhile; ?>
+                                        <?php wp_reset_postdata(); ?>
+                                    <?php else : ?>
+                                        <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                                    <?php endif; ?>
                             </div>
                         </li>
                         <li>
