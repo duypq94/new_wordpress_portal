@@ -7,7 +7,6 @@ height: 500px;">
 	<div class="left-column">
 		<div class="card">
 			<?php if( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				<p><?php echo get_the_date(); ?></p>
 				<h1 class="single-page-title"><?php the_title(); ?></h1> 
 				<?php if (is_single() ) : ?>
 					<div class="page-tag">
