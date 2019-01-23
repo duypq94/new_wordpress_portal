@@ -148,7 +148,7 @@ i{
 
 /* logo */
 .container{
-    max-width: 1023px;
+    max-width: 1366px;
     margin: 0 auto;
 }
 
@@ -170,6 +170,7 @@ i{
     display: flex;
     align-items: center;
     position: relative;
+    margin-left: 20px;
 }
 
 
@@ -230,11 +231,13 @@ i{
 .main-content .main-page{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .main-content .main-page .left-column{
-    flex-basis : 58%;
+    flex-basis : 62%;
+    margin-left: 20px;
+    margin-right: 10px;
 } 
 
 .main-content .main-page .left-column .calendar{
@@ -263,6 +266,7 @@ i{
 
 .main-content .main-page .right-column{    
     flex-basis : 33%;
+    margin-right: 20px;
 } 
 
 .main-content .main-page .right-column .md-graph{

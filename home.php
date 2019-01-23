@@ -264,7 +264,7 @@ height: auto;">
         </div>
         <div class="card">
             <div class="card-title"><i class="fab fa-facebook-f"></i>FACEBOOK</div>
-            <div class="fb-page" data-href="https://www.facebook.com/MediaDo3678/" data-tabs="timeline" data-width="330" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MediaDo3678/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MediaDo3678/">株式会社メディアドゥホールディングス</a></blockquote></div>
+            <div class="fb-page" data-href="https://www.facebook.com/MediaDo3678/" data-tabs="timeline" data-width="450" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MediaDo3678/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MediaDo3678/">株式会社メディアドゥホールディングス</a></blockquote></div>
         </div>
 
         <div class="card">
