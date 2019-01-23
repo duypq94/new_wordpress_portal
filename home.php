@@ -45,10 +45,10 @@ height: auto;">
                             <input type="radio" name="tab" id="id-2" value="artists">
                             <label for="id-2">総務部</label>
                             <div class="tabBody">
-                             <?php load_post_by_category('news','2'); ?>
-                         </div>
-                     </li>
-                     <li>
+                               <?php load_post_by_category('news','2'); ?>
+                           </div>
+                       </li>
+                       <li>
                         <input type="radio" name="tab" id="id-3" value="playlists">
                         <label for="id-3">経理部</label>
                         <div class="tabBody">
@@ -99,26 +99,26 @@ height: auto;">
                         <div class="tabBody">
                             <div class="link-info">
                                 <div class="system-list">
-                                    <a href="https://s3.kingtime.jp/admin"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/kingoftime-logo.jpg" /></a>
+                                    <img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/KingOfTime.jpg" />
                                     <a href="https://s3.kingtime.jp/admin">勤務管理を行う（メディアドゥ対象）</a><br>
                                 </div>
                                 <div class="system-list">
-                                 <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/cyberxeed.jpeg"/></a>
-                                 <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp">勤務管理を行う（出版デジタル機構対象）</a><br>
-                             </div>
-                         </div>
-                     </div>
-                 </li>
-                 <li>
-                    <input type="radio" name="system-tab" id="manage" value="manage">
-                    <label for="manage">管理</label>
-                    <div class="tabBody">
-                        <div class="link-info">
-                            <div class="system-list">
-                                <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/mf-cloud-logo.jpg" /></a>
-                                <a href="#">経費申請を行う</a><br>
+                                    <img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/CyberXeed.jpeg" />
+                                    <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp">勤務管理を行う（出版デジタル機構対象）</a><br>
+                                </div>
                             </div>
-                            <div class="system-list">
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="system-tab" id="manage" value="manage">
+                        <label for="manage">管理</label>
+                        <div class="tabBody">
+                            <div class="link-info">
+                                <div class="system-list">
+                                 <img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/MFcloud.png" />
+                                 <a href="#">経費申請を行う</a><br>
+                             </div>
+                             <div class="system-list">
                                 <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/biz.png"/></a>
                                 <a href="#">予算申請を行う</a><br>
                             </div>
@@ -252,31 +252,8 @@ height: auto;">
         </div>
     </div>
     <div class="right-column">
-        <div class="md-graph card">
-            <div class="card-title">
-                <i class="fas fa-chart-area"></i>メディアドゥHD株価
-            </div>
-
-            <img src="https://dimg.stockweather.co.jp/sw_dimg/swdaytimechartwriter.ashx?mkt=01&code=000036780"
-            alt="">
-            <img src="https://dimg.stockweather.co.jp/sw_dimg/swcandlechartwriter.ashx?mkt=01&code=000036780&term=2"
-            alt="">
-        </div>
-        <div class="card">
-            <div class="card-title"><i class="fab fa-facebook-f"></i>FACEBOOK</div>
-            <div class="fb-page" data-href="https://www.facebook.com/MediaDo3678/" data-tabs="timeline" data-width="450" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MediaDo3678/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MediaDo3678/">株式会社メディアドゥホールディングス</a></blockquote></div>
-        </div>
-
-        <div class="card">
-           <div class="card-title"><i class="fas fa-cloud-sun"></i>天気予報</div>
-           <a class="weatherwidget-io" href="https://forecast7.com/ja/35d69139d69/tokyo/" data-label_1="TOKYO" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >TOKYO WEATHER</a>
-           <a class="weatherwidget-io" href="https://forecast7.com/ja/35d18136d91/nagoya/" data-label_1="NAGOYA" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >NAGOYA WEATHER</a>
-           <a class="weatherwidget-io" href="https://forecast7.com/ja/34d07134d56/tokushima-prefecture/" data-label_1="TOKUSHIMA PREFECTURE" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >TOKUSHIMA PREFECTURE WEATHER</a>
-           <a class="weatherwidget-io" href="https://forecast7.com/ja/32d72n117d16/san-diego/" data-label_1="SAN DIEGO" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >SAN DIEGO WEATHER</a>
-       </div>
-
-   </div>
-</div>
+        <?php get_template_part('/includes/side-bar/right-sidebar') ?>
+    </div>
 </div>
 
 <?php get_footer(); ?>
