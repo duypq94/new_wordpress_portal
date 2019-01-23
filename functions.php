@@ -1,36 +1,33 @@
 <?php
 
+
 if(! function_exists('portal_setup')): 
     function portal_setup(){
 
         load_theme_textdomain( 'portal' );
 
-            add_theme_support('automatic-feed-links'); // thêm rss vào thẻ head
-            
-            add_theme_support('post-thumnails');
+        add_theme_support('automatic-feed-links'); // thêm rss vào thẻ head
 
-            add_theme_support('title-tag');
+        add_theme_support('post-thumnails');
 
-            register_nav_menu('primary-menu',__('Primary menu','portal'));// khai bao menu primary menu la ten . tham so dau la location
+        add_theme_support('title-tag');
+
+        register_nav_menu('primary-menu',__('Primary menu','portal'));// khai bao menu primary menu la ten . tham so dau la location
 
             //side bar
-            $sidebar = array('name' => __('Main Sidebar','portal'),
-               'id' => 'main-sidebar',
-               'Description' => __('default sidebar', 'portal'),
-               'class' => 'main-sidebar',
-               'before_title' => '<h4 class="widget-title">',
-               'after_title' => '</h3>' );
-            register_sidebar( $sidebar );
+        $sidebar = array('name' => __('Main Sidebar','portal'),
+         'id' => 'main-sidebar',
+         'Description' => __('default sidebar', 'portal'),
+         'class' => 'main-sidebar',
+         'before_title' => '<h4 class="widget-title">',
+         'after_title' => '</h3>' );
+        register_sidebar( $sidebar );
 
-        }
-        function my_excerpt_length($length) {
-            return 20;
-        }   
-        add_filter('excerpt_length', 'my_excerpt_length');
-        add_action( 'after_setup_theme', 'portal_setup' );
-    endif;
+    }
+    add_action( 'after_setup_theme', 'portal_setup' );
+endif;
 
-    function portal_script(){
+function portal_script(){
     wp_enqueue_style( 'portal-style', get_stylesheet_uri()); // load style vao bien portal-style
     wp_enqueue_script( 'portal-script',get_template_directory_uri() . '/asset/js/index.js',array(), false, true);// de bien cuoi true de load js cuoi file
 
@@ -56,7 +53,7 @@ if(!function_exists('portal_menu')){
 
 // split string
 
-function utf8_truncate( $string, $max_chars = 100, $append = "\xC2\xA0…" )
+function utf8_truncate( $string, $max_chars = 140, $append = "\xC2\xA0…" )
 {
     $string = strip_tags( $string );
     $string = html_entity_decode( $string, ENT_QUOTES, 'utf-8' );
