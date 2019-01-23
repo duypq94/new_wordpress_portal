@@ -1,9 +1,9 @@
 <?php
 
- if(! function_exists('portal_setup')): 
-        function portal_setup(){
+if(! function_exists('portal_setup')): 
+    function portal_setup(){
 
-            load_theme_textdomain( 'portal' );
+        load_theme_textdomain( 'portal' );
 
             add_theme_support('automatic-feed-links'); // thêm rss vào thẻ head
             
@@ -15,11 +15,11 @@
 
             //side bar
             $sidebar = array('name' => __('Main Sidebar','portal'),
-                             'id' => 'main-sidebar',
-                             'Description' => __('default sidebar', 'portal'),
-                             'class' => 'main-sidebar',
-                             'before_title' => '<h4 class="widget-title">',
-                             'after_title' => '</h3>' );
+               'id' => 'main-sidebar',
+               'Description' => __('default sidebar', 'portal'),
+               'class' => 'main-sidebar',
+               'before_title' => '<h4 class="widget-title">',
+               'after_title' => '</h3>' );
             register_sidebar( $sidebar );
 
         }
@@ -37,9 +37,9 @@
     if(is_single()){
         wp_enqueue_script( 'single-script',get_template_directory_uri() . '/asset/js/single.js',array(), false, true);
     }
- }
+}
 
- add_action('wp_enqueue_scripts','portal_script');
+add_action('wp_enqueue_scripts','portal_script');
 
 
 // Menu function
@@ -47,8 +47,8 @@
 if(!function_exists('portal_menu')){
     function portal_menu($menu){
         $menu  = array('theme_location' => $menu ,  
-        'container' => 'div' ,
-        'container_class'=> $menu);
+            'container' => 'div' ,
+            'container_class'=> $menu);
         wp_nav_menu($menu);
     }
 
@@ -97,3 +97,25 @@ function utf8_truncate( $string, $max_chars = 100, $append = "\xC2\xA0…" )
 
     return $short . $append;
 }
+
+//*********************************
+//**Load post by category
+//*********************************
+
+function load_post_by_category($cat,$number){ ?>
+    <?php $the_query = new WP_Query( array( 'category_name' => $cat ,'posts_per_page' => $number ) ); ?>
+    <?php if ( $the_query->have_posts() ) : ?>
+        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+            <div class="link-info">
+                <p class="publish-date"><?php echo get_the_date(); ?></p>
+                <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?></a>
+                <p class="link-info-short-details">
+                    <?php echo utf8_truncate(get_the_excerpt());  ?>
+                </p>
+            </div>
+        <?php endwhile; ?>
+        <?php wp_reset_postdata(); ?>
+        <?php else : ?>
+            <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+        <?php endif;?>
+    <?php }
