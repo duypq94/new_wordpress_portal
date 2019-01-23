@@ -45,7 +45,7 @@ height: auto;">
                             <input type="radio" name="tab" id="id-2" value="artists">
                             <label for="id-2">総務部</label>
                             <div class="tabBody">
-                               <?php load_post_by_category('news','2'); ?>
+                               <?php load_post_by_category('news','3'); ?>
                            </div>
                        </li>
                        <li>
