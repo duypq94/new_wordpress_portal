@@ -1,45 +1,42 @@
 <?php
 
- if(! function_exists('portal_setup')): 
-        function portal_setup(){
 
-            load_theme_textdomain( 'portal' );
+if(! function_exists('portal_setup')): 
+    function portal_setup(){
 
-            add_theme_support('automatic-feed-links'); // thêm rss vào thẻ head
-            
-            add_theme_support('post-thumnails');
+        load_theme_textdomain( 'portal' );
 
-            add_theme_support('title-tag');
+        add_theme_support('automatic-feed-links'); // thêm rss vào thẻ head
 
-            register_nav_menu('primary-menu',__('Primary menu','portal'));// khai bao menu primary menu la ten . tham so dau la location
+        add_theme_support('post-thumnails');
+
+        add_theme_support('title-tag');
+
+        register_nav_menu('primary-menu',__('Primary menu','portal'));// khai bao menu primary menu la ten . tham so dau la location
 
             //side bar
-            $sidebar = array('name' => __('Main Sidebar','portal'),
-                             'id' => 'main-sidebar',
-                             'Description' => __('default sidebar', 'portal'),
-                             'class' => 'main-sidebar',
-                             'before_title' => '<h4 class="widget-title">',
-                             'after_title' => '</h3>' );
-            register_sidebar( $sidebar );
+        $sidebar = array('name' => __('Main Sidebar','portal'),
+         'id' => 'main-sidebar',
+         'Description' => __('default sidebar', 'portal'),
+         'class' => 'main-sidebar',
+         'before_title' => '<h4 class="widget-title">',
+         'after_title' => '</h3>' );
+        register_sidebar( $sidebar );
 
-        }
-        function my_excerpt_length($length) {
-            return 20;
-        }   
-        add_filter('excerpt_length', 'my_excerpt_length');
-        add_action( 'after_setup_theme', 'portal_setup' );
-    endif;
+    }
+    add_action( 'after_setup_theme', 'portal_setup' );
+endif;
 
-    function portal_script(){
+function portal_script(){
     wp_enqueue_style( 'portal-style', get_stylesheet_uri()); // load style vao bien portal-style
     wp_enqueue_script( 'portal-script',get_template_directory_uri() . '/asset/js/index.js',array(), false, true);// de bien cuoi true de load js cuoi file
 
     if(is_single()){
         wp_enqueue_script( 'single-script',get_template_directory_uri() . '/asset/js/single.js',array(), false, true);
     }
- }
+}
 
- add_action('wp_enqueue_scripts','portal_script');
+add_action('wp_enqueue_scripts','portal_script');
 
 
 // Menu function
@@ -47,8 +44,8 @@
 if(!function_exists('portal_menu')){
     function portal_menu($menu){
         $menu  = array('theme_location' => $menu ,  
-        'container' => 'div' ,
-        'container_class'=> $menu);
+            'container' => 'div' ,
+            'container_class'=> $menu);
         wp_nav_menu($menu);
     }
 
@@ -56,7 +53,7 @@ if(!function_exists('portal_menu')){
 
 // split string
 
-function utf8_truncate( $string, $max_chars = 100, $append = "\xC2\xA0…" )
+function utf8_truncate( $string, $max_chars = 140, $append = "\xC2\xA0…" )
 {
     $string = strip_tags( $string );
     $string = html_entity_decode( $string, ENT_QUOTES, 'utf-8' );
@@ -97,3 +94,25 @@ function utf8_truncate( $string, $max_chars = 100, $append = "\xC2\xA0…" )
 
     return $short . $append;
 }
+
+//*********************************
+//**Load post by category
+//*********************************
+
+function load_post_by_category($cat,$number){ ?>
+    <?php $the_query = new WP_Query( array( 'category_name' => $cat ,'posts_per_page' => $number ) ); ?>
+    <?php if ( $the_query->have_posts() ) : ?>
+        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+            <div class="link-info">
+                <p class="publish-date"><?php echo get_the_date(); ?></p>
+                <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?></a>
+                <p class="link-info-short-details">
+                    <?php echo utf8_truncate(get_the_excerpt());  ?>
+                </p>
+            </div>
+        <?php endwhile; ?>
+        <?php wp_reset_postdata(); ?>
+        <?php else : ?>
+            <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+        <?php endif;?>
+    <?php }
