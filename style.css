@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    word-break: break-all;
 }
 
 body{
@@ -269,7 +270,7 @@ i{
     background: url(/wp-content/themes/new_portal/asset/imgs/jumbotron_003.jpg) no-repeat;
     background-size: 100% 350px; 
     width: 100%;
-    height: 400px;
+    height: auto;
 }
 
 .main-content .main-page{
@@ -286,7 +287,7 @@ i{
 
 .main-content .main-page .left-column .calendar{
     width: 100%;
-    height: 400px;
+    height: auto;
     
 }
 
@@ -419,6 +420,16 @@ i{
 }
 
 /*end single page*/
+
+/* calendar */
+.full-calendar section{
+    margin-top: 20px !important;
+}
+
+.full-calendar section .mec-totalcal-yearlyview{
+    display: none !important;
+}
+/*end calendar*/
 
 /* footer */
 .container-fluid.footer{
