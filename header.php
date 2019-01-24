@@ -34,7 +34,3 @@
 <div class="container primary-menu">
     <?php portal_menu('primary-menu') ?>
 </div>
-<div class="container-fluid img-cover" 
-style="background: url(<?php echo get_template_directory_uri()?>/asset/imgs/jumbotron_003.jpg) no-repeat;
-background-size: 100% 350px; 
-height: auto;">
