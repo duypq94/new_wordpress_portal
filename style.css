@@ -80,6 +80,7 @@ i{
     display: block;
     min-height: 32rem; 
     background-color: #fff; 
+    z-index: 1;
 }
 
 .main-content .main-page .left-column  .tab-card  ul.tabs { 
@@ -263,6 +264,13 @@ i{
 /* end navigation */
 
 /* main content */
+
+.container-fluid.main-content{
+    background: url(/wp-content/themes/new_portal/asset/imgs/jumbotron_003.jpg) no-repeat;
+    background-size: 100% 350px; 
+    width: 100%;
+    height: 400px;
+}
 
 .main-content .main-page{
     display: flex;
