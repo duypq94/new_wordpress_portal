@@ -8,7 +8,7 @@
                     <i class="fas fa-calendar-alt"></i>Calendar
                     
                 </div>
-                <?php echo do_shortcode( '[MEC id="1828"]' );?>
+                <?php echo do_shortcode( '[MEC id="117"]' );?>
             </div>
 
             <div class="noti tab-card card">
@@ -51,28 +51,28 @@
                                 <input type="radio" name="tab" id="id-2">
                                 <label for="id-2">総務部</label>
                                 <div class="tabBody">
-                                    <?php load_post_by_category('soumubu','3'); ?>
+                                    <?php load_post_by_category('総務部','3'); ?>
                                 </div>
                             </li>
                             <li>
                                 <input type="radio" name="tab" id="id-3">
                                 <label for="id-3">経理部</label>
                                 <div class="tabBody">
-                                    <?php load_post_by_category('keiribu','3'); ?>
+                                    <?php load_post_by_category('経理部','3'); ?>
                                 </div>
                             </li>
                             <li>
                                 <input type="radio" name="tab" id="id-4">
                                 <label for="id-4">人事部</label>
                                 <div class="tabBody">
-                                    <?php load_post_by_category('jinjibu','3'); ?>
+                                    <?php load_post_by_category('人事部','3'); ?>
                                 </div>
                             </li>
                             <li>
                                 <input type="radio" name="tab" id="id-5" value="gijutsubu">
                                 <label for="id-5">技術部</label>
                                 <div class="tabBody">
-                                    <?php load_post_by_category('gijutsubu','3'); ?>
+                                    <?php load_post_by_category('技術部','3'); ?>
                                 </div>
                             </li>
                         </ul>
@@ -144,32 +144,9 @@
                     <ul class="tabs">
                         <li>
                             <input type="radio" name="tab-2" id="id-6" value="playlists1" checked>
-                            <label for="id-6">最新</label>
+                            <label for="id-6">業界ニュース</label>
                             <div class="tabBody">
-                                <div class="link-info">
-                                    <p class="publish-date">2018 12 18</p>
-                                    <p class="link-info-title">新人事制度 人事評価 <span class="link-info-label">人事部</span></p>
-                                    <p class="link-info-short-details">
-                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
-                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
-                                    </p>
-                                </div>
-                                <div class="link-info">
-                                    <p class="publish-date">2018 12 18</p>
-                                    <p class="link-info-title">新人事制度 人事評価<span class="link-info-label">人事部</span> </p>
-                                    <p class="link-info-short-details">
-                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
-                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
-                                    </p>
-                                </div>
-                                <div class="link-info">
-                                    <p class="publish-date">2018 12 18</p>
-                                    <p class="link-info-title">新人事制度 人事評価<span class="link-info-label">人事部</span> </p>
-                                    <p class="link-info-short-details">
-                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
-                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
-                                    </p>
-                                </div>
+                                <?php load_post_by_category('業界ニュース','3'); ?>
                             </div>
                         </li>
                         <li>
@@ -200,41 +177,6 @@
                                         各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
                                     </p>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <input type="radio" name="tab-2" id="id-8" value="playlists">
-                            <label for="id-8">経理部</label>
-                            <div class="tabBody">
-                                <p>Lorem ipsum dolor sit amet, duo populo tincidunt sadipscing at, id appetere
-                                    suavitate eum. Ei ius movet accommodare, vim ex idque ponderum mandamus. Vis et
-                                    legimus luptatum accusamus, sea id audiam appetere. Ne mel zril argumentum, cu est
-                                    dicant putant, ad eirmod expetenda has. Nam no quidam regione, solet hendrerit
-                                reprehendunt qui et.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <input type="radio" name="tab-2" id="id-9" value="albums">
-                            <label for="id-9">人事部</label>
-                            <div class="tabBody">
-                                <p>Populo platonem conclusionemque sit te, duo ad volumus appareat. Ullum dolorum eam
-                                    at, ut nam esse graecis inimicus. Ex brute illud mei. Cu tollit explicari laboramus
-                                vis, idque movet dicam ad per.</p>
-
-                                <p>Mei mutat scribentur et, quas choro cum ut. Quot posidonium efficiendi duo at, est
-                                    et persius constituto. No modo suavitate vis. An nam case utroque, elitr affert ne
-                                vix.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <input type="radio" name="tab-2" id="id-10" value="playlists">
-                            <label for="id-10">技術部</label>
-                            <div class="tabBody">
-                                <p>Lorem ipsum dolor sit amet, duo populo tincidunt sadipscing at, id appetere
-                                    suavitate eum. Ei ius movet accommodare, vim ex idque ponderum mandamus. Vis et
-                                    legimus luptatum accusamus, sea id audiam appetere. Ne mel zril argumentum, cu est
-                                    dicant putant, ad eirmod expetenda has. Nam no quidam regione, solet hendrerit
-                                reprehendunt qui et.</p>
                             </div>
                         </li>
                     </ul>
