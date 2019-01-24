@@ -21,3 +21,9 @@
  <a class="weatherwidget-io" href="https://forecast7.com/ja/34d07134d56/tokushima-prefecture/" data-label_1="TOKUSHIMA PREFECTURE" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >TOKUSHIMA PREFECTURE WEATHER</a>
  <a class="weatherwidget-io" href="https://forecast7.com/ja/32d72n117d16/san-diego/" data-label_1="SAN DIEGO" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >SAN DIEGO WEATHER</a>
 </div>
+
+<div class="card">
+    <div id="sidebar-rss">
+      <?php get_sidebar()?>
+    </div>
+</div>

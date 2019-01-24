@@ -267,7 +267,7 @@ i{
 /* main content */
 
 .container-fluid.main-content{
-    background: url(/wp-content/themes/new_portal/asset/imgs/jumbotron_003.jpg) no-repeat;
+    background: url(/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/jumbotron_003.jpg) no-repeat;
     background-size: 100% 350px; 
     width: 100%;
     height: auto;
@@ -448,4 +448,35 @@ i{
 
 /* responsive Css */
 
-/* end responsive 
+/* end responsive */
+
+/* rss news css*/
+
+#sidebar-rss .widget-title {
+    color: #000;
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin:  10px 0 ;
+    border-bottom: 1px solid #000;
+    font-weight: 600;
+}
+ 
+#sidebar-rss ul li {
+    font-size: 14px;
+    margin-bottom:  5px;
+    border-bottom: 1px solid #8c8c8c;
+    padding-bottom: 5px;
+}
+
+#sidebar-rss ul li a {
+    color: #000;
+}
+
+#sidebar-rss ul li a:visited {
+    color: #000;
+}
+
+#sidebar-rss ul li a:hover {
+    color: blue;
+}
+/* end news css */
