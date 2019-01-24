@@ -109,7 +109,7 @@ i{
     bottom: 0; left: 0; right: 0;
     margin-bottom: -1px;
     height: 0.25rem;
-    background-color: #03A9F4;
+    background-color: #40d9f1;
 }
 .main-content .main-page .left-column  .tab-card ul.tabs li label {
     position:relative;
@@ -167,7 +167,7 @@ i{
     font-size: 10px;
     padding: 3px 4px;
     color: #FFFFFF;
-    background-color: #45a6f3;
+    background-color: #40d9f1;
     border-radius: 4px;
     margin-left: 10px;
 }
@@ -245,7 +245,7 @@ i{
     position: relative;
 }
 .primary-menu .menu li a:hover{
-    color: #45a6f3;
+    color: #40d9f1;
     cursor: pointer;
 }
 
@@ -254,7 +254,7 @@ i{
 }
 
 .primary-menu .menu li:hover ul li:hover{
-    color: #45a6f3;
+    color: #40d9f1;
     cursor: pointer;
 }
 
