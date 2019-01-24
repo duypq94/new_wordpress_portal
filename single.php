@@ -1,8 +1,5 @@
 <?php get_header(); ?>
-<div class="container-fluid main-content" 
-style="background: url(<?php echo get_template_directory_uri()?>/asset/imgs/jumbotron_003.jpg) no-repeat;
-background-size: 100% 350px; 
-height: 500px;">
+<div class="container-fluid main-content">
 <div class="container main-page">
 	<div class="left-column">
 		<div class="card">
@@ -33,5 +30,6 @@ height: 500px;">
 	<?php get_template_part('/includes/side-bar/right-sidebar') ?>
 </div>
 </div>    
+</div>
 </div>
 <?php get_footer(); ?>

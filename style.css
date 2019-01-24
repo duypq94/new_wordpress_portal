@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    word-break: break-all;
 }
 
 body{
@@ -278,7 +279,7 @@ i{
 
 .main-content .main-page .left-column .calendar{
     width: 100%;
-    height: 400px;
+    height: auto;
     
 }
 

@@ -1,14 +1,12 @@
 <?php get_header(); ?>
-<div class="container-fluid main-content" 
-style="background: url(<?php echo get_template_directory_uri()?>/asset/imgs/jumbotron_003.jpg) no-repeat;
-background-size: 100% 350px; 
-height: auto;">
-<div class="container main-page">
+<div class="container-fluid main-content">
+    <div class="container main-page">
     <div class="left-column">
         <div class="calendar card">
             <div class="card-title">
                 <i class="fas fa-calendar-alt"></i>Calendar
             </div>
+            <?php echo do_shortcode( '[MEC id="1828"]' ); ?>
         </div>
 
         <div class="noti tab-card card">
