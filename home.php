@@ -3,90 +3,56 @@
 style="background: url(<?php echo get_template_directory_uri()?>/asset/imgs/jumbotron_003.jpg) no-repeat;
 background-size: 100% 350px; 
 height: auto;">
-<div class="container main-page">
-    <div class="left-column">
-        <div class="calendar card">
-            <div class="card-title">
-                <i class="fas fa-calendar-alt"></i>Calendar
+    <div class="container main-page">
+        <div class="left-column">
+            <div class="calendar card">
+                <div class="card-title">
+                    <i class="fas fa-calendar-alt"></i>Calendar
+                </div>
             </div>
-        </div>
 
-        <div class="noti tab-card card">
-            <div class="card-title">
-                <i class="fas fa-clipboard"></i>各部署のお知らせ
-            </div>
-            <ul class="tabs">
-                <li>
-                    <input type="radio" name="tab" id="id-1" value="playlists" checked>
-                    <label for="id-1">最新</label>
-                    <div class="tabBody">
-                        <?php 
-                        $the_query = new WP_Query( array( 'post_type'=> 'post', 
-                            'posts_per_page' => '3',
-                            'orderby'=>'date',
-                            'ignore_sticky_posts' => 1,) ); ?>
-                            <?php if ( $the_query->have_posts() ) : ?>
-                                <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                                    <div class="link-info">
-                                        <p class="publish-date"><?php echo get_the_date(); ?></p>
-                                        <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?><span class="link-info-label">人事部</span></a>
-                                        <p class="link-info-short-details">
-                                            <?php echo utf8_truncate(get_the_excerpt());  ?>
-                                        </p>
-                                    </div>
-                                <?php endwhile; ?>
-                                <?php wp_reset_postdata(); ?>
-                                <?php else : ?>
-                                    <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
-                                <?php endif; ?>
-                            </div>
-                        </li>
-                        <li>
-                            <input type="radio" name="tab" id="id-2" value="artists">
-                            <label for="id-2">総務部</label>
-                            <div class="tabBody">
-                               <?php load_post_by_category('news','3'); ?>
-                           </div>
-                       </li>
-                       <li>
-                        <input type="radio" name="tab" id="id-3" value="playlists">
+            <div class="noti tab-card card">
+                <div class="card-title">
+                    <i class="fas fa-clipboard"></i>各部署のお知らせ
+                </div>
+                <ul class="tabs">
+                    <li>
+                        <input type="radio" name="tab" id="id-1" checked>
+                        <label for="id-1">最新</label>
+                        <div class="tabBody">
+                            <?php load_post_by_category('news','3'); ?>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="tab" id="id-2">
+                        <label for="id-2">総務部</label>
+                        <div class="tabBody">
+                            <?php load_post_by_category('soumubu','3'); ?>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="tab" id="id-3">
                         <label for="id-3">経理部</label>
                         <div class="tabBody">
-                            <p>Lorem ipsum dolor sit amet, duo populo tincidunt sadipscing at, id appetere
-                                suavitate eum. Ei ius movet accommodare, vim ex idque ponderum mandamus. Vis et
-                                legimus luptatum accusamus, sea id audiam appetere. Ne mel zril argumentum, cu est
-                                dicant putant, ad eirmod expetenda has. Nam no quidam regione, solet hendrerit
-                            reprehendunt qui et.</p>
+                            <?php load_post_by_category('keiribu','3'); ?>
                         </div>
                     </li>
                     <li>
-                        <input type="radio" name="tab" id="id-4" value="albums">
+                        <input type="radio" name="tab" id="id-4">
                         <label for="id-4">人事部</label>
                         <div class="tabBody">
-                            <p>Populo platonem conclusionemque sit te, duo ad volumus appareat. Ullum dolorum eam
-                                at, ut nam esse graecis inimicus. Ex brute illud mei. Cu tollit explicari laboramus
-                            vis, idque movet dicam ad per.</p>
-
-                            <p>Mei mutat scribentur et, quas choro cum ut. Quot posidonium efficiendi duo at, est
-                                et persius constituto. No modo suavitate vis. An nam case utroque, elitr affert ne
-                            vix.</p>
+                            <?php load_post_by_category('jinjibu','3'); ?>
                         </div>
                     </li>
                     <li>
-                        <input type="radio" name="tab" id="id-5" value="playlists">
+                        <input type="radio" name="tab" id="id-5" value="gijutsubu">
                         <label for="id-5">技術部</label>
                         <div class="tabBody">
-                            <p>Lorem ipsum dolor sit amet, duo populo tincidunt sadipscing at, id appetere
-                                suavitate eum. Ei ius movet accommodare, vim ex idque ponderum mandamus. Vis et
-                                legimus luptatum accusamus, sea id audiam appetere. Ne mel zril argumentum, cu est
-                                dicant putant, ad eirmod expetenda has. Nam no quidam regione, solet hendrerit
-                            reprehendunt qui et.</p>
+                            <?php load_post_by_category('gijutsubu','3'); ?>
                         </div>
                     </li>
-
                 </ul>
             </div>
-
 
             <div class="system tab-card card">
                 <div class="card-title">
@@ -247,7 +213,6 @@ height: auto;">
                         reprehendunt qui et.</p>
                     </div>
                 </li>
-
             </ul>
         </div>
     </div>
