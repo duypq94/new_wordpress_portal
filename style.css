@@ -267,7 +267,7 @@ i{
 /* main content */
 
 .container-fluid.main-content{
-    background: url(/mediado/wp-content/themes/new_wordpress_portal/asset/imgs/jumbotron_003.jpg) no-repeat;
+    background: url(/wp-content/themes/new_wordpress_portal/asset/imgs/jumbotron_003.jpg) no-repeat;
     background-size: 100% 350px; 
     width: 100%;
     height: auto;
