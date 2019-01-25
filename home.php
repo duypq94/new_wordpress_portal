@@ -32,7 +32,9 @@
                                             <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?><span class="link-info-label">
                                                 <?php
                                                 foreach((get_the_category()) as $category) { 
+                                                    if ( $category->cat_name !== "業界ニュース") {
                                                     echo $category->cat_name . ' '; 
+                                                    }
                                                 } 
                                                 ?>
                                             </span></a>
@@ -106,7 +108,7 @@
                                     <div class="link-info">
                                         <div class="system-list">
                                          <img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/MFcloud.png" />
-                                         <a href="#">経費申請を行う</a><br>
+                                         <a href="https://expense.moneyforward.com/session/new">経費申請を行う</a><br>
                                      </div>
                                      <div class="system-list">
                                         <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/biz.png"/></a>
