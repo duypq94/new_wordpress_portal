@@ -22,6 +22,7 @@
                         <div class="tabBody">
                             <?php 
                             $the_query = new WP_Query( array( 'post_type'=> 'post', 
+                                'category_name' => '総務部,経理部,人事部,技術部',
                                 'posts_per_page' => '3',
                                 'orderby'=>'date',
                                 'ignore_sticky_posts' => 1,) ); ?>
@@ -32,9 +33,7 @@
                                             <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?><span class="link-info-label">
                                                 <?php
                                                 foreach((get_the_category()) as $category) { 
-                                                    if ( $category->cat_name !== "業界ニュース") {
                                                     echo $category->cat_name . ' '; 
-                                                    }
                                                 } 
                                                 ?>
                                             </span></a>
