@@ -99,8 +99,31 @@ function utf8_truncate( $string, $max_chars = 140, $append = "\xC2\xA0…" )
 //**Load post by category
 //*********************************
 
-function load_post_by_category($cat,$number){ ?>
+function load_post_by_category($post_type,$number){ ?>
     <?php $the_query = new WP_Query( array( 'category_name' => $cat ,'posts_per_page' => $number ) ); ?>
+    <?php if ( $the_query->have_posts() ) : ?>
+        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+            <div class="link-info">
+                <p class="publish-date"><?php echo get_the_date(); ?></p>
+                <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?></a>
+                <p class="link-info-short-details">
+                    <?php echo utf8_truncate(get_the_excerpt());  ?>
+                </p>
+            </div>
+        <?php endwhile; ?>
+        <?php wp_reset_postdata(); ?>
+        <?php else : ?>
+            <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+        <?php endif;?>
+    <?php }
+
+
+//*********************************
+//**Load post by post type
+//*********************************
+
+function load_post_by_post_type($post_type,$number){ ?>
+    <?php $the_query = new WP_Query( array( 'post_type' => $post_type ,'posts_per_page' => $number ) ); ?>
     <?php if ( $the_query->have_posts() ) : ?>
         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
             <div class="link-info">
