@@ -22,6 +22,7 @@
                         <div class="tabBody">
                             <?php 
                             $the_query = new WP_Query( array( 'post_type'=> 'post', 
+                                'category_name' => '総務部,経理部,人事部,技術部',
                                 'posts_per_page' => '3',
                                 'orderby'=>'date',
                                 'ignore_sticky_posts' => 1,) ); ?>
@@ -106,7 +107,7 @@
                                     <div class="link-info">
                                         <div class="system-list">
                                          <img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/MFcloud.png" />
-                                         <a href="#">経費申請を行う</a><br>
+                                         <a href="https://expense.moneyforward.com/session/new">経費申請を行う</a><br>
                                      </div>
                                      <div class="system-list">
                                         <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/biz.png"/></a>
