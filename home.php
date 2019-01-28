@@ -5,7 +5,7 @@
         <div class="left-column">
             <div class="calendar card">
                 <div class="card-title">
-                    <i class="fas fa-calendar-alt"></i>Calendar
+                    <i class="fas fa-calendar-alt"></i>イベントカレンダー
                     
                 </div>
                 <?php echo do_shortcode( '[MEC id="117"]' );?>
@@ -21,8 +21,7 @@
                         <label for="id-1">最新</label>
                         <div class="tabBody">
                             <?php 
-                            $the_query = new WP_Query( array( 'post_type'=> 'post', 
-                                'category_name' => '総務部,経理部,人事部,技術部',
+                            $the_query = new WP_Query( array( 'post_type'=> array('soumu','keiri','zinzi','gizyutsu'), 
                                 'posts_per_page' => '3',
                                 'orderby'=>'date',
                                 'ignore_sticky_posts' => 1,) ); ?>
@@ -32,9 +31,14 @@
                                             <p class="publish-date"><?php echo get_the_date(); ?></p>
                                             <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?><span class="link-info-label">
                                                 <?php
-                                                foreach((get_the_category()) as $category) { 
-                                                    echo $category->cat_name . ' '; 
-                                                } 
+                                                
+                                                $post_type = get_post_type();
+                                                if ( $post_type )
+                                                {
+                                                    $pt = get_post_type_object( $post_type  );
+                                                    echo $pt->labels->singular_name;
+                                                }
+
                                                 ?>
                                             </span></a>
                                             <p class="link-info-short-details">
@@ -52,28 +56,28 @@
                                 <input type="radio" name="tab" id="id-2">
                                 <label for="id-2">総務部</label>
                                 <div class="tabBody">
-                                    <?php load_post_by_category('総務部','3'); ?>
+                                    <?php load_post_by_post_type('soumu','3'); ?>
                                 </div>
                             </li>
                             <li>
                                 <input type="radio" name="tab" id="id-3">
                                 <label for="id-3">経理部</label>
                                 <div class="tabBody">
-                                    <?php load_post_by_category('経理部','3'); ?>
+                                    <?php load_post_by_post_type('keiri','3'); ?>
                                 </div>
                             </li>
                             <li>
                                 <input type="radio" name="tab" id="id-4">
                                 <label for="id-4">人事部</label>
                                 <div class="tabBody">
-                                    <?php load_post_by_category('人事部','3'); ?>
+                                    <?php load_post_by_post_type('zinzi','3'); ?>
                                 </div>
                             </li>
                             <li>
                                 <input type="radio" name="tab" id="id-5" value="gijutsubu">
                                 <label for="id-5">技術部</label>
                                 <div class="tabBody">
-                                    <?php load_post_by_category('技術部','3'); ?>
+                                    <?php load_post_by_post_type('gizyutsu','3'); ?>
                                 </div>
                             </li>
                         </ul>
