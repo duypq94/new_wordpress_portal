@@ -22,7 +22,7 @@
                         <div class="tabBody">
                             <?php 
                             $the_query = new WP_Query( array( 'post_type'=> array('soumu','keiri','zinzi','gizyutsu'), 
-                                'posts_per_page' => '3',
+                                'posts_per_page' => '5',
                                 'orderby'=>'date',
                                 'ignore_sticky_posts' => 1,) ); ?>
                                 <?php if ( $the_query->have_posts() ) : ?>
@@ -56,28 +56,28 @@
                                 <input type="radio" name="tab" id="id-2">
                                 <label for="id-2">総務部</label>
                                 <div class="tabBody">
-                                    <?php load_post_by_post_type('soumu','3'); ?>
+                                    <?php load_post_by_post_type('soumu','5'); ?>
                                 </div>
                             </li>
                             <li>
                                 <input type="radio" name="tab" id="id-3">
                                 <label for="id-3">経理部</label>
                                 <div class="tabBody">
-                                    <?php load_post_by_post_type('keiri','3'); ?>
+                                    <?php load_post_by_post_type('keiri','5'); ?>
                                 </div>
                             </li>
                             <li>
                                 <input type="radio" name="tab" id="id-4">
                                 <label for="id-4">人事部</label>
                                 <div class="tabBody">
-                                    <?php load_post_by_post_type('zinzi','3'); ?>
+                                    <?php load_post_by_post_type('zinzi','5'); ?>
                                 </div>
                             </li>
                             <li>
                                 <input type="radio" name="tab" id="id-5" value="gijutsubu">
                                 <label for="id-5">技術部</label>
                                 <div class="tabBody">
-                                    <?php load_post_by_post_type('gizyutsu','3'); ?>
+                                    <?php load_post_by_post_type('gizyutsu','5'); ?>
                                 </div>
                             </li>
                         </ul>
