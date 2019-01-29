@@ -226,7 +226,7 @@ i{
  padding: 10px 15px;
  box-shadow: 0 0 5px rgba(0,0,0,0.4); 
  z-index: 999;
- left: -250%;
+ left: -100%;
  transition: 0.3s all;
 
 }
@@ -446,9 +446,6 @@ i{
 
 /* end footer */
 
-/* responsive Css */
-
-/* end responsive */
 
 /* rss news css*/
 
@@ -480,3 +477,43 @@ i{
     color: blue;
 }
 /* end news css */
+
+
+#otoiawase-page .card input{
+    height: 30px;
+    border: 2px solid #8c8c8c;
+    width: 50%;
+    border-radius: 10px; 
+    outline: none;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#otoiawase-page .card h3{
+  border-bottom: 1px solid #8c8c8c;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+#otoiawase-page .card textarea{
+    height: 300px;
+    border: 2px solid #8c8c8c;
+    width: 70%;
+    border-radius: 10px; 
+    outline: none;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 3px;
+    margin-bottom: 20px;
+}
+
+#otoiawase-page .card input[type="submit"]:hover{
+ cursor: pointer;
+}
+
+
+
+/* responsive Css */
+
+/* end responsive */
