@@ -79,7 +79,7 @@ i{
 .main-content .main-page .left-column  .tab-card {
     position: relative;
     display: block;
-    min-height: 32rem; 
+    min-height: 40rem; 
     background-color: #fff; 
     z-index: 1;
 }
@@ -291,9 +291,11 @@ i{
     
 }
 
+
 .main-content .main-page .left-column .noti{
     width: 100%;
     height: auto;   
+    min-height: 42rem;
     /*overflow-y:scroll; */
 }
 
@@ -518,7 +520,6 @@ i{
     font-weight: 300;
     width: 20%;
 }
-
 
 
 /* responsive Css */

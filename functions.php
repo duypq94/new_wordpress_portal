@@ -53,7 +53,7 @@ if(!function_exists('portal_menu')){
 
 // split string
 
-function utf8_truncate( $string, $max_chars = 140, $append = "\xC2\xA0…" )
+function utf8_truncate( $string, $max_chars = 120, $append = "\xC2\xA0…" )
 {
     $string = strip_tags( $string );
     $string = html_entity_decode( $string, ENT_QUOTES, 'utf-8' );
@@ -99,7 +99,7 @@ function utf8_truncate( $string, $max_chars = 140, $append = "\xC2\xA0…" )
 //**Load post by category
 //*********************************
 
-function load_post_by_category($post_type,$number){ ?>
+function load_post_by_category($cat,$number){ ?>
     <?php $the_query = new WP_Query( array( 'category_name' => $cat ,'posts_per_page' => $number ) ); ?>
     <?php if ( $the_query->have_posts() ) : ?>
         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
