@@ -226,7 +226,8 @@ i{
  padding: 10px 15px;
  box-shadow: 0 0 5px rgba(0,0,0,0.4); 
  z-index: 999;
- left: -100%;
+ right: 50%;
+ transform: translateX(50%);
  transition: 0.3s all;
 
 }
