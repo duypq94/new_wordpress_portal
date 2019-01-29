@@ -149,9 +149,9 @@
                     <ul class="tabs">
                         <li>
                             <input type="radio" name="tab-2" id="id-6" value="playlists1" checked>
-                            <label for="id-6">業界ニュース</label>
+                            <label for="id-6">全社共有</label>
                             <div class="tabBody">
-                                <?php load_post_by_category('業界ニュース','3'); ?>
+                                <?php load_post_by_category('全社共有','5'); ?>
                             </div>
                         </li>
                         <li>

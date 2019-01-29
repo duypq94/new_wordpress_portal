@@ -79,7 +79,7 @@ i{
 .main-content .main-page .left-column  .tab-card {
     position: relative;
     display: block;
-    min-height: 32rem; 
+    min-height: 45rem; 
     background-color: #fff; 
     z-index: 1;
 }
@@ -156,7 +156,7 @@ i{
 }
 
 .main-content .main-page .left-column  .tab-card ul.tabs li .tabBody .link-info .link-info-title{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     display: flex;
     padding-bottom: 5px;
@@ -173,7 +173,7 @@ i{
 }
 
 .main-content .main-page .left-column  .tab-card ul.tabs li .tabBody .link-info p.link-info-short-details{
-    font-size: 14px;
+    font-size: 11px;
     color: #8c8c8c;
 }
 
@@ -518,7 +518,6 @@ i{
     font-weight: 300;
     width: 20%;
 }
-
 
 
 /* responsive Css */

@@ -99,7 +99,7 @@ function utf8_truncate( $string, $max_chars = 140, $append = "\xC2\xA0…" )
 //**Load post by category
 //*********************************
 
-function load_post_by_category($post_type,$number){ ?>
+function load_post_by_category($cat,$number){ ?>
     <?php $the_query = new WP_Query( array( 'category_name' => $cat ,'posts_per_page' => $number ) ); ?>
     <?php if ( $the_query->have_posts() ) : ?>
         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
