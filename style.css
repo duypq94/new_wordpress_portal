@@ -512,6 +512,13 @@ i{
  cursor: pointer;
 }
 
+#otoiawase-page .card input[type="submit"] {
+    display: inline-block;
+    min-width: 100px;
+    font-weight: 300;
+    width: 20%;
+}
+
 
 
 /* responsive Css */
