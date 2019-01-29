@@ -79,7 +79,7 @@ i{
 .main-content .main-page .left-column  .tab-card {
     position: relative;
     display: block;
-    min-height: 45rem; 
+    min-height: 40rem; 
     background-color: #fff; 
     z-index: 1;
 }
@@ -156,7 +156,7 @@ i{
 }
 
 .main-content .main-page .left-column  .tab-card ul.tabs li .tabBody .link-info .link-info-title{
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     display: flex;
     padding-bottom: 5px;
@@ -173,7 +173,7 @@ i{
 }
 
 .main-content .main-page .left-column  .tab-card ul.tabs li .tabBody .link-info p.link-info-short-details{
-    font-size: 11px;
+    font-size: 14px;
     color: #8c8c8c;
 }
 
@@ -291,9 +291,11 @@ i{
     
 }
 
+
 .main-content .main-page .left-column .noti{
     width: 100%;
     height: auto;   
+    min-height: 42rem;
     /*overflow-y:scroll; */
 }
 
