@@ -156,31 +156,37 @@
                         </li>
                         <li>
                             <input type="radio" name="tab-2" id="id-7" value="artists">
-                            <label for="id-7">総務部</label>
+                            <label for="id-7">朝日新聞デジタル</label>
                             <div class="tabBody">
-                                <div class="link-info">
-                                    <p class="publish-date">2018 12 18</p>
-                                    <p class="link-info-title">新人事制度 人事評価 </p>
-                                    <p class="link-info-short-details">
-                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
-                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
-                                    </p>
+                                <div id="sidebar-rss">
+                                    <?php echo do_shortcode(' [wp-rss-aggregator source="418"]'); ?>
                                 </div>
-                                <div class="link-info">
-                                    <p class="publish-date">2018 12 18</p>
-                                    <p class="link-info-title">新人事制度 人事評価 </p>
-                                    <p class="link-info-short-details">
-                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
-                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
-                                    </p>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="tab-2" id="id-8" value="artists">
+                            <label for="id-8">ITmedia ビジネスオンライン</label>
+                            <div class="tabBody">
+                                <div id="sidebar-rss">
+                                    <?php echo do_shortcode(' [wp-rss-aggregator source="429"]'); ?>
                                 </div>
-                                <div class="link-info">
-                                    <p class="publish-date">2018 12 18</p>
-                                    <p class="link-info-title">新人事制度 人事評価 </p>
-                                    <p class="link-info-short-details">
-                                        新人事制度 人事評価のFAQを下記の通り作成いたしました。
-                                        各自、ご確認いただき、人事評価に活用いただきますよう宜しくお願いいたします。
-                                    </p>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="tab-2" id="id-9" value="artists">
+                            <label for="id-9">47NEWS</label>
+                            <div class="tabBody">
+                                <div id="sidebar-rss">
+                                    <?php echo do_shortcode(' [wp-rss-aggregator source="440"]'); ?>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="tab-2" id="id-10" value="artists">
+                            <label for="id-10">共同通信</label>
+                            <div class="tabBody">
+                                <div id="sidebar-rss">
+                                    <?php echo do_shortcode(' [wp-rss-aggregator source="451"]'); ?>
                                 </div>
                             </div>
                         </li>
