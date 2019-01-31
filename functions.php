@@ -56,16 +56,15 @@ if(!function_exists('portal_menu')){
 function utf8_truncate( $string, $max_chars = 120, $append = "\xC2\xA0…" )
 {
     $string = strip_tags( $string );
+     // Nothing to do.
+    if (strlen( utf8_decode( $string ) ) < $max_chars )
+    {
+        return $string;
+    }
     $string = html_entity_decode( $string, ENT_QUOTES, 'utf-8' );
     // \xC2\xA0 is the no-break space
     $string = trim( $string, "\n\r\t .-;–,—\xC2\xA0" );
     $length = strlen( utf8_decode( $string ) );
-
-    // Nothing to do.
-    if ( $length < $max_chars )
-    {
-        return $string;
-    }
 
     // mb_substr() is in /wp-includes/compat.php as a fallback if
     // your the current PHP installation doesn’t have it.
