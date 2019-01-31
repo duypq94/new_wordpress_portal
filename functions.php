@@ -56,7 +56,7 @@ if(!function_exists('portal_menu')){
 function utf8_truncate( $string, $max_chars = 120, $append = "\xC2\xA0…" )
 {
     $string = strip_tags( $string );
-    // Nothing to do.
+     // Nothing to do.
     if (strlen( utf8_decode( $string ) ) < $max_chars )
     {
         return $string;
