@@ -42,6 +42,24 @@ Template Name: Application
 						<a href="#"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/links_img/work.png"" alt="">
 							<p>メール関連</p></a>
 					</div>
+					<div class="kanren-icon">
+						<a href="#"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/links_img/work.png"" alt="">
+							<p>メール関連</p></a>
+					</div>
+					<div class="kanren-icon">
+						<a href="#"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/links_img/work.png"" alt="">
+							<p>メール関連</p></a>
+					</div>
+					<div class="kanren-icon">
+						<a href="#"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/links_img/work.png"" alt="">
+							<p>メール関連</p></a>
+					</div>
+					<div class="kanren-icon">
+						<a href="#"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/links_img/work.png"" alt="">
+							<p>メール関連</p></a>
+					</div>
+
+
 				</div>
 			</div>
 			<div class="pata-n kanren">

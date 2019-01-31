@@ -203,20 +203,21 @@ i{
 /* end logo */
 
 /* navigation menu */
-.primary-menu .menu{
+
+.primary-menu-area .primary-menu .menu{
     color: #8a8a8a;
     display: flex;
     align-items: center;
     position: relative;
-    margin-left: 20px;
+    justify-content: space-around;
 }
 
 
-.primary-menu .menu a{
+.primary-menu-area .primary-menu .menu a{
 	color: #8a8a8a;
 }
 
-.primary-menu .menu li ul.sub-menu{
+.primary-menu-area .primary-menu .menu li ul.sub-menu{
  position: absolute;
  min-width: 22rem;
  opacity: 0;
@@ -230,35 +231,49 @@ i{
  right: 50%;
  transform: translateX(50%);
 }
-.primary-menu .menu ul.sub-menu li{
+.primary-menu-area .primary-menu .menu ul.sub-menu li{
     text-align: center;
     margin-bottom:10px; 
     border-bottom: 1px solid #ECEFF1;
 }
 
-.primary-menu .menu > li{
+.primary-menu-area .primary-menu .menu > li{
     font-weight: 700;
     padding: 10px 0;
-    margin-right: 30px;
     font-size: 14px;
     display: block;
     position: relative;
+    flex-basis: calc(100%/9);
+    text-align: center;
+    border-left: .5px solid #8c8c8c;
+    border-right: .5px solid #8c8c8c;
 }
-.primary-menu .menu li a:hover{
+
+
+.primary-menu-area .primary-menu .menu > li:first-child{
+    border-left: none; 
+}
+
+.primary-menu-area .primary-menu .menu > li:last-child{
+    border-right: none; 
+}
+
+
+.primary-menu-area .primary-menu .menu li a:hover{
     color: #45a6f3;
     cursor: pointer;
 }
 
-.primary-menu .menu li:hover ul li{
+.primary-menu-area .primary-menu .menu li:hover ul li{
     color: #8a8a8a;
 }
 
-.primary-menu .menu li:hover ul li:hover{
+.primary-menu-area .primary-menu .menu li:hover ul li:hover{
     color: #45a6f3;
     cursor: pointer;
 }
 
-.primary-menu .menu li:hover > ul{
+.primary-menu-area .primary-menu .menu li:hover > ul{
     opacity: 1;
     visibility: visible;
 }
@@ -525,6 +540,8 @@ i{
 
 /*otoiawase end*/
 
+/*application page*/
+
 .application-page .card .kanren .kanren-icons {
     display: flex;
     align-items: center;
@@ -550,10 +567,103 @@ i{
     width: auto;
 }
 
-/*application page*/
-
 /*end application*/
 
 /* responsive Css */
+
+@media (max-width: 880px) {
+   .main-content .main-page{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-content .main-page .left-column{
+        width: 90%;
+        margin: 0;
+    }
+
+    .main-content .main-page .right-column{
+        width: 90%;
+        margin: 0;
+    }
+
+    .primary-menu-area .primary-menu .menu{
+        flex-direction: column;
+        overflow: hidden;
+        height: 0px;
+        transition: .3s all;
+    }
+    .primary-menu-area .primary-menu .menu > li{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #8c8c8c; 
+        text-align: left;
+        padding-left: 20px;
+        flex-basis: 100%;
+    }
+    .primary-menu-area .menu li a {
+        /*display: inline-block;*/
+        width: 100%;
+    }
+
+    .primary-menu-area .collapse{
+        height: 40px;
+        background-color: #00AAE1;
+    }
+
+    .primary-menu-area .collapse{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #collapse-button{
+        margin-left: 10px;
+        width: 30px;
+        height: 25px;   
+        position: relative;
+    }
+
+    #collapse-button:hover{
+        cursor: pointer;
+    }
+
+     #collapse-button span{
+        display: block;
+        height: 5px;
+        width: 100%;
+        background: #FFF;
+        border-radius: 5px;
+        position: absolute;
+        transition: 0.3s all;
+        opacity: 1; 
+        left: 0;
+    }
+     #collapse-button span:nth-child(1){
+        top: 0;
+      }
+           #collapse-button span:nth-child(2){
+        top: 10px;
+      }
+           #collapse-button span:nth-child(3){
+        bottom: 0;
+    }
+     #collapse-button.open span:nth-child(1){
+        transform: rotate(135deg);
+        top: 10px;
+      }
+           #collapse-button.open span:nth-child(2){
+        left: -30px;
+        opacity:0
+      }
+           #collapse-button.open span:nth-child(3){
+        transform: rotate(-135deg);
+        bottom: 10px;
+    }
+      
+    .primary-menu-area .primary-menu #menu-primary-menu.open-menu{
+        height: 480px;
+        overflow: visible;
+    }
+} 
 
 /* end responsive */

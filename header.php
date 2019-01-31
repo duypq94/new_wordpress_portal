@@ -31,6 +31,13 @@
     </div>
 </div>
 
-<div class="container primary-menu">
+<div class="container primary-menu-area">
+    <div class="collapse">
+            <div id="collapse-button" onclick="onCollapse()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    </div>
     <?php portal_menu('primary-menu') ?>
 </div>
