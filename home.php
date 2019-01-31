@@ -3,13 +3,13 @@
 <div class="container-fluid main-content">
     <div class="container main-page">
         <div class="left-column">
-            <div class="calendar card">
-                <div class="card-title">
+            <!-- <div class="calendar card"> -->
+                <!-- <div class="card-title">
                     <i class="fas fa-calendar-alt"></i>イベントカレンダー
                     
                 </div>
                 <?php echo do_shortcode( '[MEC id="117"]' );?>
-            </div>
+            </div> -->
 
             <div class="noti tab-card card">
                 <div class="card-title">
@@ -151,7 +151,7 @@
                             <input type="radio" name="tab-2" id="id-6" value="playlists1" checked>
                             <label for="id-6">全社共有</label>
                             <div class="tabBody">
-                                <?php load_post_by_category('全社共有','5'); ?>
+                                <?php load_post_by_category('全社共有','7'); ?>
                             </div>
                         </li>
                         <li>
@@ -159,7 +159,7 @@
                             <label for="id-7">朝日新聞デジタル</label>
                             <div class="tabBody">
                                 <div id="sidebar-rss">
-                                    <?php echo do_shortcode(' [wp-rss-aggregator source="418"]'); ?>
+                                    <?php echo do_shortcode(' [RSSImport display="7" feedurl="https://headlines.yahoo.co.jp/rss/asahik-c_int.xml" use_simplepie="true"]'); ?>
                                 </div>
                             </div>
                         </li>
@@ -168,7 +168,7 @@
                             <label for="id-8">ITmedia ビジネスオンライン</label>
                             <div class="tabBody">
                                 <div id="sidebar-rss">
-                                    <?php echo do_shortcode(' [wp-rss-aggregator source="429"]'); ?>
+                                    <?php echo do_shortcode(' [RSSImport display="7" feedurl="https://headlines.yahoo.co.jp/rss/zdn_mkt-dom.xml" use_simplepie="true"]'); ?>
                                 </div>
                             </div>
                         </li>
@@ -177,7 +177,7 @@
                             <label for="id-9">47NEWS</label>
                             <div class="tabBody">
                                 <div id="sidebar-rss">
-                                    <?php echo do_shortcode(' [wp-rss-aggregator source="440"]'); ?>
+                                    <?php echo do_shortcode(' [RSSImport display="7" feedurl="https://headlines.yahoo.co.jp/rss/yonnana-dom.xml" use_simplepie="true"]'); ?>
                                 </div>
                             </div>
                         </li>
@@ -186,7 +186,7 @@
                             <label for="id-10">共同通信</label>
                             <div class="tabBody">
                                 <div id="sidebar-rss">
-                                    <?php echo do_shortcode(' [wp-rss-aggregator source="451"]'); ?>
+                                    <?php echo do_shortcode(' [RSSImport display="7" feedurl="https://headlines.yahoo.co.jp/rss/kyodonews-dom.xml" use_simplepie="true"]'); ?>
                                 </div>
                             </div>
                         </li>
