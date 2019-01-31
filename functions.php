@@ -138,3 +138,16 @@ function load_post_by_post_type($post_type,$number){ ?>
             <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
         <?php endif;?>
     <?php }
+
+//*********************************
+//** Add post type to subcribes
+//*********************************
+function new_post_types($types) {
+    $types[] = 'zinzi';
+    $types[] = 'soumu';
+    $types[] = 'keiri';
+    $types[] = 'gizyutsu';
+    return $types;
+}
+ 
+add_filter('s2_post_types', 'new_post_types');
