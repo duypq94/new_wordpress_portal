@@ -67,7 +67,7 @@ function utf8_truncate( $string, $max_chars = 120, $append = "\xC2\xA0…" )
     $length = strlen( utf8_decode( $string ) );
 
     // mb_substr() is in /wp-includes/compat.php as a fallback if
-    // your the current PHP installation doesn’t have it.
+    // your the current PHP installation doesn't have it.
     $string = mb_substr( $string, 0, $max_chars, 'utf-8' );
 
     // No white space. One long word or chinese/korean/japanese text.
