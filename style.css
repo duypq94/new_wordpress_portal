@@ -480,6 +480,7 @@ i{
 }
 /* end news css */
 
+/*otoiawase page*/
 
 #otoiawase-page .card input{
     height: 30px;
@@ -521,6 +522,37 @@ i{
     width: 20%;
 }
 
+
+/*otoiawase end*/
+
+.application-page .card .kanren .kanren-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.application-page .card .kanren .kanren-icons .kanren-icon a{
+     display:block;
+    width:150px;
+    height:150px;
+    text-align: center;
+    border: 1px solid #8c8c8c;
+    color: #000;
+}
+
+.application-page .card .kanren .kanren-icons .kanren-icon{
+    margin-top:10px;
+}
+
+.application-page .card .kanren .kanren-icons .kanren-icon img{
+    height: 100px;
+    width: auto;
+}
+
+/*application page*/
+
+/*end application*/
 
 /* responsive Css */
 
