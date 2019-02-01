@@ -553,34 +553,31 @@ i{
 }
 
 
-/*otoiawase end*/
-
-/*application page*/
-
-#application-page .kanren .kanren-icons{
+#system-list-template .kanren .kanren-icons{
 	display:flex;
 	align-items:center;
-	justify-content:center;
+	justify-content:flex-start;
 	flex-wrap: wrap;
 }
 
-#application-page .kanren .kanren-icons .kanren-icon a{
-	display:block;
-    text-align: center;
-    border: 1px solid #8c8c8c;
-    color: #000;
+#system-list-template .kanren .kanren-icons .kanren-icon a{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+  border: 1px solid #8c8c8c;
+  color: #000;
 }
 
-#application-page .kanren .kanren-icons .kanren-icon{
+#system-list-template .kanren .kanren-icons .kanren-icon{
     margin:5px;
 }
-
-#application-page .kanren .kanren-icons .kanren-icon img{
-    height: 180px;
-    width: auto;
+a
+#system-list-template .kanren .kanren-icons .kanren-icon img{
 	padding:10px;
+    height: auto;
+    width: 220px;
 }
-
 
 /*end application*/
 
@@ -682,3 +679,7 @@ i{
 } 
 
 /* end responsive */
+
+.main-content .single-page p{
+    margin-bottom: 20px;
+}
