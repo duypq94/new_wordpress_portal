@@ -94,11 +94,11 @@
                                 <div class="tabBody">
                                     <div class="link-info">
                                         <div class="system-list">
-                                            <img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/KingOfTime.jpg" />
+                                        <a href="https://s3.kingtime.jp/admin"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/KingOfTime.jpg" /></a>
                                             <a href="https://s3.kingtime.jp/admin">勤務管理を行う（メディアドゥ対象）</a><br>
                                         </div>
                                         <div class="system-list">
-                                            <img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/CyberXeed.jpeg" />
+                                        <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/CyberXeed.jpeg" /></a>
                                             <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp">勤務管理を行う（出版デジタル機構対象）</a><br>
                                         </div>
                                     </div>
@@ -110,16 +110,16 @@
                                 <div class="tabBody">
                                     <div class="link-info">
                                         <div class="system-list">
-                                         <img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/MFcloud.png" />
-                                         <a href="https://expense.moneyforward.com/session/new">経費申請を行う</a><br>
+                                        <a href="https://expense.moneyforward.com/session/new"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/MFcloud.png" /></a>
+                                            <a href="https://expense.moneyforward.com/session/new">経費申請を行う</a><br>
                                      </div>
                                      <div class="system-list">
-                                        <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/biz.png"/></a>
-                                        <a href="#">予算申請を行う</a><br>
+                                        <a href="https://www.primal-inc.com/product/bizforecast/bc/"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/biz.png"/></a>
+                                        <a href="https://www.primal-inc.com/product/bizforecast/bc/">予算申請を行う</a><br>
                                     </div>
                                     <div class="system-list">
-                                        <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/cyberxeed.jpeg"/></a>
-                                        <a href="#">資産管理を行う</a><br>
+                                        <a href="https://www.mjs.co.jp/"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/logo_mjs.png"/></a>
+                                        <a href="https://www.mjs.co.jp/">資産管理を行う</a><br>
                                     </div>
                                 </div>
                             </div>
@@ -130,12 +130,12 @@
                             <div class="tabBody">
                                 <div class="link-info">
                                     <div class="system-list">
-                                        <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/xpoint.png" /></a></td>
-                                        <a href="#">社内業務手続きを行う</a><br>
+                                        <a href="http://xpoint.intra.pubridge.jp/xpoint/login.jsp?domCd=pubridge"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/xpoint.png" /></a></td>
+                                        <a href="http://xpoint.intra.pubridge.jp/xpoint/login.jsp?domCd=pubridge">社内業務手続きを行う</a><br>
                                     </div>
                                     <div class="system-list">             
-                                        <a href="#"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/Redmine_logo.png"/></a></td>
-                                        <a href="#">プロジェクト管理を行う</a><br>
+                                        <a href="http://redmine.intra.pubridge.jp/"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/Redmine_logo.png"/></a></td>
+                                        <a href="http://redmine.intra.pubridge.jp/">プロジェクト管理を行う</a><br>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@
                             <label for="id-6">業界ニュース</label>
                             <div class="tabBody">
                                 <div id="sidebar-rss">
-                                    <?php echo do_shortcode(' [RSSImport display="7" feedurl="http://192.168.102.230/news" use_simplepie="true"]'); ?>
+                                    <?php echo do_shortcode(' [wp-rss-aggregator source="530"]'); ?>
                                 </div>
                             </div>
                         </li>
@@ -161,16 +161,16 @@
                             <label for="id-7">朝日新聞デジタル</label>
                             <div class="tabBody">
                                 <div id="sidebar-rss">
-                                    <?php echo do_shortcode(' [RSSImport display="7" feedurl="https://headlines.yahoo.co.jp/rss/asahik-c_int.xml" use_simplepie="true"]'); ?>
+                                    <?php echo do_shortcode(' [wp-rss-aggregator source="573"]'); ?>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <input type="radio" name="tab-2" id="id-8" value="artists">
-                            <label for="id-8">ITmedia ビジネスオンライン</label>
+                            <label for="id-8">共同通信</label>
                             <div class="tabBody">
                                 <div id="sidebar-rss">
-                                    <?php echo do_shortcode(' [RSSImport display="7" feedurl="https://headlines.yahoo.co.jp/rss/zdn_mkt-dom.xml" use_simplepie="true"]'); ?>
+                                    <?php echo do_shortcode(' [wp-rss-aggregator source="579"]'); ?>
                                 </div>
                             </div>
                         </li>
@@ -179,7 +179,7 @@
                             <label for="id-9">47NEWS</label>
                             <div class="tabBody">
                                 <div id="sidebar-rss">
-                                    <?php echo do_shortcode(' [RSSImport display="7" feedurl="https://headlines.yahoo.co.jp/rss/yonnana-dom.xml" use_simplepie="true"]'); ?>
+                                    <?php echo do_shortcode('[wp-rss-aggregator source="580"]'); ?>
                                 </div>
                             </div>
                         </li>
