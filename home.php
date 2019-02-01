@@ -148,10 +148,12 @@
                     </div>
                     <ul class="tabs">
                         <li>
-                            <input type="radio" name="tab-2" id="id-6" value="playlists1" checked>
-                            <label for="id-6">全社共有</label>
+                            <input type="radio" name="tab-2" id="id-6" value="abc" checked>
+                            <label for="id-6">業界ニュース</label>
                             <div class="tabBody">
-                                <?php load_post_by_category('全社共有','7'); ?>
+                                <div id="sidebar-rss">
+                                    <?php echo do_shortcode(' [RSSImport display="7" feedurl="http://192.168.102.230/news" use_simplepie="true"]'); ?>
+                                </div>
                             </div>
                         </li>
                         <li>
@@ -178,15 +180,6 @@
                             <div class="tabBody">
                                 <div id="sidebar-rss">
                                     <?php echo do_shortcode(' [RSSImport display="7" feedurl="https://headlines.yahoo.co.jp/rss/yonnana-dom.xml" use_simplepie="true"]'); ?>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <input type="radio" name="tab-2" id="id-10" value="artists">
-                            <label for="id-10">共同通信</label>
-                            <div class="tabBody">
-                                <div id="sidebar-rss">
-                                    <?php echo do_shortcode(' [RSSImport display="7" feedurl="https://headlines.yahoo.co.jp/rss/kyodonews-dom.xml" use_simplepie="true"]'); ?>
                                 </div>
                             </div>
                         </li>
