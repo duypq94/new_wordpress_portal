@@ -94,12 +94,12 @@
                         <div class="tabBody">
                             <div class="link-info">
                                 <div class="system-list">
-                                <a href="https://s3.kingtime.jp/admin"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/kingoftime-logo.png" /></a>
-                                    <a href="https://s3.kingtime.jp/admin">勤務管理を行う（メディアドゥ対象）</a><br>
+                                <a href="https://s3.kingtime.jp/admin" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/kingoftime-logo.png" /></a>
+                                    <a href="https://s3.kingtime.jp/admin" target="_blank">勤務管理を行う（メディアドゥ対象）</a><br>
                                 </div>
                                 <div class="system-list">
-                                <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/cyberxeed-logo.png" /></a>
-                                    <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp">勤務管理を行う（出版デジタル機構対象）</a><br>
+                                <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp"target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/cyberxeed-logo.png" /></a>
+                                    <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp"target="_blank">勤務管理を行う（出版デジタル機構対象）</a><br>
                                 </div>
                             </div>
                         </div>
@@ -110,16 +110,16 @@
                         <div class="tabBody">
                             <div class="link-info">
                                 <div class="system-list">
-                                <a href="https://expense.moneyforward.com/session/new"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/mfcloud-logo.png" /></a>
-                                    <a href="https://expense.moneyforward.com/session/new">経費申請を行う</a><br>
+                                <a href="https://expense.moneyforward.com/session/new" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/mfcloud-logo.png" /></a>
+                                    <a href="https://expense.moneyforward.com/session/new" target="_blank">経費申請を行う</a><br>
                                  </div>
                             <div class="system-list">
-                                <a href="https://www.primal-inc.com/product/bizforecast/bc/"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/bizforecast-logo.png"/></a>
-                                    <a href="https://www.primal-inc.com/product/bizforecast/bc/">予算申請を行う</a><br>
+                                <a href="https://www.primal-inc.com/product/bizforecast/bc/" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/bizforecast-logo.png"/></a>
+                                    <a href="https://www.primal-inc.com/product/bizforecast/bc/" target="_blank">予算申請を行う</a><br>
                                 </div>
                             <div class="system-list">
-                                <a href="https://www.mjs.co.jp/"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/mjs-logo.png"/></a>
-                                    <a href="https://www.mjs.co.jp/">資産管理を行う</a><br>
+                                <a href="https://www.mjs.co.jp/" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/mjs-logo.png"/></a>
+                                    <a href="https://www.mjs.co.jp/" target="_blank">資産管理を行う</a><br>
                             </div>
                             </div>
                         </div>
@@ -130,12 +130,12 @@
                         <div class="tabBody">
                             <div class="link-info">
                                 <div class="system-list">
-                                    <a href="http://xpoint.intra.pubridge.jp/xpoint/login.jsp?domCd=pubridge"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/xpoint-logo.png" /></a></td>
-                                    <a href="http://xpoint.intra.pubridge.jp/xpoint/login.jsp?domCd=pubridge">社内業務手続きを行う</a><br>
+                                    <a href="http://xpoint.intra.pubridge.jp/xpoint/login.jsp?domCd=pubridge" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/xpoint-logo.png" /></a></td>
+                                    <a href="http://xpoint.intra.pubridge.jp/xpoint/login.jsp?domCd=pubridge" target="_blank">社内業務手続きを行う</a><br>
                                 </div>
                                 <div class="system-list">             
-                                    <a href="http://redmine.intra.pubridge.jp/"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/redmine-logo.png"/></a></td>
-                                    <a href="http://redmine.intra.pubridge.jp/">プロジェクト管理を行う</a><br>
+                                    <a href="http://redmine.intra.pubridge.jp/" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/redmine-logo.png"/></a></td>
+                                    <a href="http://redmine.intra.pubridge.jp/" target="_blank">プロジェクト管理を行う</a><br>
                                 </div>
                             </div>
                         </div>

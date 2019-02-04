@@ -353,12 +353,17 @@ i{
     height: 70px;
 }
 
+.main-content .main-page .left-column  .system ul.tabs li .tabBody .link-info a:visited {
+    color: rgb(71, 142, 209);
+}
+
 .main-content .main-page .left-column  .system ul.tabs li .tabBody .link-info .system-list{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 3rem;
 }
+
 /* end system list */
 
 /* news */
@@ -572,7 +577,7 @@ i{
 #system-list-template .kanren .kanren-icons .kanren-icon{
     margin:5px;
 }
-a
+
 #system-list-template .kanren .kanren-icons .kanren-icon img{
 	padding:10px;
     height: auto;
