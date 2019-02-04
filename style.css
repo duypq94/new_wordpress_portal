@@ -218,7 +218,10 @@ i{
 
 
 .primary-menu-area .primary-menu .menu a{
-	color: #8a8a8a;
+    color: #8a8a8a;
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 
 .primary-menu-area .primary-menu .menu li ul.sub-menu{
@@ -354,7 +357,7 @@ i{
 }
 
 .main-content .main-page .left-column  .system ul.tabs li .tabBody .link-info a:visited {
-    color: rgb(71, 142, 209);
+    color: blue;
 }
 
 .main-content .main-page .left-column  .system ul.tabs li .tabBody .link-info .system-list{
