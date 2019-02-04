@@ -49,7 +49,7 @@ h5 {
     font-size: 1.3em;
 }
 table, table tr, table td {
-    /*border: 1px solid #e7e7e7;*/
+    border: 1px solid #e7e7e7;
     padding: 8px;
 }
 li{
@@ -88,7 +88,6 @@ i{
     display: block;
     padding: 0; 
     margin: 0;
-    border-bottom: 1px solid #ECEFF1;
 }
 .main-content .main-page .left-column  .tab-card  ul.tabs:after { 
     content: "";
@@ -103,16 +102,17 @@ i{
 
 .main-content .main-page .left-column  .tab-card ul.tabs li input[type="radio"] { display: none; }
 
-.main-content .main-page .left-column  .tab-card ul.tabs li input[type="radio"]:checked ~ label:after { 
+/* .main-content .main-page .left-column  .tab-card ul.tabs li input[type="radio"]:checked ~ label:after { 
     content: '';
     position: absolute;
     bottom: 0; left: 0; right: 0;
     margin-bottom: -1px;
     height: 0.25rem;
     background-color: #03A9F4;
-}
+} */
 .main-content .main-page .left-column  .tab-card ul.tabs li label {
     position:relative;
+    border: 1px solid  #ECEFF1;
     display: block;
     font-weight: 700;
     font-size: 0.875rem;
@@ -125,16 +125,20 @@ i{
     background-color: white;
     transition: 0.3s ease-in-out;
 }
-.main-content .main-page .left-column  .tab-card ul.tabs li label:hover:after {
+/* .main-content .main-page .left-column  .tab-card ul.tabs li label:hover:after {
     content: '';
     position: absolute;
     bottom: 0; left: 0; right: 0;
     margin-bottom: -1px;
     background-color: #B3E5FC;
     height: 0.25rem;
-}
+} */
 .main-content .main-page .left-column  .tab-card ul.tabs li input[type="radio"]:checked ~ .tabBody { 
     display: block;
+}
+
+.main-content .main-page .left-column  .tab-card ul.tabs li input[type="radio"]:checked ~ label { 
+    background-color: #ECEFF1;
 }
 .main-content .main-page .left-column  .tab-card ul.tabs li .tabBody { 
     position: absolute;
@@ -245,18 +249,17 @@ i{
     position: relative;
     flex-basis: calc(100%/9);
     text-align: center;
-    border-left: .5px solid #8c8c8c;
-    border-right: .5px solid #8c8c8c;
+    border: .5px solid #8c8c8c;
 }
 
 
-.primary-menu-area .primary-menu .menu > li:first-child{
+/* .primary-menu-area .primary-menu .menu > li:first-child{
     border-left: none; 
 }
 
 .primary-menu-area .primary-menu .menu > li:last-child{
     border-right: none; 
-}
+} */
 
 
 .primary-menu-area .primary-menu .menu li a:hover{
@@ -317,7 +320,7 @@ i{
 .main-content .main-page .left-column .system{
     width: 100%;
     height: auto;   
-    min-height: 31rem;
+    min-height: 35rem;
 }
 
 .main-content .main-page .left-column .news{
@@ -550,33 +553,30 @@ i{
 }
 
 
-/*otoiawase end*/
-
-/*application page*/
-
-.application-page .card .kanren .kanren-icons {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+#system-list-template .kanren .kanren-icons{
+	display:flex;
+	align-items:center;
+	justify-content:flex-start;
+	flex-wrap: wrap;
 }
 
-.application-page .card .kanren .kanren-icons .kanren-icon a{
-     display:block;
-    width:150px;
-    height:150px;
-    text-align: center;
-    border: 1px solid #8c8c8c;
-    color: #000;
+#system-list-template .kanren .kanren-icons .kanren-icon a{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+  border: 1px solid #8c8c8c;
+  color: #000;
 }
 
-.application-page .card .kanren .kanren-icons .kanren-icon{
-    margin-top:10px;
+#system-list-template .kanren .kanren-icons .kanren-icon{
+    margin:5px;
 }
-
-.application-page .card .kanren .kanren-icons .kanren-icon img{
-    height: 100px;
-    width: auto;
+a
+#system-list-template .kanren .kanren-icons .kanren-icon img{
+	padding:10px;
+    height: auto;
+    width: 220px;
 }
 
 /*end application*/
@@ -679,3 +679,7 @@ i{
 } 
 
 /* end responsive */
+
+.main-content .single-page p{
+    margin-bottom: 20px;
+}
