@@ -228,8 +228,9 @@ i{
     justify-content: center;
 }
 
-.primary-menu-area .primary-menu .menu a:active{
-    color: red;
+#menu-primary-menu .current-menu-item > a{
+    background-color: #45a6f3;
+    color:#FFFFFF;
 }
 
 .primary-menu-area .primary-menu .menu li ul.sub-menu{
