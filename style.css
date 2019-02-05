@@ -218,7 +218,10 @@ i{
 
 
 .primary-menu-area .primary-menu .menu a{
-	color: #8a8a8a;
+    color: #8a8a8a;
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 
 .primary-menu-area .primary-menu .menu li ul.sub-menu{
@@ -353,12 +356,17 @@ i{
     height: 70px;
 }
 
+.main-content .main-page .left-column  .system ul.tabs li .tabBody .link-info a:visited {
+    color: blue;
+}
+
 .main-content .main-page .left-column  .system ul.tabs li .tabBody .link-info .system-list{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 3rem;
 }
+
 /* end system list */
 
 /* news */
@@ -572,7 +580,7 @@ i{
 #system-list-template .kanren .kanren-icons .kanren-icon{
     margin:5px;
 }
-a
+
 #system-list-template .kanren .kanren-icons .kanren-icon img{
 	padding:10px;
     height: auto;
