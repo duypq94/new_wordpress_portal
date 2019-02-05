@@ -12,7 +12,7 @@
                         <button class="tablinks" onclick="openTab(event, 'id102')">総務部</button>
                         <button class="tablinks" onclick="openTab(event, 'id103')">経理部</button>
                         <button class="tablinks active" onclick="openTab(event, 'id104')" id="defaultOpen">人事部</button>
-                        <button class="tablinks active" onclick="openTab(event, 'id105')" id="defaultOpen">技術部</button>
+                        <button class="tablinks active" onclick="openTab(event, 'id105')" id="defaultOpen">London</button>
                     </div>
 
                     <div id="id101" class="tabcontent">
@@ -61,11 +61,12 @@
                         <?php load_post_by_post_type('keiri','5'); ?>
                     </div>
                     <div id="id104" class="tabcontent">
-                         <?php load_post_by_post_type('zinzi','5'); ?>
+                        <?php load_post_by_post_type('zinzi','5'); ?>
                     </div>
                     <div id="id105" class="tabcontent">
-                         <?php load_post_by_post_type('gizyutsu','5'); ?>
+                        <?php load_post_by_post_type('gizyutsu','5'); ?>
                     </div>
+                </div>
             </div>
 
             <div class="system tab-card card">

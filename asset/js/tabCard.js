@@ -13,4 +13,7 @@ function openTab(evt, tabId) {
 }
 
 document.getElementById("defaultOpen").click();
+
+
+console.log(document.getElementById("defaultOpen"));
 // document.getElementsByClassName("defaultOpen").click();;
