@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 
 if(! function_exists('portal_setup')): 
@@ -30,7 +30,7 @@ endif;
 function portal_script(){
     wp_enqueue_style( 'portal-style', get_stylesheet_uri()); // load style vao bien portal-style
     wp_enqueue_script( 'portal-script',get_template_directory_uri() . '/asset/js/index.js',array(), false, true);// de bien cuoi true de load js cuoi file
-
+   wp_enqueue_script( 'menu-script',get_template_directory_uri() . '/asset/js/menu.js',array(), false, true);
     if(is_single()){
         wp_enqueue_script( 'single-script',get_template_directory_uri() . '/asset/js/single.js',array(), false, true);
     }
