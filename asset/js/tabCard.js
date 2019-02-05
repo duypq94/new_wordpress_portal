@@ -12,8 +12,4 @@ function openTab(evt, tabId) {
   evt.currentTarget.className += " active";
 }
 
-document.getElementById("defaultOpen").click();
-
-
-console.log(document.getElementById("defaultOpen"));
-// document.getElementsByClassName("defaultOpen").click();;
+document.getElementById("defaultOpen-noti").click();

@@ -4,15 +4,15 @@
         <div class="left-column">
             <div class="card card-js">
                 <div class="card-title">
-                    <i class="fas fa-newspaper"></i>ニュース
+                    <i class="fas fa-clipboard"></i>各部署のお知らせ    
                 </div>
                 <div class="card-content">
                     <div class="tab">
-                        <button class="tablinks active" onclick="openTab(event, 'id101')" id="defaultOpen">最近</button>
+                        <button class="tablinks defaultOpen" onclick="openTab(event, 'id101')" id="defaultOpen-noti">最近</button>
                         <button class="tablinks" onclick="openTab(event, 'id102')">総務部</button>
                         <button class="tablinks" onclick="openTab(event, 'id103')">経理部</button>
-                        <button class="tablinks active" onclick="openTab(event, 'id104')" id="defaultOpen">人事部</button>
-                        <button class="tablinks active" onclick="openTab(event, 'id105')" id="defaultOpen">London</button>
+                        <button class="tablinks" onclick="openTab(event, 'id104')" id="defaultOpen">人事部</button>
+                        <button class="tablinks" onclick="openTab(event, 'id105')" id="defaultOpen">London</button>
                     </div>
 
                     <div id="id101" class="tabcontent">
