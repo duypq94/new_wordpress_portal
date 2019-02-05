@@ -22,6 +22,7 @@ body{
    font-family: 'Noto Sans Japanese', 'Hiragino Kaku Gothic ProN', Meiryo, 'Open Sans', Helvetica, Arial, sans-serif;
    color: #333333;
    font-size: 100%; 
+   overflow-x: hidden;
 }
 img{
     max-width: 100%;
@@ -80,6 +81,7 @@ i{
     position: relative;
     display: block;
     min-height: 40rem; 
+    height: auto;
     background-color: #fff; 
     z-index: 1;
 }
@@ -221,7 +223,13 @@ i{
     color: #8a8a8a;
     height: 100%;
     width: 100%;
-    display: block;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.primary-menu-area .primary-menu .menu a:active{
+    color: red;
 }
 
 .primary-menu-area .primary-menu .menu li ul.sub-menu{
@@ -246,7 +254,7 @@ i{
 
 .primary-menu-area .primary-menu .menu > li{
     font-weight: 700;
-    padding: 10px 0;
+    height: 38px;
     font-size: 14px;
     display: block;
     position: relative;
