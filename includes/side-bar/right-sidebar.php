@@ -18,6 +18,6 @@
  <div class="card-title"><i class="fas fa-cloud-sun"></i>天気予報</div>
  <a class="weatherwidget-io" href="https://forecast7.com/ja/35d69139d69/tokyo/" data-label_1="TOKYO" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >TOKYO WEATHER</a>
  <a class="weatherwidget-io" href="https://forecast7.com/ja/35d18136d91/nagoya/" data-label_1="NAGOYA" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >NAGOYA WEATHER</a>
- <a class="weatherwidget-io" href="https://forecast7.com/ja/34d07134d56/tokushima-prefecture/" data-label_1="TOKUSHIMA PREFECTURE" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >TOKUSHIMA PREFECTURE WEATHER</a>
+ <a class="weatherwidget-io" href="https://forecast7.com/ja/34d07134d55/tokushima/" data-label_1="TOKUSHIMA" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >TOKUSHIMA PREFECTURE WEATHER</a>
  <a class="weatherwidget-io" href="https://forecast7.com/ja/32d72n117d16/san-diego/" data-label_1="SAN DIEGO" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky" >SAN DIEGO WEATHER</a>
 </div>
