@@ -8,7 +8,7 @@
                 </div>
                 <div class="card-content">
                     <div class="tab">
-                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id101')" id="defaultOpen-noti">最近</button>
+                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id101')" id="defaultOpen-noti">最新</button>
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id102')">総務部</button>
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id103')">経理部</button>
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id104')">人事部</button>

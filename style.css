@@ -89,12 +89,43 @@ i{
     background-color: #FFFFFF;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo .container img{
     height: 50px;
     width: auto;
 }
 
 /* end logo */
+
+/* start search bar */
+
+.search-bar h4{
+    display: none;
+}
+
+.search-bar form input[type="text"]{
+    padding: 0 100px 0 10px;
+    border: 1px solid #243c80;
+    height: 36px;
+}
+
+.search-bar form input[type="submit"]{
+    height: 36px;
+    width: 60px;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.search-bar form label{
+    display: none;
+}
+
+/* end search bar*/
 
 /* navigation menu */
 
@@ -537,6 +568,10 @@ i{
 .card-js .card-content .tabcontent .link-info .system-list a{
     flex-basis: 50%;
     margin-top : 20px;
+}
+
+.card-js .card-content .tabcontent .link-info .system-list a:visited {
+    color:blue;
 }
 
 /*end tabCardJs*/
