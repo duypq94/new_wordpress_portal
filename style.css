@@ -109,9 +109,10 @@ i{
 }
 
 .search-bar form input[type="text"]{
-    padding: 0 100px 0 10px;
+    padding: 0 10px;
     border: 1px solid #243c80;
     height: 36px;
+    width: 300px;
 }
 
 .search-bar form input[type="submit"]{
@@ -124,6 +125,32 @@ i{
 .search-bar form label{
     display: none;
 }
+
+.search-result{
+    border-bottom: 0.5px solid #d5d5d5;
+    padding: 20px;
+}
+
+.search-result a{
+    color: #000;
+}
+
+.search-result h3{
+    color:#333f49;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.publish-information > span{
+    margin-right: 12px;
+}
+
+.expert-information {
+    margin-top: 5px;
+}
+
 
 /* end search bar*/
 

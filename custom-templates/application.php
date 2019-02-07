@@ -13,7 +13,7 @@ Template Name: Application
                     <table class="kanren-icons">
                         <tr>
                             <td class="kanren-icon">
-                                　 <a href="#"><img src="http://192.168.102.230/wp-content/themes/new_wordpress_portal/asset/imgs/links_img/mail.png"
+                                　 <a href="http://localhost/mediado/%e3%83%a1%e3%83%bc%e3%83%ab%e9%96%a2%e9%80%a3faq/"><img src="http://192.168.102.230/wp-content/themes/new_wordpress_portal/asset/imgs/links_img/mail.png"
                                         alt="">
                                     <p>メール関連</p></a>
                             </td>

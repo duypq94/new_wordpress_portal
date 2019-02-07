@@ -27,7 +27,7 @@
         <?php 
         printf('<a href="%1$s"><img src="%2$s/asset/imgs/logo_bkwh-1.jpg" alt="media-logo" class="md-logo"></a>',get_bloginfo('url'), get_template_directory_uri());
         ?> 
-        <div class="search-bar" id="search">
+        <div class="search-bar" id="header-search">
             <?php 
 	        if(is_active_sidebar('main-sidebar')) :
 		        dynamic_sidebar('main-sidebar');

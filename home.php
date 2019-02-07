@@ -29,17 +29,15 @@
                                 </p>
                                 <a href="<?php the_permalink(); ?>" class="link-info-title">
                                     <?php the_title(); ?><span class="link-info-label">
-                                        <?php
-
-                                                    $post_type = get_post_type();
-                                                    if ( $post_type )
-                                                    {
-                                                        $pt = get_post_type_object( $post_type  );
-                                                        echo $pt->labels->singular_name;
-                                                    }
-
-                                                    ?>
-                                    </span></a>
+                                    <?php
+                                        $post_type = get_post_type();
+                                            if ( $post_type )
+                                            {
+                                            $pt = get_post_type_object( $post_type  );
+                                            echo $pt->labels->singular_name;
+                                            }
+                                    ?>
+                                </span></a>
                                 <p class="link-info-short-details">
                                     <?php echo utf8_truncate(get_the_excerpt());  ?>
                                 </p>
