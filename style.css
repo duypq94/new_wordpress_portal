@@ -135,6 +135,11 @@ i{
     color: #000;
 }
 
+.search-result a:hover > h3{
+    color: #45a6f3;
+    cursor: pointer;
+}
+
 .search-result h3{
     color:#333f49;
     line-height: 1.3;
