@@ -19,7 +19,7 @@
 
 body{
    background-color: #F5F5F5;   
-   font-family: 'Noto Sans Japanese', 'Hiragino Kaku Gothic ProN', Meiryo, 'Open Sans', Helvetica, Arial, sans-serif;
+   font-family: 'Montserrat', 'Mplus 1p', 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', '游ゴシック' , '游ゴシック体' , YuGothic , 'Yu Gothic', 'ＭＳ ゴシック' , 'MS Gothic', sans-serif;
    color: #333333;
    font-size: 100%; 
    overflow-x: hidden;
@@ -375,15 +375,14 @@ i{
 
 /* footer */
 .container-fluid.footer{
-    height: 100px;
     background-color: #FFFFFF;
     margin-top: 30px;
     
 }
 
 .container-fluid.footer img{
-    margin-top: 15px;
-    
+    height: 50px;
+    width: auto;
 }
 
 /* end footer */
@@ -631,7 +630,6 @@ i{
         border: none;
         border-bottom: 1px solid #8c8c8c; 
         text-align: left;
-        padding-left: 20px;
         flex-basis: 100%;
     }
     .primary-menu-area .menu li a {
