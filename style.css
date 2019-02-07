@@ -701,7 +701,22 @@ i{
         height: 480px;
         overflow: visible;
     }
+
 } 
+
+@media (max-width: 655px) {
+    
+    .search-bar form input[type="text"]{
+        padding: 0 10px;
+        border: 1px solid #243c80;
+        height: 36px;
+        width: 100%;
+    }
+    .search-bar form input[type="submit"]{
+        display: none;
+    }
+
+}
 
 /* end responsive */
 
