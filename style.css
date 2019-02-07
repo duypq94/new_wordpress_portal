@@ -317,15 +317,14 @@ i{
 
 /* footer */
 .container-fluid.footer{
-    height: 100px;
     background-color: #FFFFFF;
     margin-top: 30px;
     
 }
 
 .container-fluid.footer img{
-    margin-top: 15px;
-    
+    height: 50px;
+    width: auto;
 }
 
 /* end footer */
