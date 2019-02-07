@@ -540,6 +540,53 @@ i{
 
 /*end tabCardJs*/
 
+
+/*right column md-book*/
+.md-book .flier-books i{
+    display: none;
+}
+
+.md-book .flier-books {
+    
+}
+
+.md-book .flier-books > li {
+   display: flex;
+   margin-bottom: 30px;
+   border-bottom: 1px solid #ccc;
+   padding-bottom: 5px;
+}
+
+.md-book .flier-books > li a{
+    flex-basis: 45%;
+    font-weight: 600;
+    color: #000;
+    font-size: 14px;
+}
+
+.md-book .flier-books > li .flier-book-info{
+    flex-basis: 45%;
+    color: #8c8c8c;
+}
+
+.md-book .flier-books　.flier-date-info{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.md-book .flier-books > li a:visited{
+    color: #000;
+}
+
+
+.md-book .flier-books > li a img{
+    border:1px solid #ccc;
+    width: 120px;
+    height: auto;
+
+}
+/*end md-book*/
+
 /* responsive Css */
 
 @media (max-width: 880px) {
