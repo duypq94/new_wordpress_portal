@@ -23,12 +23,20 @@
 </script>
 
 <div class="container-fluid logo">
-    <div class="container">
-        
+    <div class="container header">     
         <?php 
         printf('<a href="%1$s"><img src="%2$s/asset/imgs/logo_bkwh-1.jpg" alt="media-logo" class="md-logo"></a>',get_bloginfo('url'), get_template_directory_uri());
         ?> 
-    </div>
+        <div class="search-bar" id="header-search">
+            <?php 
+	        if(is_active_sidebar('main-sidebar')) :
+		        dynamic_sidebar('main-sidebar');
+	        else :
+		        _e('This is sidebar ','portal');
+	        endif;
+            ?>
+        </div>
+    </div>    
 </div>
 
 <div class="container primary-menu-area">

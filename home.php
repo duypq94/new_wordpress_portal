@@ -8,7 +8,7 @@
                 </div>
                 <div class="card-content">
                     <div class="tab">
-                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id101')" id="defaultOpen-noti">最近</button>
+                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id101')" id="defaultOpen-noti">最新</button>
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id102')">総務部</button>
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id103')">経理部</button>
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id104')">人事部</button>
@@ -29,17 +29,15 @@
                                 </p>
                                 <a href="<?php the_permalink(); ?>" class="link-info-title">
                                     <?php the_title(); ?><span class="link-info-label">
-                                        <?php
-
-                                                    $post_type = get_post_type();
-                                                    if ( $post_type )
-                                                    {
-                                                        $pt = get_post_type_object( $post_type  );
-                                                        echo $pt->labels->singular_name;
-                                                    }
-
-                                                    ?>
-                                    </span></a>
+                                    <?php
+                                        $post_type = get_post_type();
+                                            if ( $post_type )
+                                            {
+                                            $pt = get_post_type_object( $post_type  );
+                                            echo $pt->labels->singular_name;
+                                            }
+                                    ?>
+                                </span></a>
                                 <p class="link-info-short-details">
                                     <?php echo utf8_truncate(get_the_excerpt());  ?>
                                 </p>

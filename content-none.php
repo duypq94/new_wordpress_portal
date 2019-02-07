@@ -1,1 +1,3 @@
-<h1>content none</h1>
+<div class="no-post">
+	<?php _e("Nothing"); ?>
+</div>
