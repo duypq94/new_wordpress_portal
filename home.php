@@ -132,7 +132,7 @@
                 </div>
                 <div class="card-content">
                     <div class="tab">
-                        <button class="tablinksNews tablinks " onclick="openTabNews(event, 'newsid101')" id="defaultOpen-news">業界ニュース</button>
+                        <button class="tablinksNews tablinks" onclick="openTabNews(event, 'newsid101')" id="defaultOpen-news">業界ニュース</button>
                         <button class="tablinksNews tablinks" onclick="openTabNews(event, 'newsid102')">毎日新聞</button>
                         <button class="tablinksNews tablinks" onclick="openTabNews(event, 'newsid103')">朝日新聞</button>
                         <button class="tablinksNews tablinks" onclick="openTabNews(event, 'newsid104')">共同通信</button>
