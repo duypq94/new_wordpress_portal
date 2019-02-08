@@ -780,6 +780,37 @@ i{
     }
 } 
 
+@media (max-width: 655px) {
+    
+    .search-bar form input[type="text"]{
+        padding: 0 10px;
+        border: 1px solid #243c80;
+        height: 36px;
+        width: 100%;
+    }
+    .search-bar form input[type="submit"]{
+        display: none;
+    }
+}
+
+@media (max-width: 470px) {
+   
+    .card-js .card-content .tab button {
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1110px) {
+   
+    .card-js .card-content .tab .tablinksNews {
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+}
+
 /* end responsive */
 
 .main-content .single-page p{
