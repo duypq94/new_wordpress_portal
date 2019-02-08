@@ -791,18 +791,20 @@ i{
     .search-bar form input[type="submit"]{
         display: none;
     }
-   
-    .card-js .card-content .tab .tablinksNews {
-        float: none;
-        display: inline-block;
-        width: 100%;
-    }
-
 }
 
 @media (max-width: 470px) {
    
     .card-js .card-content .tab button {
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1110px) {
+   
+    .card-js .card-content .tab .tablinksNews {
         float: none;
         display: inline-block;
         width: 100%;
