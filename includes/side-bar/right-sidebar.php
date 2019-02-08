@@ -1,11 +1,21 @@
+<div class="md-graph card">
+    <div class="card-title">
+        <i class="fas fa-chart-area"></i>メディアドゥHD株価
+    </div>
+
+    <img src="https://dimg.stockweather.co.jp/sw_dimg/swdaytimechartwriter.ashx?mkt=01&code=000036780" alt="">
+    <img src="https://dimg.stockweather.co.jp/sw_dimg/swcandlechartwriter.ashx?mkt=01&code=000036780&term=2" alt="">
+</div>
+
+
 <div class="md-book card">
     <div class="card-title">
-        <i class="fas fa-chart-area"></i>flier books
+        <i class="fas fa-book"></i>flier 今日の一冊
     </div>
 
     <?php include_once(ABSPATH.WPINC.'/feed.php');
 	$rss = fetch_feed('https://feed43.com/6160676867386544.xml');
-	$maxitems = $rss->get_item_quantity(2);
+	$maxitems = $rss->get_item_quantity(1);
 	$rss_items = $rss->get_items(0, $maxitems);
 	?>
     <ul class="flier-books">
@@ -15,9 +25,12 @@
         <li>
             <a class="flier-book-img" href='<?php echo $item->get_permalink();?>'><?php echo $item->get_description()?></a>
             <div class="flier-book-info">
-                <p class="flier-title" ><?php echo $item->get_title(); ?></p>
-                <p class="flier-date"><?php echo '公開: '.$item->get_date('Y-m-d '); ?></p>
+            	<div>
+            		    <p class="flier-title" ><?php echo $item->get_title(); ?></p>
+                		<p class="flier-date"><?php echo '公開: '.$item->get_date('Y-m-d '); ?></p>
+            	</div>
                 <a class="flier-link" href='<?php echo $item->get_permalink(); ?>'>もっと見る...</a>
+                <a  class="flier-web-link" href='https://www.flierinc.com/'>フライヤーサイト</a>
             </div>
 
         </li>
@@ -26,14 +39,7 @@
     </ul>
 </div>
 
-<div class="md-graph card">
-    <div class="card-title">
-        <i class="fas fa-chart-area"></i>メディアドゥHD株価
-    </div>
 
-    <img src="https://dimg.stockweather.co.jp/sw_dimg/swdaytimechartwriter.ashx?mkt=01&code=000036780" alt="">
-    <img src="https://dimg.stockweather.co.jp/sw_dimg/swcandlechartwriter.ashx?mkt=01&code=000036780&term=2" alt="">
-</div>
 
 <div class="card">
     <div class="card-title"><i class="fab fa-facebook-f"></i>FACEBOOK</div>
