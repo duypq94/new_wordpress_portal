@@ -607,6 +607,84 @@ i{
 
 /*end tabCardJs*/
 
+
+/*right column md-book*/
+.md-book .flier-books i{
+    display: none;
+}
+
+.md-book .flier-books {
+    font-size: 14px;
+}
+
+.md-book .flier-books > li {
+   display: flex;
+   margin-bottom: 30px;
+   border-bottom: 1px solid #ccc;
+   padding-bottom: 5px;
+}
+
+.md-book .flier-books > li a{
+    font-weight: 600;
+    color: #000;
+    font-size: 14px;
+}
+
+.md-book .flier-books > li .flier-book-img{
+    flex-basis: 45%;
+    margin-right: 5px;
+}
+
+.md-book .flier-books > li .flier-book-info{
+    flex-basis: 45%;
+    color: #8c8c8c;
+    display: flex;
+    flex-direction: column;
+/*    align-items: center;*/
+    justify-content: space-between;
+}
+
+.md-book .flier-books .flier-book-info .flier-title{
+    font-weight: 600;
+    color: #000;
+    font-size: 14px;
+}
+
+.md-book .flier-books .flier-book-info .flier-date{
+    font-weight: 100;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+.md-book .flier-books .flier-book-info .flier-link{
+   /*border:0.8px solid #8c8c8c;*/
+   text-align: center;
+   background-color: #ccc;
+   color: #fff;
+   font-weight: 200;
+   width: 60%;
+   padding: 4px 2px;
+}
+
+.md-book .flier-books .flier-book-info .flier-link:hover{
+   background-color: #8c8c8c;
+  
+}
+
+
+.md-book .flier-books > li a:visited{
+    color: #000;
+}
+
+
+.md-book .flier-books > li a img{
+    border:1px solid #ccc;
+    width: 120px;
+    height: auto;
+
+}
+/*end md-book*/
+
 /* responsive Css */
 
 @media (max-width: 880px) {
