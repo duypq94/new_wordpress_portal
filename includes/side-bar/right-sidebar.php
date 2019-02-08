@@ -5,26 +5,25 @@
 
     <?php include_once(ABSPATH.WPINC.'/feed.php');
 	$rss = fetch_feed('https://feed43.com/6160676867386544.xml');
-	$maxitems = $rss->get_item_quantity(3);
+	$maxitems = $rss->get_item_quantity(2);
 	$rss_items = $rss->get_items(0, $maxitems);
 	?>
-	<ul class="flier-books">
-	    <?php if ($maxitems == 0) echo '<li>No items.</li>';
+    <ul class="flier-books">
+        <?php if ($maxitems == 0) echo '<li>No items.</li>';
 	    else
 	        foreach ( $rss_items as $item ) : ?>
-	    <li> 	
-	        <a href='<?php echo $item->get_permalink(); ?>'
-	            title='<?php echo 'Posted '.$item->get_date('j F Y | g:i a'); ?>'><?php echo $item->get_description()?></a> 
-	            <div class="flier-book-info">
-	            	<a href='<?php echo $item->get_permalink(); ?>'><?php echo $item->get_title(); ?></a> 
-	            	<p class="flier-date-info" style="
-    font-size: 14px;
-    margin-top: 20px;"><?php echo '公開日'.$item->get_date('j F Y | g:i a'); ?></p>
-	            </div>
-	        
-	    </li>
-	    <?php endforeach; ?>
-	</ul>
+        <li>
+            <a class="flier-book-img" href='<?php echo $item->get_permalink();?>'><?php echo $item->get_description()?></a>
+            <div class="flier-book-info">
+                <p class="flier-title" ><?php echo $item->get_title(); ?></p>
+                <p class="flier-date"><?php echo '公開　: '.$item->get_date('j F Y | g:i a'); ?></p>
+                <a class="flier-link" href='<?php echo $item->get_permalink(); ?>'>もっと見る...</a>
+            </div>
+
+        </li>
+        <?php endforeach; ?>
+        	
+    </ul>
 </div>
 
 <div class="md-graph card">
