@@ -16,7 +16,7 @@
             <a class="flier-book-img" href='<?php echo $item->get_permalink();?>'><?php echo $item->get_description()?></a>
             <div class="flier-book-info">
                 <p class="flier-title" ><?php echo $item->get_title(); ?></p>
-                <p class="flier-date"><?php echo '公開　: '.$item->get_date('j F Y | g:i a'); ?></p>
+                <p class="flier-date"><?php echo '公開: '.$item->get_date('Y-m-d '); ?></p>
                 <a class="flier-link" href='<?php echo $item->get_permalink(); ?>'>もっと見る...</a>
             </div>
 
