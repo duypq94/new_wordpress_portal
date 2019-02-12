@@ -23,6 +23,7 @@ body{
    color: #333333;
    font-size: 100%; 
    overflow-x: hidden;
+   padding-bottom: 70px;
 }
 img{
     max-width: 100%;
@@ -386,7 +387,9 @@ i{
 .container-fluid.footer{
     background-color: #FFFFFF;
     margin-top: 30px;
-    
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .container-fluid.footer img{
