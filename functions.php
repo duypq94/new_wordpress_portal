@@ -36,6 +36,9 @@ function portal_script(){
     if(is_single()){
         wp_enqueue_script( 'single-script',get_template_directory_uri() . '/asset/js/single.js',array(), false, true);
     }
+    if ( is_front_page()){
+        wp_enqueue_script( 'tab-card-script',get_template_directory_uri() . '/asset/js/tabCard.js',array(), false, true);
+    }
 }
 
 add_action('wp_enqueue_scripts','portal_script');
