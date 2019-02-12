@@ -72,8 +72,8 @@
                 </div>
                 <div class="card-content">
                     <div class="tab">
-                        <button class="tablinksSys" onclick="openTabSys(event, 'sysid101')">依頼</button>
-                        <button class="tablinksSys" onclick="openTabSys(event, 'sysid102')" id="defaultOpen-sys">勤務</button>
+                        <button class="tablinksSys" onclick="openTabSys(event, 'sysid101')" id="defaultOpen-sys">依頼</button>
+                        <button class="tablinksSys" onclick="openTabSys(event, 'sysid102')" >勤務</button>
                         <button class="tablinksSys" onclick="openTabSys(event, 'sysid103')">管理</button>
                     </div>
 
