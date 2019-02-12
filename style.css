@@ -132,16 +132,17 @@ i{
 }
 
 .search-result a{
-    color: #000;
+    color: #00aae1;
+    text-decoration: underline;
 }
 
 .search-result a:hover > h3{
-    color: #00aae1;
+    color: #1162a3;
     cursor: pointer;
 }
 
 .search-result h3{
-    color:#333f49;
+    color:#00aae1;
     line-height: 1.3;
     font-weight: 700;
     font-size: 1.2em;
@@ -601,10 +602,12 @@ i{
 .card-js .card-content .tabcontent .link-info .system-list a{
     flex-basis: 50%;
     margin-top : 20px;
+    color: #00aae1;
+    text-decoration: underline;
 }
 
-.card-js .card-content .tabcontent .link-info .system-list a:visited {
-    color:blue;
+.card-js .card-content .tabcontent .link-info .system-list a:hover {
+    color:#1162a3;
 }
 
 /*end tabCardJs*/
