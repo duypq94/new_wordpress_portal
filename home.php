@@ -72,12 +72,26 @@
                 </div>
                 <div class="card-content">
                     <div class="tab">
-                        <button class="tablinksSys" onclick="openTabSys(event, 'sysid101')" id="defaultOpen-sys">勤務</button>
-                        <button class="tablinksSys" onclick="openTabSys(event, 'sysid102')">管理</button>
-                        <button class="tablinksSys" onclick="openTabSys(event, 'sysid103')">依頼</button>
+                        <button class="tablinksSys" onclick="openTabSys(event, 'sysid101')">依頼</button>
+                        <button class="tablinksSys" onclick="openTabSys(event, 'sysid102')" id="defaultOpen-sys">勤務</button>
+                        <button class="tablinksSys" onclick="openTabSys(event, 'sysid103')">管理</button>
                     </div>
 
-                    <div id="sysid101" class="tabcontentSys tabcontent">
+                     <div id="sysid101" class="tabcontentSys tabcontent">
+                        <div class="link-info">
+                            <div class="system-list">
+                                <a href="http://xpoint.intra.pubridge.jp/xpoint/login.jsp?domCd=pubridge" target="_blank"><img
+                                        class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/xpoint-logo.png" /></a></td>
+                                <a href="http://xpoint.intra.pubridge.jp/xpoint/login.jsp?domCd=pubridge" target="_blank">社内業務手続きを行う</a><br>
+                            </div>
+                            <div class="system-list">
+                                <a href="http://redmine.intra.pubridge.jp/" target="_blank"><img class="connect-logo"
+                                        src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/redmine-logo.png" /></a></td>
+                                <a href="http://redmine.intra.pubridge.jp/" target="_blank">プロジェクト管理を行う</a><br>
+                            </div>
+                        </div>
+                    </div>                       
+                    <div id="sysid102" class="tabcontentSys tabcontent">
                         <div class="link-info">
                             <div class="system-list">
                                 <a href="https://s3.kingtime.jp/admin" target="_blank"><img class="connect-logo"
@@ -91,7 +105,7 @@
                             </div>
                         </div>
                     </div>   
-                    <div id="sysid102" class="tabcontentSys tabcontent">
+                    <div id="sysid103" class="tabcontentSys tabcontent">
                         <div class="link-info">
                             <div class="system-list">
                                 <a href="https://expense.moneyforward.com/session/new" target="_blank"><img class="connect-logo"
@@ -106,20 +120,6 @@
                             <div class="system-list">
                                 <a href="https://www.mjs.co.jp/" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/mjs-logo.png" /></a>
                                 <a href="https://www.mjs.co.jp/" target="_blank">資産管理を行う</a><br>
-                            </div>
-                        </div>
-                    </div> 
-                    <div id="sysid103" class="tabcontentSys tabcontent">
-                        <div class="link-info">
-                            <div class="system-list">
-                                <a href="http://xpoint.intra.pubridge.jp/xpoint/login.jsp?domCd=pubridge" target="_blank"><img
-                                        class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/xpoint-logo.png" /></a></td>
-                                <a href="http://xpoint.intra.pubridge.jp/xpoint/login.jsp?domCd=pubridge" target="_blank">社内業務手続きを行う</a><br>
-                            </div>
-                            <div class="system-list">
-                                <a href="http://redmine.intra.pubridge.jp/" target="_blank"><img class="connect-logo"
-                                        src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/redmine-logo.png" /></a></td>
-                                <a href="http://redmine.intra.pubridge.jp/" target="_blank">プロジェクト管理を行う</a><br>
                             </div>
                         </div>
                     </div> 
