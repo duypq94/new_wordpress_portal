@@ -491,8 +491,8 @@ i{
 	justify-content:center;
 	align-items:center;
 	flex-direction:column;
-  border: 1px solid #8c8c8c;
-  color: #000;
+    border: 1px solid #8c8c8c;
+    color: #000;
 }
 
 #system-list-template .kanren .kanren-icons .kanren-icon{
