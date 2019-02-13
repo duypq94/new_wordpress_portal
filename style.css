@@ -519,6 +519,8 @@ i{
 /*end application*/
 
 
+
+
 /*tabCardJs */
 
 /* Style the tab */
@@ -543,6 +545,7 @@ i{
   text-align: center;
   text-transform: capitalize;
   cursor: pointer;
+  height: 45px;
 }
 
 .card-js .card-content .tab button:first-child {
@@ -724,6 +727,61 @@ i{
     box-shadow: 0 0.5px 2px rgba(0,0,0,0.5);
 }
 /*end md-book*/
+
+/*group page*/
+.main-page.group-page table,.main-page.group-page table tr,.main-page.group-page table td {
+    border: none;
+    padding: 0;
+    font-weight: 600;
+}
+
+
+.main-page.group-page .group-page-table > tbody > tr > td{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.main-page.group-page .group-company{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.main-page.group-page .group-company .group-company-logo{
+   flex-basis: 20%;
+   margin-right: 35px;
+}
+
+.main-page.group-page .group-company .group-company-logo img{
+   flex-basis: 20%;
+   width: 100%;
+   height: auto;
+}
+
+.main-page.group-page .group-company .group-company-info{
+   flex-basis: 75%;
+}
+
+.main-page.group-page .group-company ul{
+    margin-left: 15px;
+}
+
+.main-page.group-page .group-company ul li{
+    list-style: disc;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.main-page.group-page .group-company .company-link{
+    display: flex;
+    justify-content: flex-end;
+} 
+/*end group page*/
 
 /* responsive Css */
 

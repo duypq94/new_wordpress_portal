@@ -6,7 +6,7 @@ function openTabNoti(evt, tabId) {
   }
   tablinks = document.getElementsByClassName("tablinksNoti");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    tablinks[i].className = tablinks[i].className.replace("active", "");
   }
   document.getElementById(tabId).style.display = "block";
   evt.currentTarget.className += " active";
@@ -22,7 +22,7 @@ function openTabSys(evt, tabId) {
   }
   tablinks = document.getElementsByClassName("tablinksSys");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    tablinks[i].className = tablinks[i].className.replace("active", "");
   }
   document.getElementById(tabId).style.display = "block";
   evt.currentTarget.className += " active";
@@ -38,7 +38,7 @@ function openTabNews(evt, tabId) {
   }
   tablinks = document.getElementsByClassName("tablinksNews");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    tablinks[i].className = tablinks[i].className.replace("active", "");
   }
   document.getElementById(tabId).style.display = "block";
   evt.currentTarget.className += " active";
