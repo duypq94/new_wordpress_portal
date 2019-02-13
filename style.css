@@ -123,10 +123,11 @@ i{
 .search-bar button{
     position: absolute;
     right: 0;
-    border: none;
+    border: 1px solid #243c80;
     height: 36px;
     width: 60px;
     cursor: pointer;
+    top : 0;
 }
 .search-bar button i{
     margin : 0;
