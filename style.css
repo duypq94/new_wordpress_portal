@@ -109,22 +109,28 @@ i{
     display: none;
 }
 
-.search-bar form input[type="text"]{
+.search-bar form {
+    position: relative;
+}
+
+.search-bar form input[type="search"]{
     padding: 0 10px;
     border: 1px solid #243c80;
     height: 36px;
     width: 300px;
 }
 
-.search-bar form input[type="submit"]{
+.search-bar button{
+    position: absolute;
+    right: 0;
+    border: none;
     height: 36px;
     width: 60px;
-    border-width: 0px;
     cursor: pointer;
 }
-
-.search-bar form label{
-    display: none;
+.search-bar button i{
+    margin : 0;
+    padding: 2px 4px;
 }
 
 .search-result{
@@ -156,6 +162,11 @@ i{
 
 .expert-information {
     margin-top: 5px;
+}
+
+.search-form {
+	background-color: inherit;
+	border: none;
 }
 
 
