@@ -31,7 +31,6 @@ function portal_script(){
     wp_enqueue_style( 'portal-style', get_stylesheet_uri()); // load style vao bien portal-style
     wp_enqueue_script( 'portal-script',get_template_directory_uri() . '/asset/js/index.js',array(), false, true);// de bien cuoi true de load js cuoi file
     wp_enqueue_script( 'menu-script',get_template_directory_uri() . '/asset/js/menu.js',array(), false, true);
-    wp_enqueue_script( 'tab-card-script',get_template_directory_uri() . '/asset/js/tabCard.js',array(), false, true);
     wp_enqueue_script( 'single-script',get_template_directory_uri() . '/asset/js/search.js',array(), false, true);
     if(is_single()){
         wp_enqueue_script( 'single-script',get_template_directory_uri() . '/asset/js/single.js',array(), false, true);
@@ -39,10 +38,13 @@ function portal_script(){
     if ( is_front_page()){
         wp_enqueue_script( 'tab-card-script',get_template_directory_uri() . '/asset/js/tabCard.js',array(), false, true);
     }
+
+    if(is_page_template( 'custom-templates/group.php' )){
+        wp_enqueue_script( 'group-script',get_template_directory_uri() . '/asset/js/group-page.js',array(), false, true); 
+    }
 }
 
 add_action('wp_enqueue_scripts','portal_script');
-
 
 // Menu function
 
