@@ -70,7 +70,7 @@ i{
     width: 100%;
 }
 .card .card-title{
-    font-size:14px;
+    font-size:18px;
     padding-bottom:10px;
     margin: 10px 0px;
     border-bottom: 1px solid #000;
@@ -767,6 +767,10 @@ i{
 
 .main-page.group-page .group-company .group-company-info{
    flex-basis: 75%;
+}
+
+.main-page.group-page .group-company .group-company-info > h5{
+   font-size: 18px;
 }
 
 .main-page.group-page .group-company ul{

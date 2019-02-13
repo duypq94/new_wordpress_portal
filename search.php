@@ -1,8 +1,9 @@
 <?php get_header(); ?>
+<div class="container-fluid main-content">
 <div class="container main-page">
 	<div class="left-column">
 		<div class="card">
-		<h1 style="font-size: 30px;">Result for :<span style="font-style: italic;"><?php echo (get_query_var( 's' )) ?></span> </h1>
+		<h1 style="font-size: 30px;">検索結果:<span style="font-style: italic;"><?php echo (get_query_var( 's' )) ?></span> </h1>
 		 <?php if( have_posts() ) : while( have_posts()) : the_post(); ?>		
 		   <div class="search-result">
                 <a href="<?php the_permalink(); ?>" >
