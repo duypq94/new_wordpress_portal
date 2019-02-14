@@ -127,8 +127,7 @@ i{
     height: 36px;
     width: 60px;
     cursor: pointer;
-    border-left: none;
-
+    top : 0;
 }
 .search-bar button i{
     margin : 0;
