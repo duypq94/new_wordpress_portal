@@ -143,7 +143,7 @@
                 <div id="GroupPageId102" class="tabcontentGroupPage tabcontent">
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/svglogo_md_002.svg" alt="">
+                            <a href="https://www.mediado.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/svglogo_md_002.svg" alt=""></a>
                         </div>
                     	
                     	<div class="group-company-info">
@@ -160,7 +160,7 @@
                     </div>
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/svglogo_pubridge_001.svg" alt="">
+                            <a href="https://www.pubridge.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/svglogo_pubridge_001.svg" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -224,7 +224,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/flier.svg" alt="">
+                            <a href="https://www.flierinc.com/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/flier.svg" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -242,7 +242,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/svglogo_manga_001.svg" alt="">
+                            <a href="http://www.manga-news.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/svglogo_manga_001.svg" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -260,7 +260,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/lunascape.svg" alt="">
+                            <a href="http://www.lunascape.co.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/lunascape.svg" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -278,7 +278,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_jct_001.png" alt="">
+                            <a href="https://j-comi.co.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_jct_001.png" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -289,14 +289,14 @@
                                 <li>代表取締役社長／佐藤 美佳</li>
                             </ul>
                             <div class="company-link">
-                                <a href="https://j-comi.co.jp/">サイト</a>
+                                 <a href="https://j-comi.co.jp/">サイト</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_tds_001.png" alt="">
+                             <a href="http://www.tds-inf.co.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_tds_001.png" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
