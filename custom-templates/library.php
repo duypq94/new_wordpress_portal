@@ -17,16 +17,10 @@
                     </div>
 
                     <div id="LibraryPageId101" class="tabcontentLibraryPage tabcontent">
-					 	<?php echo do_shortcode('[wpdm_all_packages jstable=1 items_per_page=10]'); ?>
+					 	<?php echo do_shortcode('[wpdm_all_packages categories="社外秘" jstable=1 items_per_page=10]'); ?>
                     </div>                       
                     <div id="LibraryPageId102" class="tabcontentLibraryPage tabcontent">
-                        <div class="link-info">
-                            <div class="system-list">
-                                <a href="https://s3.kingtime.jp/admin" target="_blank"><img class="connect-logo"
-                                        src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/kingoftime-logo.png" /></a>
-                                <a href="https://s3.kingtime.jp/admin" target="_blank">勤務管理を行う（メディアドゥ対象）</a><br>
-                            </div>
-                        </div>
+                        <?php echo do_shortcode('[wpdm_all_packages categories="各種ダウンロード" jstable=1 items_per_page=10]'); ?>
                     </div>   
                 </div>
             </div> 
