@@ -143,7 +143,7 @@
                 <div id="GroupPageId102" class="tabcontentGroupPage tabcontent">
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="https://www.mediado.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/svglogo_md_002.svg" alt=""></a>
+                            <a href="https://www.mediado.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_md.png" alt=""></a>
                         </div>
                     	
                     	<div class="group-company-info">
@@ -160,7 +160,7 @@
                     </div>
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="https://www.pubridge.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/svglogo_pubridge_001.svg" alt=""></a>
+                            <a href="https://www.pubridge.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_pubridge.png" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -177,7 +177,7 @@
                     </div>
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/svglogo_mdi_001.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_mdi.png" alt="">
                         </div>
                         
                         <div class="group-company-info">
@@ -192,7 +192,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/svglogo_mdtt_001.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_tokushima.png" alt="">
                         </div>
                         
                         <div class="group-company-info">
@@ -208,7 +208,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_artra_002.png" alt="">
+                            <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_artra.png" alt="">
                         </div>
                         
                         <div class="group-company-info">
@@ -224,7 +224,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="https://www.flierinc.com/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/flier.svg" alt=""></a>
+                            <a href="https://www.flierinc.com/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_flier.png" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -242,7 +242,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="http://www.manga-news.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/svglogo_manga_001.svg" alt=""></a>
+                            <a href="http://www.manga-news.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_manga.png" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -260,7 +260,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="http://www.lunascape.co.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/lunascape.svg" alt=""></a>
+                            <a href="http://www.lunascape.co.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_lunascape.png" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -278,7 +278,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="https://j-comi.co.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_jct_001.png" alt=""></a>
+                            <a href="https://j-comi.co.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_jct.png" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
