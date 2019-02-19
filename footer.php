@@ -1,7 +1,7 @@
 
 <div class="container-fluid footer">
 	<div class="container">
-		<div style="font-size: 18px; font-weight: 600; margin-top: 40px">株式会社メディアドゥホールディングス </div>
+		<div style="font-size: 18px; font-weight: 600; margin-top: 20px">株式会社メディアドゥホールディングス </div>
 	</br>
 	<div style="margin-bottom: 20px;">
 		<p style="font-size: 16px; font-weight: 600;margin-bottom: 10px;">ひとつでも多くのコンテンツを、ひとりでも多くの人へ</p>
