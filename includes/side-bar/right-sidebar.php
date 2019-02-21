@@ -3,7 +3,7 @@
         <i class="fas fa-chart-area"></i>メディアドゥHD株価
     </div>
 
-    <img src="https://dimg.stockweather.co.jp/sw_dimg/swdaytimechartwriter.ashx?mkt=01&code=000036780" alt="">
+    <div id="kabuka-id"></div>
     <img src="https://dimg.stockweather.co.jp/sw_dimg/swcandlechartwriter.ashx?mkt=01&code=000036780&term=2" alt="">
 </div>
 
@@ -66,3 +66,31 @@
         data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-mode="Current" data-days="3" data-theme="sky">SAN DIEGO
         WEATHER</a>
 </div>
+
+
+
+
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript">
+axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URUqJ8OfX-uVf8fIsK8J4w3A/values/%E3%82%B7%E3%83%BC%E3%83%881?key=AIzaSyDkR6TabPLmZlRNZUr373gYiXBMYPTD1ds')
+  .then(function (response) {
+    document.getElementById("kabuka-id").innerHTML=`
+    <div class='kabuka'>
+        <div class="kabuka-mai-nichi">
+            <p style="font-weight: bold; margin-right: 10px;">株価:      </p>
+            <p>${response.data.values[1][0]}円</p>
+        </div>
+        <div class="kabuka-zika">
+            <p style="font-weight: bold; margin-right: 10px;">${response.data.values[0][1]}:      </p>
+            <p>${response.data.values[2][1]}億円    </p>
+        </div>
+        <div class="kabuka-3">
+            <p style="font-weight: bold; margin-right: 10px;">${response.data.values[0][2]}:      </p>
+            <p>${response.data.values[1][2]}</p>
+        </div>
+    </div>
+    `
+    console.log(parseFloat(response.data.values[1][1]));
+  })
+</script>
