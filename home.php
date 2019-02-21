@@ -38,9 +38,6 @@
                                             }
                                     ?>
                                 </span></a>
-                                <p class="link-info-short-details">
-                                    <?php echo utf8_truncate(get_the_excerpt());  ?>
-                                </p>
                             </div>
                             <?php endwhile; ?>
                             <?php wp_reset_postdata(); ?>

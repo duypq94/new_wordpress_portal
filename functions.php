@@ -46,6 +46,10 @@ function portal_script(){
     if(is_page_template( 'custom-templates/library.php' )){
         wp_enqueue_script( 'library-script',get_template_directory_uri() . '/asset/js/library.js',array(), false, true); 
     }
+
+    if(is_page_template( 'custom-templates/faq.php' )){
+        wp_enqueue_script( 'faq-script',get_template_directory_uri() . '/asset/js/faq.js',array(), false, true); 
+    }
 }
 
 add_action('wp_enqueue_scripts','portal_script');
@@ -139,9 +143,6 @@ function load_post_by_post_type($post_type,$number){ ?>
             <div class="link-info">
                 <p class="publish-date"><?php echo get_the_date(); ?></p>
                 <a href="<?php the_permalink(); ?>" class="link-info-title"><?php the_title(); ?></a>
-                <p class="link-info-short-details">
-                    <?php echo utf8_truncate(get_the_excerpt());  ?>
-                </p>
             </div>
         <?php endwhile; ?>
         <?php wp_reset_postdata(); ?>
