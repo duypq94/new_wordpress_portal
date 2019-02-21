@@ -78,16 +78,16 @@ axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URU
     document.getElementById("kabuka-id").innerHTML=`
     <div class='kabuka'>
         <div class="kabuka-mai-nichi">
-            <p style="font-weight: bold; margin-right: 10px;">株価:      </p>
+            <p style="font-weight: bold; margin-right: 10px;">株価 :      </p>
             <p>${response.data.values[1][0]}円</p>
         </div>
         <div class="kabuka-zika">
-            <p style="font-weight: bold; margin-right: 10px;">${response.data.values[0][1]}:      </p>
-            <p>${response.data.values[2][1]}億円    </p>
+            <p style="font-weight: bold; margin-right: 10px;">時価総額 :      </p>
+            <p>${response.data.values[2][1]}億円</p>
         </div>
         <div class="kabuka-3">
-            <p style="font-weight: bold; margin-right: 10px;">${response.data.values[0][2]}:      </p>
-            <p>${response.data.values[1][2]}</p>
+            <p style="font-weight: bold; margin-right: 10px;">企業価値 :      </p>
+            <p>${response.data.values[2][2]}億円</p>
         </div>
     </div>
     `
