@@ -96,7 +96,7 @@ i{
 }
 
 .logo .container img{
-    height: 50px;
+    height: 55px;
     width: auto;
 }
 
@@ -883,7 +883,7 @@ i{
 
 @media (max-width: 655px) {
     
-    .search-bar form input[type="text"]{
+    .search-bar form input[type="search"]{
         padding: 0 10px;
         border: 1px solid #243c80;
         height: 36px;

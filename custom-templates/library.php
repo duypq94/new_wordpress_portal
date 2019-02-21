@@ -22,7 +22,7 @@
                     </div>   
 
                     <div id="LibraryPageId102" class="tabcontentLibraryPage tabcontent">
-					 	<?php echo do_shortcode('[wpdm_all_packages categories="MDHD規程" jstable=1 items_per_page=10]'); ?>
+					 	<?php echo do_shortcode('[wpdm_all_packages categories="mdhd規程" jstable=1 items_per_page=10]'); ?>
                     </div>                       
                     
                     <div id="LibraryPageId103" class="tabcontentLibraryPage tabcontent">
