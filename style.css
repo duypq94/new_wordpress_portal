@@ -917,3 +917,27 @@ i{
 .main-content .single-page p{
     margin-bottom: 20px;
 }
+
+#kabuka-id .kabuka-mai-nichi{
+ display: flex;
+ border-bottom: 1px solid #ccc;
+ margin-bottom: 5px;
+ padding-bottom: 5px;
+ align-items: center;
+}
+
+#kabuka-id .kabuka-zika{
+ display: flex;
+ border-bottom: 1px solid #ccc;
+ margin-bottom: 5px;
+ padding-bottom: 5px;
+ align-items: center;
+}
+
+#kabuka-id .kabuka-3{
+ display: flex;
+ border-bottom: 1px solid #ccc;
+ margin-bottom: 10px;
+ padding-bottom: 5px;
+ align-items: center;
+}
