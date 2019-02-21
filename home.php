@@ -4,20 +4,21 @@
         <div class="left-column">
             <div class="card card-js">
                 <div class="card-title">
-                    <i class="fas fa-clipboard"></i>各部署のお知らせ    
+                    <i class="fas fa-clipboard"></i>各部署からのお知らせ    
                 </div>
                 <div class="card-content">
                     <div class="tab">
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id101')" id="defaultOpen-noti">最新</button>
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id102')">総務部</button>
-                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id103')">経理部</button>
-                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id104')">人事部</button>
-                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id105')">技術部</button>
+                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id103')">人事部</button>
+                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id104')">経営管理部</button>
+                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id105')">情シス</button>
+                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id106')">技術本部</button>
                     </div>
 
                     <div id="id101" class="tabcontentNoti tabcontent">
                           <?php 
-                            $the_query = new WP_Query( array( 'post_type'=> array('soumu','keiri','zinzi','gizyutsu'), 
+                            $the_query = new WP_Query( array( 'post_type'=> array('zinzi','soumu','keiri','joushisu','gijutsu'),
                                 'posts_per_page' => '5',
                                 'orderby'=>'date',
                                 'ignore_sticky_posts' => 1,) ); ?>
@@ -53,13 +54,19 @@
                     </div>
 
                     <div id="id103" class="tabcontentNoti tabcontent">
+                        <?php load_post_by_post_type('zinzi','5'); ?>
+                    </div> 
+
+                    <div id="id104" class="tabcontentNoti tabcontent">
                         <?php load_post_by_post_type('keiri','5'); ?>
                     </div>
-                    <div id="id104" class="tabcontentNoti tabcontent">
-                        <?php load_post_by_post_type('zinzi','5'); ?>
-                    </div>
+
                     <div id="id105" class="tabcontentNoti tabcontent">
-                        <?php load_post_by_post_type('gizyutsu','5'); ?>
+                        <?php load_post_by_post_type('joushisu','5'); ?>
+                    </div>
+
+                    <div id="id106" class="tabcontentNoti tabcontent">
+                        <?php load_post_by_post_type('gijutsu','5'); ?>
                     </div>
                 </div>
             </div>
