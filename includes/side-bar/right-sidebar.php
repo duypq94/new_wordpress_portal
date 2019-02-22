@@ -1,6 +1,6 @@
 <div class="md-graph card">
     <div class="card-title">
-        <i class="fas fa-chart-area"></i>メディアドゥHD株価
+        <i class="fas fa-chart-area"></i>メディアドゥHD株価 (毎日更新)
     </div>
 
     <div id="kabuka-id"></div>
@@ -75,22 +75,40 @@
 <script type="text/javascript">
 axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URUqJ8OfX-uVf8fIsK8J4w3A/values/%E3%82%B7%E3%83%BC%E3%83%881?key=AIzaSyDkR6TabPLmZlRNZUr373gYiXBMYPTD1ds')
   .then(function (response) {
+   let newArr = [...response.data.values[1][0]].filter((k)=>{
+      return !isNaN(parseInt(k));
+    })
+    let t = parseInt(newArr.join(''));
+    let up  = t - parseInt(response.data.values[1][4]); 
+    let isUp = false
+    if(up >= 0){
+      isUp = true;
+    }
+    let mess = `<div class = "kurabete">昨日に比べて<span style="color: red;">${up}円&darr;<span></div>`
+    if(isUp){
+      mess = `<div class = "kurabete">昨日に比べて<span style="color: blue;">>${up}円&uarr;</span></div>`
+    }
     document.getElementById("kabuka-id").innerHTML=`
     <div class='kabuka'>
         <div class="kabuka-mai-nichi">
-            <p style="font-weight: bold; margin-right: 10px;">株価 :      </p>
-            <p>${response.data.values[1][0]}円</p>
+            <div class="kabuka-mai-nichi-info" >
+                <p style="font-weight: bold; margin-right: 10px;">株価     </p>
+                <p>${response.data.values[1][0]}円</p>
+            </div>
+            ${mess}
+            <div>
+
+            </div>
         </div>
         <div class="kabuka-zika">
-            <p style="font-weight: bold; margin-right: 10px;">時価総額 :      </p>
+            <p style="font-weight: bold; margin-right: 10px;">時価総額 [MV]       </p>
             <p>${response.data.values[2][1]}億円</p>
         </div>
         <div class="kabuka-3">
-            <p style="font-weight: bold; margin-right: 10px;">企業価値 :      </p>
+            <p style="font-weight: bold; margin-right: 10px;">企業価値 [EV]       </p>
             <p>${response.data.values[2][2]}億円</p>
         </div>
     </div>
     `
-    console.log(parseFloat(response.data.values[1][1]));
   })
 </script>
