@@ -157,8 +157,9 @@ function load_post_by_post_type($post_type,$number){ ?>
 function new_post_types($types) {
     $types[] = 'zinzi';
     $types[] = 'soumu';
+    $types[] = 'joushisu';
     $types[] = 'keiri';
-    $types[] = 'gizyutsu';
+    $types[] = 'gijutsu';
     return $types;
 }
  
