@@ -129,7 +129,42 @@
                     </div> 
                 </div>
             </div> 
+            <div class="card card-js">
+                <div class="card-title">
+                    <i class="fas fa-layer-group"></i>グループSNS   
+                </div>
+                <div class="card-content">
+                    <div class="tab">
+                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid101')" id="defaultOpen-sns">MDHD</button>
+                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid102')">マンガ新聞</button>
+                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid103')">Flier</button>
+                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid104')">MyAnimeList </button>
+                    </div>
 
+                    <div id="snsid101" class="tabcontentSNS tabcontent">
+                       <div id="sidebar-rss">
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="2584"]'); ?>
+                        </div>   
+                    </div>
+
+                    <div id="snsid102" class="tabcontentSNS tabcontent">
+                        <div id="sidebar-rss">
+                            <?php echo do_shortcode('[wp-rss-aggregator source="622"]'); ?>
+                        </div>
+                    </div>
+
+                    <div id="snsid103" class="tabcontentSNS tabcontent">
+                        <div id="sidebar-rss">
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="573"]'); ?>
+                        </div>
+                    </div>
+                    <div id="snsid104" class="tabcontentSNS tabcontent">
+                        <div id="sidebar-rss">
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="579"]'); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>                                   
             <div class="card card-js">
                 <div class="card-title">
                     <i class="fas fa-newspaper"></i>ニュース  
