@@ -143,7 +143,7 @@
                 <div id="GroupPageId102" class="tabcontentGroupPage tabcontent">
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="https://www.mediado.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_md.png" alt=""></a>
+                            <a href="http://www.mediado.jp/mediado/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_md.png" alt=""></a>
                         </div>
                     	
                     	<div class="group-company-info">
@@ -154,7 +154,7 @@
                     			<li>代表取締役社長／新名 新</li>
                     		</ul>
                             <div class="company-link">
-                                <a href="https://www.mediado.jp/">サイト</a>
+                                <a href="http://www.mediado.jp/mediado/">サイト</a>
                             </div>
                     	</div>
                     </div>
