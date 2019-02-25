@@ -941,3 +941,41 @@ i{
  padding-bottom: 5px;
  align-items: center;
 }
+
+
+#libary-page-id{
+    font-size: 14px;
+}
+
+#libary-page-id a{
+    border-bottom: 1px solid #ccc;
+}
+
+#libary-page-id h5{
+    margin: 0;
+}
+
+#libary-page-id i{
+    margin-right: 2px;
+}
+
+#libary-page-id ul{
+    margin-left: 10px;
+}
+
+
+#libary-page-id .ul-title{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#libary-page-id ul li{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+#libary-page-id .ul-sup-title{
+    margin-bottom: 5px;
+    border-bottom: 1px dotted #ccc;
+}
