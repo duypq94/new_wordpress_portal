@@ -29,8 +29,9 @@
          <div id="LibraryPageId103" class="tabcontentLibraryPage tabcontent">
             <div>
             <h5 class="ul-title">MD規程(全社員用)</h5>
-                <ul>
-                    <h5 class="ul-sup-title">MD0312リスク管理規程</h5>
+            <ul>
+                <li><i class="fas fa-chevron-right"></i><a href="https://drive.google.com/drive/u/0/folders/1-HgMc2Rx3DORqkXJqeG3nt6bd8sSQgdG"> MD0312リスク管理規程 </a>
+                <ul>           
                     <li><i class="fas fa-chevron-right"></i><a
                             href="https://drive.google.com/file/d/1veGShkeLCej4GZLiJc3U2eDFwdy0FdoR/view">2015.10.20_内部統制システムに係る監査の実施基準.doc
                         </a></li>
@@ -46,19 +47,85 @@
                         </a>
                     </li>
                 </ul>
+                <li><i class="fas fa-chevron-right"></i><a href="https://drive.google.com/drive/u/0/folders/1XFO9Sr0BdLBkDcZ5R272soCm37FWzvVt"> MD0314特定個人情報等取扱規程 </a>
                 <ul>
-                    <h5 class="ul-sup-title"> MD0314特定個人情報等取扱規程）</h5>
                     <li><i class="fas fa-chevron-right"></i><a
                             href="https://drive.google.com/file/d/1T_ITdVE4125NyS9x_LsEs4hyy5kc3Sni/view">MD0314特定個人情報等取扱規程（グループ共通）_2018.09.01.pdf
                             行動規範 </a></li>
-                    <li><i class="fas fa-chevron-right"></i><a
-                            href="https://drive.google.com/file/d/1T_ITdVE4125NyS9x_LsEs4hyy5kc3Sni/view">MD0314特定個人情報等取扱規程（グループ共通）_2018.09.01.pdf
-                            定款 </a></li>
                     <li><i class="fas fa-chevron-right"></i><a
                             href="https://drive.google.com/file/d/1pTaDca-OruJAMmlfBLuLwvsxb21VOz3o/view">MD0314特定個人情報等取扱規程_別紙.pdf
                         </a>
                     </li>
                 </ul>
+              
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1BpOTztGj0tRm4wHH30tsujLGmf8x8144/view">MD)採用紹介制度運用マニュアル_2018.09.01(未更新).docx
+                    </a>
+                    </li> 
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1L3YiAo4bdufZH11ahvDQsNSzU-CpwxRy/view">MD)従業員代表選出マニュアル_2018.09.01.pdf
+                    </a>
+                    </li>
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1ZYl_n0K4hOfEkeBGzx6JPhznNwU6mCTh/view">MD0303秘密保持規程（グループ共通） _2018.09.01.pdf
+                            </a>
+                    </li>
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/17CMcBT-Hw0Imk0YyTgwqt1D5jKK7l7nO/view">MD0304情報機器管理規程（グループ共通）_2018.09.01.pdf
+                    </a>
+                    </li> 
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1I8Ucj8GgkVVXKqnZwFILQKih8Zc4a4Ga/view">MD0305パソコンネットワーク管理規程（グループ共通）_2018.09.01.pdf
+                            </a>
+                    </li> 
+                
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1TFqypcp9UkXedFNIb9yKRfOxWjwoDD1n/view">MD0306電子メール使用規程（グループ共通）_2018.09.01.pdf
+                            </a>
+                    </li>
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1hU5a0QfJ2Gn6aNVMgtNZ2TR1OytsjD-K/view">MD0307個人情報管理規程（グループ共通）_2018.09.01.pdf
+                    </a>
+                    </li> 
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1EvzCcaFBH39hA74zWIQ-kCCYWmjE1y1x/view">MD0308内部者取引管理規程（グループ共通）_2018.09.01.pdf
+                            </a>
+                    </li> 
+                
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/19gCQPUQZGt40S5KUEbBMjf_wQOO63v-6/view">MD0309職務発明規程（グループ共通）_2018.09.01.pdf
+                            </a>
+                    </li>
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1I4EO15sRJGuh6k-K6TYZHRc_rbeHgDRo/view">MD0313内部通報規程（グループ共通）_2018.09.01.pdf
+                    </a>
+                    </li> 
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/12LrLdZ-BTqJuQKvk6yZ7Ca_g2vjgPJi8/view">MD0410旧姓・通称使用規程（グループ共通）_2018.09.01.pdf
+                            </a>
+                    </li> 
+                
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1cY3v6qyOObmHI9nrwhN6gL9ZUkOXgIgI/view">MD0503通勤補助手当支給基準(役員・社員・嘱託）2018.3.1.pdf
+                            </a>
+                    </li>
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1stjcsRRbtwEHKUwSChgKJoEPqgWgmr_k/view">MD0504育児休業及び育児短時間勤務に関する規程_2018.09.01.pdf
+                            </a>
+                    </li> 
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1qcwaH4fbq4JQxNkrFQypbIB6H25-7OmQ/view">MD0505介護休業及び介護短時間勤務に関する規程_2018.09.01.pdf
+                            </a>
+                    </li>        
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1rEh7xLZmIPAQD2WaS7AT2-CDvSQjEOqG/view">MD0509マタハラ・セクハラ等防止規程_2018.09.01.pdf
+                            </a>
+                    </li>
+                    <li><i class="fas fa-chevron-right"></i><a
+                                href="https://drive.google.com/file/d/1JqzTET3XYl32Ag3rxApZBzZx7ix56I-i/view">MD0510パワハラ防止規程_2018.09.01.pdf
+                            </a>
+                    </li>
+            </ul>  
             </div>
          </div> 
 
@@ -118,7 +185,7 @@
                     </li>
                     <li><i class="fas fa-chevron-right"></i><a href="#">9規程管理規程</a></li>
                     <li><i class="fas fa-chevron-right"></i><a href="#">11固定資産管理規程 </a></li>
-                </ul>
+                </ul>          
             </div>
         </div> 
 
