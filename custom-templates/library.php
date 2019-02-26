@@ -130,63 +130,221 @@
          </div> 
 
          <div id="LibraryPageId104" class="tabcontentLibraryPage tabcontent">
-             <div>
-                <h5 class="ul-title">共通規程</h5>
-                <ul>
-                    <h5 class="ul-sup-title">共通規程</h5>
-                    <li><i class="fas fa-chevron-right"></i><a
-                        href="https://docs.google.com/a/pubridge.jp/viewer?a=v&pid=sites&srcid=cHVicmlkZ2UuanB8aW50ZXJuYWwtcG9ydGFsfGd4OjRlZmViZjBmYjE4MWM3YjQ">0行動規範
-                    </a></li>
-                    <li><i class="fas fa-chevron-right"></i><a
-                        href="https://docs.google.com/a/pubridge.jp/viewer?a=v&pid=sites&srcid=cHVicmlkZ2UuanB8aW50ZXJuYWwtcG9ydGFsfGd4OjVmYjY0ZDlkZjQ5Yjc3MzQ">1定款
-                    </a></li>
-                    <li><i class="fas fa-chevron-right"></i><a
-                        href="https://docs.google.com/a/pubridge.jp/viewer?a=v&pid=sites&srcid=cHVicmlkZ2UuanB8aW50ZXJuYWwtcG9ydGFsfGd4OjZhMjc0MjljZWI3M2UyNWY">3内部統制システム基本方針
-                    </a></li>
-                    <li><i class="fas fa-chevron-right"></i><a
-                        href="https://docs.google.com/a/pubridge.jp/viewer?a=v&pid=sites&srcid=cHVicmlkZ2UuanB8aW50ZXJuYWwtcG9ydGFsfGd4OjRhZmYyMWVlMzdmZDZlYzE">4情報セキュリティ基本方針</a>
-                    </li>
-                    <li><i class="fas fa-chevron-right"></i><a
-                        href="https://docs.google.com/a/pubridge.jp/viewer?a=v&pid=sites&srcid=cHVicmlkZ2UuanB8aW50ZXJuYWwtcG9ydGFsfGd4OjQ2MDAxN2I2OGQ2Y2QwMzY">5個人情報保護方針</a>
-                    </li>
-                    <li><i class="fas fa-chevron-right"></i><a href="#"> 18経理規程 </a>
+         <div>
+                        <h5 class="ul-title">社内規程</h5>
                         <ul>
-                            <li><a href="#">18-1 勘定科目取扱要領 </a></li>
+                            <h5 class="ul-sup-title">社内規程</h5>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NGVmZWJmMGZiMTgxYzdiNA">0.行動規範
+                                </a></li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NWZiNjRkOWRmNDliNzczNA">1.定款
+                                </a></li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MmJjMjUxYmM0NDA0YTNi">2.経営会議規程
+                                </a></li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NmEyNzQyOWNlYjczZTI1Zg">3.内部統制システム基本方針</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NGFmZjIxZWUzN2ZkNmVjMQ">4.情報セキュリティ基本方針</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NDYwMDE3YjY4ZDZjZDAzNg">5.個人情報保護方針</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MzBhNDU3MTg5YTc0NzY5ZA">6.組織規程</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NzBmNTUyZDZjYmFmODAzNQ">7.業務分掌規程</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/pubridge.jp/viewer?a=v&pid=sites&srcid=cHVicmlkZ2UuanB8aW50ZXJuYWwtcG9ydGFsfGd4OjY3NmM4ODEyNDMxYmVmMWE">8.職務権限規程
+                                </a>
+                                <ul>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6M2MzOTE1NTAyZTNhMDNkZg">8-1.職務権限表（出版ﾃﾞｼﾞﾀﾙ機構）
+                                        </a></li>
+                                </ul>
+                                <ul>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6M2MzOTE1NTAyZTNhMDNkZg">
+                                            8-1職務権限表（ﾒﾃﾞｨｱﾄﾞｩﾎｰﾙﾃﾞｨﾝｸﾞｽ）</a></li>
+                                </ul>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MTQ1NzU5OTdjYjExOTc2ZQ">9.稟議規程
+                                </a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MzQ4YjBiOGQ3MjdjNDQ5Yw">10.執行役員規程
+                                </a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6Njg5YzM5NThmYWZjODIwNQ">11.就業規則</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a href="#">12.就業規則（契約社員）</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NjUxMGQwMjFkYTI3NzM1YQ">13.給与規程</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6OTZjNjkwMGQ0NWU2ZDA2">14.育児休業介護休業規程</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MTQyMDY3ZmNmZGQ2ZGZmMQ">
+                                    15.出張規程</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NzI3ZTFlMjAyMTQ1ZDkz">16.退職金規程</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MWVmZjkwM2UyZDEzYzJmNQ">17.慶弔見舞金規程</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NTk5NWI2YmE2YjliNzNjNQ">18.経理規程
+                                </a>
+                                <ul>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MTIyNjUwYTZjM2IyOTdmMA">18-1.勘定科目取扱要領
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NmNiYzk3MjRjZTNmMzI2Zg">
+                                    19.規程管理規程</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NGZkNjEzYTlkYjA4ZTljMA">21.固定資産管理規程
+                                </a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NmQ4OGVhMzc2ZDUzZWU3Mg">22.与信管理規程
+                                </a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NmI4YWE5NjY4OGQ1ZWI4ZA">23.印章管理規程
+                                </a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NGI3NTBjMjI1OGE2MzZmZQ">24.文書管理規程
+                                </a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MTZlOWM5MzgyMzM2OGVkZg">25.危機管理規程</a>
+                                <ul>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MTQ2NmJjOWZiYmFiYzQ5Yg">25-1
+                                            危機管理を要するリスクの整理
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MmIzYWJjYzYzOTMwODkwMQ">26.内部監査規程
+                                </a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NzA3ZDVkOTIzNzE2OTUxNA">27.インサイダー取引防止規程
+                                </a>
+                            </li>
                         </ul>
-                    </li>
-                    <li><i class="fas fa-chevron-right"></i><a href="#">19 規程管理規程</a></li>
-                    <li><i class="fas fa-chevron-right"></i><a href="#">21 固定資産管理規程 </a></li>
-                </ul>
-                <ul>
-                    <h5 class="ul-sup-title"> 社内規程（情報セキュリティ規程）</h5>
-                    <li><i class="fas fa-chevron-right"></i><a
-                        href="https://docs.google.com/a/pubridge.jp/viewer?a=v&pid=sites&srcid=cHVicmlkZ2UuanB8aW50ZXJuYWwtcG9ydGFsfGd4OjRlZmViZjBmYjE4MWM3YjQ">0
-                    行動規範 </a></li>
-                    <li><i class="fas fa-chevron-right"></i><a
-                        href="https://docs.google.com/a/pubridge.jp/viewer?a=v&pid=sites&srcid=cHVicmlkZ2UuanB8aW50ZXJuYWwtcG9ydGFsfGd4OjVmYjY0ZDlkZjQ5Yjc3MzQ">1
-                    定款 </a></li>
-                    <li><i class="fas fa-chevron-right"></i><a
-                        href="https://docs.google.com/a/pubridge.jp/viewer?a=v&pid=sites&srcid=cHVicmlkZ2UuanB8aW50ZXJuYWwtcG9ydGFsfGd4OjZhMjc0MjljZWI3M2UyNWY">3内部統制システム基本方針
-                    </a></li>
-                    <li><i class="fas fa-chevron-right"></i><a
-                        href="https://docs.google.com/a/pubridge.jp/viewer?a=v&pid=sites&srcid=cHVicmlkZ2UuanB8aW50ZXJuYWwtcG9ydGFsfGd4OjRhZmYyMWVlMzdmZDZlYzE">4
-                    情報セキュリティ基本方針</a></li>
-                    <li><i class="fas fa-chevron-right"></i><a
-                        href="https://docs.google.com/a/pubridge.jp/viewer?a=v&pid=sites&srcid=cHVicmlkZ2UuanB8aW50ZXJuYWwtcG9ydGFsfGd4OjQ2MDAxN2I2OGQ2Y2QwMzY">5
-                    個人情報保護方針</a></li>
-                    <li><i class="fas fa-chevron-right"></i><a href="#"> 8 経理規程 </a>
                         <ul>
-                            <li><a href="#">8-1 勘定科目取扱要領 </a></li>
-                            <li><a href="#">8-2 情報セキュリティ基本方針 </a></li>
-                            <li><a href="#">8-3 勘定科目取扱要領 </a></li>
-                            <li><a href="#">8-4 個人情報保護方針 </a></li>
-                            <li><a href="#">8-5 勘定科目取扱要領 </a></li>
+                            <h5 class="ul-sup-title"> 社内規程（情報セキュリティ規程）</h5>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NDgyOTBmMGE1N2JkNGQ0Zg">20.情報セキュリティ管理規程</a>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NDc5Y2NmNDliNjU5NDJjMg">20-1.個人情報の取扱に関する細則
+                                </a>
+                                <ul>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6Njg5MDQyOTBkZmQ4ZGFjMw">20-1-01.例外事項適用申請書
+                                        </a></li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NjdmYjFiN2NkMWM5ODUwYg">20-1-02.個人情報取扱申請書
+                                        </a></li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NjA3ZWI0NWUxMTY4YjdmYw">20-1-03-01.直接書面取得通知文（応募者</a>
+                                    </li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MmM2ODI2Nzk5ZmU0ZDRiMA">20-1-03-02.直接書面取得通知文（従業者）
+                                        </a></li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6N2Q0ZmUwNmUyMDFhNzU1Yg">20-1-03-03.直接書面取得通知文（ウェブ・資料請求・問合せ）
+                                        </a></li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NzdjM2RlYzllZDUxYjgzYg">20-1-03-04.個人情報取扱同意書　(従業員用</a>
+                                    </li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NjZlNWM1NmVmZjcwNjEwNQ">20-1-04-01.入社誓約書(社員・派遣)</a>
+                                    </li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NzhjMWRmN2NmY2Y4MjA4NQ">20-1-04-02.入社誓約書(業委)
+                                        </a></li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NDlkYzE3MDRkNTQ4Zjg0Mg">20-1-04-03.誓約書(退職時)
+                                        </a></li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MzQxYjZlNTYwMTI0OGQ1NA">20-1-05.利用目的変更通知文
+                                        </a></li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NDVhMTdlZjcyOGY5MTEzYw">20-1-06.本人アクセス通知
+                                        </a></li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MTk5ZDQ5MWVmYTc5YzcwNw">20-1-07.第三者提供通知文</a>
+                                    </li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MzQ0YzhjMzJhMGY1MWVhMg">20-1-08.委託先調査票
+                                        </a></li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NmRmYjBhMDBlOTg2Y2FhMw">20-1-09.委託先評価表</a>
+                                    </li>
+                                    <li><i class="fas fa-chevron-right"></i><a href="#">20-1-10.委託先一覧表</a></li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NDE0MzQ5YWQ3MTBkNzkxNg">20-1-11.個人情報の取扱いに関する契約書</a>
+                                    </li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NDA2OGVmYWY1NmRiMmFi">20-1-12.個人情報お問い合わせ申請書
+                                        </a></li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NTdlMzk5MjlmMWNlMjMwZg">20-1-13.個人情報お問い合わせ報告書
+                                        </a></li>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MzYyYjQyZWFmMjVjZTIwYw">20-1-14.苦情・相談受付票
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MmU0NmI3YTZmYjVlZDYzZA">20-2.システム利用に関する情報セキュリティ管理細則</a>
+                                <ul>
+                                    <li><i class="fas fa-chevron-right"></i><a
+                                            href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MWY1MmFkNDE5ODIzNjMy">20-2-01　ソーシャルネットワーキングサービス利用に関するガイドライン
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NjE1MTAxMTk0Y2YxMDkwYg">20-3.外部委託に関する情報セキュリティ細則
+                                </a></li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6ZjZlMjBkM2MyZjM4NmU">20-4.採用退職時に関する情報セキュリティ管理細則
+                                </a></li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MjdiMWJhOTRkYzRmYjYwMw">20-5.システム資産の調達・開発・保守に関する情報セキュリティ細則
+                                </a></li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6NTBhOGFjYTMwNGVhYWZjOA">20-6.ネットワーク管理に関する情報セキュリティ細則
+                                </a></li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6N2JkY2NjMTk3MjViZGFkYQ">20-7.物理セキュリティに関する細則
+                                </a></li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6M2FhMjg5MTQ1YTExNjFjNw">20-8.情報取扱細則
+                                </a></li>
+                            <li><i class="fas fa-chevron-right"></i><a
+                                    href="https://docs.google.com/a/g.pubridge.jp/viewer?a=v&pid=sites&srcid=Zy5wdWJyaWRnZS5qcHxpbnRlcm5hbC1wb3J0YWx8Z3g6MzM3MDZlYzkzMWRmMDg0NQ">20-9.システム資産の利用・管理に関する細則
+                                </a></li>
                         </ul>
-                    </li>
-                    <li><i class="fas fa-chevron-right"></i><a href="#">9規程管理規程</a></li>
-                    <li><i class="fas fa-chevron-right"></i><a href="#">11固定資産管理規程 </a></li>
-                </ul>          
-            </div>
+                    </div>
         </div> 
 
         <div id="LibraryPageId105" class="tabcontentLibraryPage tabcontent">
