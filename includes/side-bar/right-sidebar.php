@@ -84,18 +84,20 @@ axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URU
     if(up >= 0){
       isUp = true;
     }
-    let mess = `<div class = "kurabete">昨日に比べて<span style="color: red;">${up}円&darr;<span></div>`
+    let mess = `<div class = "kurabete">(前日比 <span style="color: red;">${up}円&darr;</span>)</div>`
     if(isUp){
-      mess = `<div class = "kurabete">昨日に比べて<span style="color: blue;">>${up}円&uarr;</span></div>`
+      mess = `<div class = "kurabete">(前日比 <span style="color: blue;">${up}円&uarr;</span>)</div>`
     }
     document.getElementById("kabuka-id").innerHTML=`
     <div class='kabuka'>
         <div class="kabuka-mai-nichi">
             <div class="kabuka-mai-nichi-info" >
                 <p style="font-weight: bold; margin-right: 10px;">株価     </p>
+               <div class="kabuka-mai-nichi-compare">
                 <p>${response.data.values[1][0]}円</p>
+                ${mess}
+                </div>
             </div>
-            ${mess}
             <div>
 
             </div>
