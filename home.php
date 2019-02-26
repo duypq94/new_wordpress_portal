@@ -144,7 +144,7 @@
 
                     <div id="snsid101" class="tabcontentSNS tabcontent">
                        <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="2659"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="2704"]'); ?>
                         </div>   
                     </div>
 
@@ -156,7 +156,7 @@
 
                     <div id="snsid103" class="tabcontentSNS tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="2663"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="2766"]'); ?>
                         </div>
                     </div>
                     <div id="snsid104" class="tabcontentSNS tabcontent">
