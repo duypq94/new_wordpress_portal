@@ -22,24 +22,17 @@
                 <div id="GroupPageId101" class="tabcontentGroupPage tabcontent">
                     <table class="group-page-table" style="border-bottom:1px solid #ccc;">
                         <tbody>
+                            <tr>                         
                             <tr>
-                                <td width="150"><a href="http://www.mediado.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_md.png" alt=""></a>                    
-                                <td>
-                                    <table>
-                                        <tr>
-                                            <td>MEDIA DO HOLDINGS</td>
-                                        </tr>
-                                        <tr>
-                                            <td>ひとつでも多くのコンテンツを、ひとりでも多くの人へ</td>
-                                        </tr>
-                                        <tr>
-                                            <td>メディアドゥグループは、「ひとつでも多くのコンテンツを、ひとりでも多くの人に届ける」ため、 デジタルコンテンツのビジネスノウハウや、最先端テクノロジーによって構築されたソリューション／プラットフォームを 活用した「電子書籍流通事業」「メディア・プロモーション事業」を推進し、 著作物のデジタル流通をグローバルに展開していきます</td>
-                                        </tr>
-                                    </table>    
-                                </td>                                     
+                                <td rowspan="2" width="220"><a href="http://www.mediado.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_mdhd.png" alt=""></a></td>
+                                <td>ひとつでも多くのコンテンツを、ひとりでも多くの人へ</td>
                             </tr>
                             <tr>
-                                <td width="150">会社名</td>
+                                <td>メディアドゥグループは、「ひとつでも多くのコンテンツを、ひとりでも多くの人に届ける」ため、 デジタルコンテンツのビジネスノウハウや、最先端テクノロジーによって構築されたソリューション／プラットフォームを 活用した「電子書籍流通事業」「メディア・プロモーション事業」を推進し、 著作物のデジタル流通をグローバルに展開していきます。</td>
+                            </tr>                               
+                             </tr>
+                            <tr>
+                                <td>会社名</td>
                                 <td>株式会社メディアドゥホールディングス／MEDIA DO HOLDINGS Co., Ltd.</td>
                             </tr>
                             <tr>
