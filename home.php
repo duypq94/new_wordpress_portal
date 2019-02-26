@@ -131,36 +131,42 @@
             </div> 
             <div class="card card-js">
                 <div class="card-title">
-                    <i class="fas fa-layer-group"></i>グループSNS   
+                    <i class="fas fa-layer-group"></i>メディアドゥ グループニュース   
                 </div>
                 <div class="card-content">
                     <div class="tab">
-                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid101')" id="defaultOpen-sns">MDHD</button>
+                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid101')" id="defaultOpen-sns">OverDriver Japan</button>
                         <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid102')">マンガ新聞</button>
                         <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid103')">Flier</button>
                         <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid104')">MyAnimeList </button>
+                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid105')">Tech Do </button>
                     </div>
 
                     <div id="snsid101" class="tabcontentSNS tabcontent">
                        <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="2584"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="2659"]'); ?>
                         </div>   
                     </div>
 
                     <div id="snsid102" class="tabcontentSNS tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode('[wp-rss-aggregator source="622"]'); ?>
+                            <?php echo do_shortcode('[wp-rss-aggregator source="2653"]'); ?>
                         </div>
                     </div>
 
                     <div id="snsid103" class="tabcontentSNS tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="573"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="2663"]'); ?>
                         </div>
                     </div>
                     <div id="snsid104" class="tabcontentSNS tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="579"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="2667"]'); ?>
+                        </div>
+                    </div>
+                    <div id="snsid105" class="tabcontentSNS tabcontent">
+                        <div id="sidebar-rss">
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="2608"]'); ?>
                         </div>
                     </div>
                 </div>

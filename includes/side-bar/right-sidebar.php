@@ -1,6 +1,6 @@
 <div class="md-graph card">
     <div class="card-title">
-        <i class="fas fa-chart-area"></i>メディアドゥHD株価 (毎日更新)
+        <i class="fas fa-chart-area"></i>データで見るメディアドゥ <span style= "font-size: 15px">(毎日更新)</span>
     </div>
 
     <div id="kabuka-id"></div>
