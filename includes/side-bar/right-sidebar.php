@@ -1,10 +1,17 @@
 <div class="md-graph card">
     <div class="card-title">
-        <i class="fas fa-chart-area"></i>データで見るメディアドゥ <span style= "font-size: 15px">(毎日更新)</span>
+        <i class="fas fa-chart-area"></i>メディアドゥHD株価<span style= "font-size: 15px">(毎日更新)</span>
     </div>
 
     <div id="kabuka-id"></div>
     <img src="https://dimg.stockweather.co.jp/sw_dimg/swcandlechartwriter.ashx?mkt=01&code=000036780&term=2" alt="">
+</div>
+
+<div class="md-graph card">
+    <div class="card-title">
+        <i class="fas fa-chart-area"></i>データで見るメディアドゥ<span style= "font-size: 15px">(毎日更新)</span>
+    </div>
+    <div id="yellowfin"></div>
 </div>
 
 
@@ -113,4 +120,32 @@ axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URU
     </div>
     `
   })
+
+axios.get('http://172.25.3.179:21380/analysis-ag/asu/analysis_api/yesterday_top_titles_api')  
+    .then(function(response){
+// todo
+    document.getElementById("yellowfin").innerHTML=`
+    <div class='rank-1'>
+        <div class="rank">
+                <p style="font-weight: bold; margin-right: 10px;">1位     </p>
+        </div>
+        <div class="issue_form"">
+            <p style="font-weight: bold; margin-right: 10px;">分類:      </p>
+            <p>コミック</p>
+        </div>
+        <div class="title_nm">
+            <p style="font-weight: bold; margin-right: 10px;">タイトル:      </p>
+            <p>食糧人類ーStarving anonymousー</p>
+        </div>
+        <div class="publisher_nm">
+            <p style="font-weight: bold; margin-right: 10px;">出版社:       </p>
+            <p>講談社</p>
+        </div>
+        <div class="sales">
+            <p style="font-weight: bold; margin-right: 10px;">昨日の売り上げ額：     </p>
+            <p>2412600</p>
+        </div>
+    </div>
+    `
+    })
 </script>
