@@ -121,29 +121,28 @@ axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URU
     `
   })
 
-axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URUqJ8OfX-uVf8fIsK8J4w3A/values/%E3%82%B7%E3%83%BC%E3%83%881?key=AIzaSyDkR6TabPLmZlRNZUr373gYiXBMYPTD1ds')  
+axios.get('http://172.25.3.179:21380/analysis-ag/asu/analysis_api/yesterday_top_titles_api')  
     .then(function(response){
-
+// todo
     document.getElementById("yellowfin").innerHTML=`
     <div class='rank-1'>
         <div class="rank">
                 <p style="font-weight: bold; margin-right: 10px;">1位     </p>
-                <p>1</p>
         </div>
         <div class="issue_form"">
-            <p style="font-weight: bold; margin-right: 10px;">分類 [MV]       </p>
+            <p style="font-weight: bold; margin-right: 10px;">分類:      </p>
             <p>コミック</p>
         </div>
         <div class="title_nm">
-            <p style="font-weight: bold; margin-right: 10px;">タイトル      </p>
-            <p>食糧人類－Starving anonymous－</p>
+            <p style="font-weight: bold; margin-right: 10px;">タイトル:      </p>
+            <p>食糧人類ーStarving anonymousー</p>
         </div>
         <div class="publisher_nm">
-            <p style="font-weight: bold; margin-right: 10px;">出版社       </p>
+            <p style="font-weight: bold; margin-right: 10px;">出版社:       </p>
             <p>講談社</p>
         </div>
         <div class="sales">
-            <p style="font-weight: bold; margin-right: 10px;">企業価値 [EV]       </p>
+            <p style="font-weight: bold; margin-right: 10px;">昨日の売り上げ額：     </p>
             <p>2412600</p>
         </div>
     </div>
