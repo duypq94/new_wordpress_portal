@@ -1,10 +1,17 @@
 <div class="md-graph card">
     <div class="card-title">
-        <i class="fas fa-chart-area"></i>データで見るメディアドゥ <span style= "font-size: 15px">(毎日更新)</span>
+        <i class="fas fa-chart-area"></i>メディアドゥHD株価<span style= "font-size: 15px">(毎日更新)</span>
     </div>
 
     <div id="kabuka-id"></div>
     <img src="https://dimg.stockweather.co.jp/sw_dimg/swcandlechartwriter.ashx?mkt=01&code=000036780&term=2" alt="">
+</div>
+
+<div class="md-graph card">
+    <div class="card-title">
+        <i class="fas fa-chart-area"></i>データで見るメディアドゥ<span style= "font-size: 15px">(毎日更新)</span>
+    </div>
+    <div id="yellowfin"></div>
 </div>
 
 
@@ -93,11 +100,10 @@ axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URU
         <div class="kabuka-mai-nichi">
             <div class="kabuka-mai-nichi-info" >
                 <p style="font-weight: bold; margin-right: 10px;">株価     </p>
-                <p>${response.data.values[1][0]}円</p>
-            </div>
-            ${mess}
-            <div>
-
+                    <div class="kabuka-mai-nichi-compare">
+                        <p>${response.data.values[1][0]}円</p>
+                        ${mess}
+                    </div>
             </div>
         </div>
         <div class="kabuka-zika">
@@ -111,4 +117,33 @@ axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URU
     </div>
     `
   })
+
+axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URUqJ8OfX-uVf8fIsK8J4w3A/values/%E3%82%B7%E3%83%BC%E3%83%881?key=AIzaSyDkR6TabPLmZlRNZUr373gYiXBMYPTD1ds')  
+    .then(function(response){
+
+    document.getElementById("yellowfin").innerHTML=`
+    <div class='rank-1'>
+        <div class="rank">
+                <p style="font-weight: bold; margin-right: 10px;">1位     </p>
+                <p>1</p>
+        </div>
+        <div class="issue_form"">
+            <p style="font-weight: bold; margin-right: 10px;">分類 [MV]       </p>
+            <p>コミック</p>
+        </div>
+        <div class="title_nm">
+            <p style="font-weight: bold; margin-right: 10px;">タイトル      </p>
+            <p>食糧人類－Starving anonymous－</p>
+        </div>
+        <div class="publisher_nm">
+            <p style="font-weight: bold; margin-right: 10px;">出版社       </p>
+            <p>講談社</p>
+        </div>
+        <div class="sales">
+            <p style="font-weight: bold; margin-right: 10px;">企業価値 [EV]       </p>
+            <p>2412600</p>
+        </div>
+    </div>
+    `
+    })
 </script>

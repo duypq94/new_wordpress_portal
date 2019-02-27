@@ -30,7 +30,7 @@
             <div>
             <h5 class="ul-title">MD規程(全社員用)</h5>
             <ul>
-                <li><i class="fas fa-chevron-right"></i><a href="https://drive.google.com/drive/u/0/folders/1-HgMc2Rx3DORqkXJqeG3nt6bd8sSQgdG"> 1. MD0312リスク管理規程 </a>
+                <li><i class="fas fa-chevron-right"></i><a href="https://drive.google.com/drive/u/0/folders/1-HgMc2Rx3DORqkXJqeG3nt6bd8sSQgdG"> 1. リスク管理規程 </a>
                 <ul>           
                     <li><i class="fas fa-chevron-right"></i><a
                             href="https://drive.google.com/file/d/1veGShkeLCej4GZLiJc3U2eDFwdy0FdoR/view">1.1 内部統制システムに係る監査の実施基準
@@ -54,13 +54,13 @@
                         </a>
                     </li>
                     <li><i class="fas fa-chevron-right"></i><a
-                            href="https://drive.google.com/file/d/1pTaDca-OruJAMmlfBLuLwvsxb21VOz3o/view">2.2 MD0314特定個人情報等取扱規程_別紙
+                            href="https://drive.google.com/file/d/1pTaDca-OruJAMmlfBLuLwvsxb21VOz3o/view">2.2 特定個人情報等取扱規程_別紙
                         </a>
                     </li>
                 </ul>
               
                     <li><i class="fas fa-chevron-right"></i><a
-                                href="https://drive.google.com/file/d/1BpOTztGj0tRm4wHH30tsujLGmf8x8144/view">3. 採用紹介制度運用マニュアル_2018.09.01(未更新)
+                                href="https://drive.google.com/file/d/1BpOTztGj0tRm4wHH30tsujLGmf8x8144/view">3. 採用紹介制度運用マニュアル(未更新)
                     </a>
                     </li> 
                     <li><i class="fas fa-chevron-right"></i><a
