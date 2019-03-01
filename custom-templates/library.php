@@ -20,7 +20,7 @@
                     <button class="tablinksLibraryPage" onclick="openTabLibraryPage(event, 'LibraryPageId106')" >情報セキュリティ規程</button>
                 </div>
             <div id="LibraryPageId101" class="tabcontentLibraryPage tabcontent">
-                <?php echo do_shortcode('[wpdm_all_packages  category="各種ダウンロード"　items_per_page="10" jstable=1 order_by="field_name"  cols="title,|update_date|download_link" colheads="タイトル|最終更新日付|ダウンロード"]'); ?>
+                <?php echo do_shortcode('[wpdm_all_packages category="各種ダウンロード"　 jstable=1 order_by="title" order="DESC"  cols="title,|update_date|download_link" colheads="タイトル|最終更新日付|ダウンロード"]'); ?>
             </div>  
             
             <div id="LibraryPageId102" class="tabcontentLibraryPage tabcontent">

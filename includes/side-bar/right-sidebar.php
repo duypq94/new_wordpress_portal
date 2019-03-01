@@ -126,7 +126,7 @@ axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URU
 // todo
     document.getElementById("yellowfin").innerHTML=`
     <div class='uriage-gaku'> 
-        <p style="font-weight: bold; margin-right: 10px;">売り上げ額   </p>
+        <p style="font-weight: bold; margin-right: 10px;">売り上げ額ランキング   </p>
     </div>
     <div class='rank-1'>
         <div class="title_nm">
