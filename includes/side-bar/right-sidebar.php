@@ -121,31 +121,28 @@ axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URU
     `
   })
 
-axios.get('http://172.25.3.179:21380/analysis-ag/asu/analysis_api/yesterday_top_titles_api')  
+axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URUqJ8OfX-uVf8fIsK8J4w3A/values/%E3%82%B7%E3%83%BC%E3%83%881?key=AIzaSyDkR6TabPLmZlRNZUr373gYiXBMYPTD1ds')  
     .then(function(response){
 // todo
     document.getElementById("yellowfin").innerHTML=`
-    <div class='rank-1'>
-        <div class="rank">
-                <p style="font-weight: bold; margin-right: 10px;">1位     </p>
-        </div>
-        <div class="issue_form"">
-            <p style="font-weight: bold; margin-right: 10px;">分類:      </p>
-            <p>コミック</p>
-        </div>
-        <div class="title_nm">
-            <p style="font-weight: bold; margin-right: 10px;">タイトル:      </p>
-            <p>食糧人類ーStarving anonymousー</p>
-        </div>
-        <div class="publisher_nm">
-            <p style="font-weight: bold; margin-right: 10px;">出版社:       </p>
-            <p>講談社</p>
-        </div>
-        <div class="sales">
-            <p style="font-weight: bold; margin-right: 10px;">昨日の売り上げ額：     </p>
-            <p>2412600</p>
-        </div>
+    <div class='uriage-gaku'> 
+        <p style="font-weight: bold; margin-right: 10px;">売り上げ額ランキング   </p>
     </div>
+    <div class='rank-1'>
+        <div class="title_nm">
+        <p><img class="rank-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/rank-1.png" /></p>
+            <p>食糧人類ーStarving anonymousー</p>            
+        </div>
+    <div class='rank-2'>   
+        <div class="title_nm">
+        <p style="font-weight: bold; margin-right: 10px;"><img class="rank-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/rank-2.png" /></p>
+            <p>OUT</p>
+        </div>
+    <div class='rank-3'>
+        <div class="title_nm">
+        <p style="font-weight: bold; margin-right: 10px;"><img class="rank-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/rank-3.png" /></p>
+            <p>キングダム</p>
+        </div>
     `
     })
 </script>

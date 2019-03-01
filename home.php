@@ -144,29 +144,29 @@
 
                     <div id="snsid101" class="tabcontentSNS tabcontent">
                        <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="86"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="460"]'); ?>
                         </div>   
                     </div>
 
                     <div id="snsid102" class="tabcontentSNS tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode('[wp-rss-aggregator source="100"]'); ?>
+                            <?php echo do_shortcode('[wp-rss-aggregator source="428"]'); ?>
                         </div>
                     </div>
 
                     <div id="snsid103" class="tabcontentSNS tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="80"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="360"]'); ?>
                         </div>
                     </div>
                     <div id="snsid104" class="tabcontentSNS tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="93"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="434"]'); ?>
                         </div>
                     </div>
                     <div id="snsid105" class="tabcontentSNS tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="107"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="416"]'); ?>
                         </div>
                     </div>
                 </div>
@@ -187,34 +187,34 @@
 
                     <div id="newsid101" class="tabcontentNews tabcontent">
                        <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="146"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="504"]'); ?>
                         </div>   
                     </div>
 
                     <div id="newsid102" class="tabcontentNews tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode('[wp-rss-aggregator source="121"]'); ?>
+                            <?php echo do_shortcode('[wp-rss-aggregator source="372"]'); ?>
                         </div>
                     </div>
 
                     <div id="newsid103" class="tabcontentNews tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="130"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="410"]'); ?>
                         </div>
                     </div>
                     <div id="newsid104" class="tabcontentNews tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="129"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="403"]'); ?>
                         </div>
                     </div>
                     <div id="newsid105" class="tabcontentNews tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode('[wp-rss-aggregator source="127"]'); ?>
+                            <?php echo do_shortcode('[wp-rss-aggregator source="394"]'); ?>
                         </div>
                     </div>
                     <div id="newsid106" class="tabcontentNews tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode('[wp-rss-aggregator source="114"]'); ?>
+                            <?php echo do_shortcode('[wp-rss-aggregator source="334"]'); ?>
                         </div>
                     </div>
                 </div>
