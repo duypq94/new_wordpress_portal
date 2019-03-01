@@ -129,24 +129,18 @@ axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URU
         <p style="font-weight: bold; margin-right: 10px;">売り上げ額   </p>
     </div>
     <div class='rank-1'>
-        <div class="rank">
-                <p style="font-weight: bold; margin-right: 10px;"><img class="rank-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/rank-1.png" /></p>
-        </div>
         <div class="title_nm">
-            <p>食糧人類ーStarving anonymousー</p>
+        <p><img class="rank-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/rank-1.png" /></p>
+            <p>食糧人類ーStarving anonymousー</p>            
         </div>
-    <div class='rank-2'>
-        <div class="rank">
+    <div class='rank-2'>   
+        <div class="title_nm">
         <p style="font-weight: bold; margin-right: 10px;"><img class="rank-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/rank-2.png" /></p>
-        </div>
-        <div class="title_nm">
             <p>OUT</p>
         </div>
     <div class='rank-3'>
-        <div class="rank">
-        <p style="font-weight: bold; margin-right: 10px;"><img class="rank-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/rank-3.png" /></p>
-        </div>
         <div class="title_nm">
+        <p style="font-weight: bold; margin-right: 10px;"><img class="rank-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/rank-3.png" /></p>
             <p>キングダム</p>
         </div>
     `
