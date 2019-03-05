@@ -125,6 +125,10 @@
                                 <a href="https://www.mjs.co.jp/" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/mjs-logo.png" /></a>
                                 <a href="https://www.mjs.co.jp/" target="_blank">資産管理を行う</a><br>
                             </div>
+                            <div class="system-list">
+                                <a href="https://www.hr-platform.com/platform/Login.do?action=start&provider=0001" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/hr.png" /></a>
+                                <a href="https://www.hr-platform.com/platform/Login.do?action=start&provider=0001" target="_blank">労務管理を行う</a><br>
+                            </div>
                         </div>
                     </div> 
                 </div>
