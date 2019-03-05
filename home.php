@@ -125,6 +125,10 @@
                                 <a href="https://www.mjs.co.jp/" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/mjs-logo.png" /></a>
                                 <a href="https://www.mjs.co.jp/" target="_blank">資産管理を行う</a><br>
                             </div>
+                            <div class="system-list">
+                                <a href="https://www.hr-platform.com/platform/Login.do?action=start&provider=0001" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/hr.png" /></a>
+                                <a href="https://www.hr-platform.com/platform/Login.do?action=start&provider=0001" target="_blank">労務管理を行う</a><br>
+                            </div>
                         </div>
                     </div> 
                 </div>
@@ -144,29 +148,29 @@
 
                     <div id="snsid101" class="tabcontentSNS tabcontent">
                        <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="2659"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="460"]'); ?>
                         </div>   
                     </div>
 
                     <div id="snsid102" class="tabcontentSNS tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode('[wp-rss-aggregator source="2653"]'); ?>
+                            <?php echo do_shortcode('[wp-rss-aggregator source="428"]'); ?>
                         </div>
                     </div>
 
                     <div id="snsid103" class="tabcontentSNS tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="2663"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="360"]'); ?>
                         </div>
                     </div>
                     <div id="snsid104" class="tabcontentSNS tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="2667"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="434"]'); ?>
                         </div>
                     </div>
                     <div id="snsid105" class="tabcontentSNS tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="2608"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="416"]'); ?>
                         </div>
                     </div>
                 </div>
@@ -187,34 +191,34 @@
 
                     <div id="newsid101" class="tabcontentNews tabcontent">
                        <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="530"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="504"]'); ?>
                         </div>   
                     </div>
 
                     <div id="newsid102" class="tabcontentNews tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode('[wp-rss-aggregator source="622"]'); ?>
+                            <?php echo do_shortcode('[wp-rss-aggregator source="372"]'); ?>
                         </div>
                     </div>
 
                     <div id="newsid103" class="tabcontentNews tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="573"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="410"]'); ?>
                         </div>
                     </div>
                     <div id="newsid104" class="tabcontentNews tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode(' [wp-rss-aggregator source="579"]'); ?>
+                            <?php echo do_shortcode(' [wp-rss-aggregator source="403"]'); ?>
                         </div>
                     </div>
                     <div id="newsid105" class="tabcontentNews tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode('[wp-rss-aggregator source="580"]'); ?>
+                            <?php echo do_shortcode('[wp-rss-aggregator source="394"]'); ?>
                         </div>
                     </div>
                     <div id="newsid106" class="tabcontentNews tabcontent">
                         <div id="sidebar-rss">
-                            <?php echo do_shortcode('[wp-rss-aggregator source="630"]'); ?>
+                            <?php echo do_shortcode('[wp-rss-aggregator source="334"]'); ?>
                         </div>
                     </div>
                 </div>
