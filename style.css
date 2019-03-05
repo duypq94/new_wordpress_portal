@@ -192,7 +192,7 @@ i{
     justify-content: center;
 }
 
-#menu-primary-menu .current-menu-item > a{
+#menu-menu-1 .current-menu-item > a{
     background-color: #00aae1;
     color:#FFFFFF;
 }
@@ -875,7 +875,7 @@ i{
         bottom: 10px;
     }
       
-    .primary-menu-area .primary-menu #menu-primary-menu.open-menu{
+    .primary-menu-area .primary-menu #menu-menu-1.open-menu{
         height: 480px;
         overflow: visible;
     }
@@ -979,3 +979,35 @@ i{
     margin-bottom: 5px;
     border-bottom: 1px dotted #ccc;
 }
+
+/*yellowfin css */
+   
+#yellowfin .title_nm{
+    display: flex;
+    border-bottom: 1px solid #000;
+    justify-content:space-around;
+    font-size: 17px;
+    align-items: center
+   }
+
+#yellowfin .uriage-gaku{
+    display: flex;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    justify-content:space-around;
+    font-size: 17px; 
+}
+
+#yellowfin img{
+	height:40px;
+    width:40px;
+    margin: 0;
+}
+   
+#yellowfin p:first-child{
+       flex-basis:15%
+   }
+#yellowfin p:last-child{
+       flex-basis:85%
+   }
