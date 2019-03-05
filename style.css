@@ -76,6 +76,7 @@ i{
     font-weight: 600;
 }
 
+
 /* end basis css */
 
 /* logo */
@@ -297,10 +298,15 @@ i{
     text-align: center;
 }
 
+
 .main-content .main-page .right-column .md-graph .card-title{
     text-align: left;
 }
 
+.main-content .main-page .right-column .md-graph .card-title h6{
+    text-align: center;
+    font-size: 12px;
+}
 
 .main-content .main-page .right-column .md-graph img{ 
     width: 90%;
@@ -762,6 +768,17 @@ i{
    height: auto;
 }
 
+.main-page.group-page .group-company .tds-logo img{
+    width: 150px;
+    height: auto;
+}
+
+.main-page.group-page .group-company .tds-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .main-page.group-page .group-company .group-company-info{
    flex-basis: 75%;
 }
@@ -1011,3 +1028,47 @@ i{
 #yellowfin p:last-child{
        flex-basis:85%
    }
+
+/* knowledge page*/
+
+
+.knowledge-page .card-title{
+    width: 70%;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.knowledge-page .group-logo-title{
+    display: inline;
+}
+
+.knowledge-page .big-logo {
+    flex-basis: 50%;
+}
+
+
+.knowledge-page .square-logo{
+    flex-basis: 50%;
+}
+
+.knowledge-page .big-logo img{
+    width: auto;
+    height: 60px;
+    flex-basis: 50%;
+}
+
+
+.knowledge-page .square-logo img{
+    width: auto;
+    height: 100px;
+    
+}
+
+.knowledge-page .group-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+/*end knowledge page*/

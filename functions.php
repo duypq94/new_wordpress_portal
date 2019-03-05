@@ -43,6 +43,10 @@ function portal_script(){
         wp_enqueue_script( 'group-script',get_template_directory_uri() . '/asset/js/group-page.js',array(), false, true); 
     }
 
+    if(is_page_template( 'custom-templates/knowledge.php' )){
+        wp_enqueue_script( 'knowledge-script',get_template_directory_uri() . '/asset/js/knowledge.js',array(), false, true); 
+    }
+
     if(is_page_template( 'custom-templates/library.php' )){
         wp_enqueue_script( 'library-script',get_template_directory_uri() . '/asset/js/library.js',array(), false, true); 
     }
