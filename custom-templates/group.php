@@ -246,7 +246,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="http://www.manga-news.jp/" target="_blank><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_manga.png" target="_blank" alt=""></a>
+                            <a href="http://www.manga-news.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_manga.png" target="_blank" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -264,7 +264,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="http://www.lunascape.co.jp/" target="_blank><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_lunascape.png" alt="" target="_blank"></a>
+                            <a href="http://www.lunascape.co.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_lunascape.png" alt="" target="_blank"></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -318,7 +318,7 @@
 
                      <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="https://myanimelist.net/" target="_blank">><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_mal.png" alt="" target="_blank"></a>
+                            <a href="https://myanimelist.net/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_mal.png" alt="" target="_blank"></a>
                         </div>
                         
                         <div class="group-company-info">
