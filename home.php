@@ -12,7 +12,7 @@
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id102')">総務部</button>
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id103')">人事部</button>
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id104')">経営管理部</button>
-                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id105')">情シス</button>
+                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id105')">情報システム部</button>
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id106')">技術本部</button>
                     </div>
 
@@ -139,11 +139,11 @@
                 </div>
                 <div class="card-content">
                     <div class="tab">
-                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid101')" id="defaultOpen-sns">OverDriver Japan</button>
+                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid101')" id="defaultOpen-sns">OverDrive Japan</button>
                         <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid102')">マンガ新聞</button>
-                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid103')">Flier</button>
-                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid104')">MyAnimeList </button>
-                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid105')">Tech Do </button>
+                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid103')">flier</button>
+                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid104')">MyAnimeList</button>
+                        <button class="tablinksSNS tablinks" onclick="openTabSNS(event, 'snsid105')">Tech Do Blog</button>
                     </div>
 
                     <div id="snsid101" class="tabcontentSNS tabcontent">
