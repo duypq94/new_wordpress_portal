@@ -131,7 +131,7 @@ function load_post_by_category($cat,$number){ ?>
         <?php endwhile; ?>
         <?php wp_reset_postdata(); ?>
         <?php else : ?>
-            <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+            <p><?php esc_html_e( '現在のお知らせがありません。' ); ?></p>
         <?php endif;?>
     <?php }
 
@@ -151,7 +151,7 @@ function load_post_by_post_type($post_type,$number){ ?>
         <?php endwhile; ?>
         <?php wp_reset_postdata(); ?>
         <?php else : ?>
-            <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+            <p><?php esc_html_e( '現在のお知らせがありません。' ); ?></p>
         <?php endif;?>
     <?php }
 
@@ -164,6 +164,7 @@ function new_post_types($types) {
     $types[] = 'joushisu';
     $types[] = 'keiri';
     $types[] = 'gijutsu';
+    $types[] = 'houmu';
     return $types;
 }
  
