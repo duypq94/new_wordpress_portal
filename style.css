@@ -1053,14 +1053,14 @@ i{
 
 .knowledge-page .big-logo img{
     width: auto;
-    height: 60px;
+    height: 50px;
     flex-basis: 50%;
 }
 
 
 .knowledge-page .square-logo img{
     width: auto;
-    height: 100px;
+    height: 90px;
     
 }
 
@@ -1069,6 +1069,24 @@ i{
     flex-direction: row;
     align-items: center;
     width: 100%;
+    margin-left: 5px;
+}
+
+.knowledge-page .content-logo{
+    margin: 10px;
+}
+
+.knowledge-page .manuals{
+    margin-left: 40px;
+}
+
+.knowledge-page ul li{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.knowledge-page ul li i{
+    margin-right: 5px;
 }
 
 /*end knowledge page*/
