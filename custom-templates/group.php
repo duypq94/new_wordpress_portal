@@ -303,8 +303,8 @@
                         </div>
                     </div>
 
-                    <div class="group-company">
-                        <div class="group-company-logo">
+                    <div class="group-company tds-logo-flex">
+                        <div class="group-company-logo tds-logo">
                              <a href="http://www.tds-inf.co.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_tds_001.png" alt=""></a>
                         </div>
                         
