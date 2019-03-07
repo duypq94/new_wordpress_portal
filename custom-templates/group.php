@@ -210,6 +210,24 @@
                         </div>
                     </div>
 
+                     <div class="group-company tds-logo-flex">
+                        <div class="group-company-logo tds-logo">
+                             <a href="http://www.tds-inf.co.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_tds_001.png" alt=""></a>
+                        </div>
+                        
+                        <div class="group-company-info">
+                            <h5>株式会社徳島データサービス</h5>
+                            <ul>
+                                <li>データ入力事業、健康促進事業、管理運営事業、他</li>
+                                <li>所在地／徳島市沖浜東三丁目46番地 Ｊビル西館4階</li>
+                                <li>代表取締役社長／濱尾 重忠</li>
+                            </ul>
+                            <div class="company-link">
+                                <a href="http://www.tds-inf.co.jp/" target="_blank">サイト</a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="group-company">
                         <div class="group-company-logo">
                             <img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_artra.png" alt="">
@@ -240,24 +258,6 @@
                             </ul>
                             <div class="company-link">
                                 <a href="https://www.flierinc.com/" target="_blank">サイト</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="group-company">
-                        <div class="group-company-logo">
-                            <a href="http://www.manga-news.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_manga.png" target="_blank" alt=""></a>
-                        </div>
-                        
-                        <div class="group-company-info">
-                            <h5>株式会社マンガ新聞</h5>
-                            <ul>
-                                <li>マンガ情報メディア「マンガ新聞」の運営</li>
-                                <li>所在地／東京都千代田区一ツ橋1-1-1 パレスサイドビル 8F</li>
-                                <li>代表取締役社長／皆川 淳</li>
-                            </ul>
-                            <div class="company-link">
-                                <a href="http://www.manga-news.jp/" target="_blank">サイト</a>
                             </div>
                         </div>
                     </div>
@@ -298,25 +298,26 @@
                         </div>
                     </div>
 
-                    <div class="group-company tds-logo-flex">
-                        <div class="group-company-logo tds-logo">
-                             <a href="http://www.tds-inf.co.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_tds_001.png" alt=""></a>
+                    <div class="group-company">
+                        <div class="group-company-logo">
+                            <a href="http://www.manga-news.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_manga.png" target="_blank" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
-                            <h5>株式会社徳島データサービス</h5>
+                            <h5>株式会社マンガ新聞</h5>
                             <ul>
-                                <li>データ入力事業、健康促進事業、管理運営事業、他</li>
-                                <li>所在地／徳島市沖浜東三丁目46番地 Ｊビル西館4階</li>
-                                <li>代表取締役社長／濱尾 重忠</li>
+                                <li>マンガ情報メディア「マンガ新聞」の運営</li>
+                                <li>所在地／東京都千代田区一ツ橋1-1-1 パレスサイドビル 8F</li>
+                                <li>代表取締役社長／皆川 淳</li>
                             </ul>
                             <div class="company-link">
-                                <a href="http://www.tds-inf.co.jp/" target="_blank">サイト</a>
+                                <a href="http://www.manga-news.jp/" target="_blank">サイト</a>
                             </div>
                         </div>
                     </div>
 
-                     <div class="group-company">
+
+                    <div class="group-company">
                         <div class="group-company-logo">
                             <a href="https://myanimelist.net/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_mal.png" alt="" target="_blank"></a>
                         </div>
@@ -333,6 +334,61 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="kanren-company">関連会社</div>
+
+                    <div class="group-company">
+                        <div class="group-company-logo">
+                            
+                        </div>
+                        
+                        <div class="group-company-info">
+                            <h5>LINE Book Distribution株式会社</h5>
+                            <ul>
+                                <li>「LINEマンガ」のグローバル版の運営</li>
+                                <li>所在地／東京都新宿区新宿四丁目1番6号 JR新宿ミライナタワー 23F</li>
+                                <li>代表取締役社長／出澤 剛</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                     <div class="group-company">
+                        <div class="group-company-logo">
+                            <a href="https://www.iri.co.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_iri_001.png" alt="" target="_blank"></a>
+                        </div>
+                        
+                        <div class="group-company-info">
+                            <h5>株式会社インターネット総合研究所</h5>
+                            <ul>
+                                <li>グループ会社管理、ITコンサルティング、研究開発等</li>
+                                <li>所在地／東京都新宿区西新宿一丁目6番1号 新宿エルタワー 12F</li>
+                                <li>代表取締役所長／藤原 洋</li>
+                            </ul>
+                            <div class="company-link">
+                                 <a href="https://www.iri.co.jp/" target="_blank">サイト</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                     <div class="group-company">
+                        <div class="group-company-logo">
+                            <a href="https://www.ai2-jp.com/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_aisquared_001.png" alt="" target="_blank"></a>
+                        </div>
+                        
+                        <div class="group-company-info">
+                            <h5>株式会社エーアイスクエア</h5>
+                            <ul>
+                                <li>人工知能（AI）を活用した各種ITサービス提供及びコンサルティング</li>
+                                <li>所在地/東京都千代田区岩本町3-9-3 フォレスト秋葉原ビル 8F</li>
+                                <li>代表取締役社長／石田 正樹</li>
+                            </ul>
+                            <div class="company-link">
+                                 <a href="https://www.ai2-jp.com/" target="_blank">サイト</a>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
 
