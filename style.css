@@ -800,6 +800,26 @@ i{
     display: flex;
     justify-content: flex-end;
 } 
+
+
+.main-page.group-page .kanren-company {
+    border-bottom: 2px solid  #ccc;
+    position: relative;
+    margin-top:20px;
+    font-weight: bold;
+}
+
+
+.main-page.group-page .kanren-company:before{
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: #00aae1;
+    position: absolute;
+    bottom: -2px;
+}
+
+
 /*end group page*/
 
 /* responsive Css */

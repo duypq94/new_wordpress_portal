@@ -21,16 +21,11 @@
 
                 <div id="GroupPageId101" class="tabcontentGroupPage tabcontent">
                     <table class="group-page-table" style="border-bottom:1px solid #ccc;">
-                        <tbody>
-                            <tr>                         
+                        <tbody>                                                  
                             <tr>
-                                <td rowspan="2" width="220"><a href="http://www.mediado.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_mdhd.png" alt=""></a></td>
-                                <td>ひとつでも多くのコンテンツを、ひとりでも多くの人へ</td>
-                            </tr>
-                            <tr>
-                                <td>メディアドゥグループは、「ひとつでも多くのコンテンツを、ひとりでも多くの人に届ける」ため、 デジタルコンテンツのビジネスノウハウや、最先端テクノロジーによって構築されたソリューション／プラットフォームを 活用した「電子書籍流通事業」「メディア・プロモーション事業」を推進し、 著作物のデジタル流通をグローバルに展開していきます。</td>
-                            </tr>                               
-                             </tr>
+                                <td rowspan="1" width="220"><a href="https://www.mediado.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_mdhd.png" alt=""></a></td>
+                                <td></td>
+                            </tr>                                                       
                             <tr>
                                 <td>会社名</td>
                                 <td>株式会社メディアドゥホールディングス／MEDIA DO HOLDINGS Co., Ltd.</td>
@@ -57,7 +52,7 @@
                             </tr>
                             <tr>
                                 <td>資本金</td>
-                                <td>957,404,750円 <small><span>※2018年8月31日時点</span></small></td>
+                                <td>1,479百万円  <small><span>※2018年11月末日現在</span></small></td>
                             </tr>
                             <tr>
                                 <td>役員</td>
@@ -152,35 +147,35 @@
                 <div id="GroupPageId102" class="tabcontentGroupPage tabcontent">
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="http://www.mediado.jp/mediado/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_md.png" alt=""></a>
+                            <a href="http://www.mediado.jp/mediado/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_md.png" alt=""></a>
                         </div>
                     	
                     	<div class="group-company-info">
                     		<h5>株式会社メディアドゥ</h5>
                     		<ul>
-                    			<li>電子書籍取次として電子書籍コンテンツを提供するとともに、電子書店や電子書籍ビジネスに関するあらゆるソリューションを提供するとともに海外に向けた輸出事業や、電子図書館事業を展開</li>
+                    			<li>国内最大手の電子書籍取次として電子書籍コンテンツを提供するとともに、電子書店や電子書籍ビジネスに関するあらゆるソリューションを提供。海外に向けた輸出事業や、電子図書館事業も展開</li>
                     			<li>所在地／東京都千代田区一ツ橋1-1-1 パレスサイドビル 5F</li>
                     			<li>代表取締役社長／新名 新</li>
                     		</ul>
                             <div class="company-link">
-                                <a href="http://www.mediado.jp/mediado/">サイト</a>
+                                <a href="http://www.mediado.jp/mediado/" target="_blank">サイト</a>
                             </div>
                     	</div>
                     </div>
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="https://www.pubridge.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_pubridge.png" alt=""></a>
+                            <a href="https://www.pubridge.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_pubridge.png" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
                             <h5>株式会社出版デジタル機構</h5>
                             <ul>
-                                <li>出版業界のデジタル展開を支援するべく、電子書籍取次、POD取次、コンテンツ制作支援（Picassol）、コンテンツプロモーション（NetGalley）等、幅広く事業を展開</li>
+                                <li>出版業界の活性化を目的に、研究活動やデータベース構築などを行う</li>
                                 <li>所在地／東京都千代田区一ツ橋1-1-1 パレスサイドビル 5F</li>
                                 <li>代表取締役／新名 新</li>
                             </ul>
                             <div class="company-link">
-                                <a href="https://www.pubridge.jp/">サイト</a>
+                                <a href="https://www.pubridge.jp/" target="_blank">サイト</a>
                             </div>
                         </div>
                     </div>
@@ -233,7 +228,7 @@
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="https://www.flierinc.com/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_flier.png" alt=""></a>
+                            <a href="https://www.flierinc.com/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_flier.png" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -244,14 +239,14 @@
                                 <li>代表取締役CEO／大賀 康史</li>
                             </ul>
                             <div class="company-link">
-                                <a href="https://www.flierinc.com/">サイト</a>
+                                <a href="https://www.flierinc.com/" target="_blank">サイト</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="http://www.manga-news.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_manga.png" alt=""></a>
+                            <a href="http://www.manga-news.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_manga.png" target="_blank" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -262,14 +257,14 @@
                                 <li>代表取締役社長／皆川 淳</li>
                             </ul>
                             <div class="company-link">
-                                <a href="http://www.manga-news.jp/">サイト</a>
+                                <a href="http://www.manga-news.jp/" target="_blank">サイト</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="http://www.lunascape.co.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_lunascape.png" alt=""></a>
+                            <a href="http://www.lunascape.co.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_lunascape.png" alt="" target="_blank"></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -280,32 +275,32 @@
                                 <li>代表取締役社長／藤田 恭嗣</li>
                             </ul>
                             <div class="company-link">
-                                <a href="http://www.lunascape.co.jp/">サイト</a>
+                                <a href="http://www.lunascape.co.jp/" target="_blank">サイト</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="group-company">
                         <div class="group-company-logo">
-                            <a href="https://j-comi.co.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_jct.png" alt=""></a>
+                            <a href="https://j-comi.co.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_jct.png" alt="" target="_blank"></a>
                         </div>
                         
                         <div class="group-company-info">
                             <h5>株式会社Jコミックテラス</h5>
                             <ul>
-                                <li>無料電子コミックサービス「マンガ図書館Z」（<a href="https://www.mangaz.com/">https://www.mangaz.com/</a>）の運営をはじめとする、電子書籍配信業</li>
+                                <li>無料電子コミックサービス「マンガ図書館Z」（<a href="https://www.mangaz.com/" target="_blank">https://www.mangaz.com/</a>）の運営をはじめとする、電子書籍配信業</li>
                                 <li>所在地／東京都千代田区一ツ橋1-1-1 パレスサイドビル 8F</li>
                                 <li>代表取締役社長／佐藤 美佳</li>
                             </ul>
                             <div class="company-link">
-                                 <a href="https://j-comi.co.jp/">サイト</a>
+                                 <a href="https://j-comi.co.jp/" target="_blank">サイト</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="group-company tds-logo-flex">
                         <div class="group-company-logo tds-logo">
-                             <a href="http://www.tds-inf.co.jp/"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_tds_001.png" alt=""></a>
+                             <a href="http://www.tds-inf.co.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_tds_001.png" alt=""></a>
                         </div>
                         
                         <div class="group-company-info">
@@ -316,10 +311,83 @@
                                 <li>代表取締役社長／濱尾 重忠</li>
                             </ul>
                             <div class="company-link">
-                                <a href="http://www.tds-inf.co.jp/">サイト</a>
+                                <a href="http://www.tds-inf.co.jp/" target="_blank">サイト</a>
                             </div>
                         </div>
                     </div>
+
+                    <div class="group-company">
+                        <div class="group-company-logo">
+                            <a href="https://myanimelist.net/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/group_base_mal.png" alt="" target="_blank"></a>
+                        </div>
+                        
+                        <div class="group-company-info">
+                            <h5>MyAnimeList</h5>
+                            <ul>
+                                <li>世界最大級の日本アニメ・マンガを核とするコミュニティメディア「MyAnimeList」の運営</li>
+                                <li>所在地／665 3rd Street Suite 150 San Francisco, CA 94107</li>
+                                <li>CEO／溝口 敦</li>
+                            </ul>
+                            <div class="company-link">
+                                 <a href="https://myanimelist.net/" target="_blank">サイト</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="kanren-company">関連会社</div>
+
+                    <div class="group-company">
+                        <div class="group-company-logo">
+                            
+                        </div>
+                        
+                        <div class="group-company-info">
+                            <h5>LINE Book Distribution株式会社</h5>
+                            <ul>
+                                <li>「LINEマンガ」のグローバル版の運営</li>
+                                <li>所在地／東京都新宿区新宿四丁目1番6号 JR新宿ミライナタワー 23F</li>
+                                <li>代表取締役社長／出澤 剛</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                     <div class="group-company">
+                        <div class="group-company-logo">
+                            <a href="https://www.iri.co.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_iri_001.png" alt="" target="_blank"></a>
+                        </div>
+                        
+                        <div class="group-company-info">
+                            <h5>株式会社インターネット総合研究所</h5>
+                            <ul>
+                                <li>グループ会社管理、ITコンサルティング、研究開発等</li>
+                                <li>所在地／東京都新宿区西新宿一丁目6番1号 新宿エルタワー 12F</li>
+                                <li>代表取締役所長／藤原 洋</li>
+                            </ul>
+                            <div class="company-link">
+                                 <a href="https://www.iri.co.jp/" target="_blank">サイト</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                     <div class="group-company">
+                        <div class="group-company-logo">
+                            <a href="https://www.ai2-jp.com/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_aisquared_001.png" alt="" target="_blank"></a>
+                        </div>
+                        
+                        <div class="group-company-info">
+                            <h5>株式会社エーアイスクエア</h5>
+                            <ul>
+                                <li>人工知能（AI）を活用した各種ITサービス提供及びコンサルティング</li>
+                                <li>所在地/東京都千代田区岩本町3-9-3 フォレスト秋葉原ビル 8F</li>
+                                <li>代表取締役社長／石田 正樹</li>
+                            </ul>
+                            <div class="company-link">
+                                 <a href="https://www.ai2-jp.com/" target="_blank">サイト</a>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
 
