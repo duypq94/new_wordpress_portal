@@ -12,13 +12,13 @@
            </div>
            <div class="card-content">
                 <div class="tab">
-                    <button class="tablinksLibraryPage" onclick="openTabLibraryPage(event, 'LibraryPageId101')" id="defaultOpen-library-page">各種DLリンク</button>
+                    <button class="tablinksLibraryPage" onclick="openTabLibraryPage(event, 'LibraryPageId101')" id="defaultOpen-library-page">全社共有</button>
                     <button class="tablinksLibraryPage" onclick="openTabLibraryPage(event, 'LibraryPageId102')">&emsp;法務部&emsp;</button>
                     <button class="tablinksLibraryPage" onclick="openTabLibraryPage(event, 'LibraryPageId103')" >社内規程（MDHD）</button>
-                    <button class="tablinksLibraryPage" onclick="openTabLibraryPage(event, 'LibraryPageId106')" >情報セキュリティ規程</button>
+                    <button class="tablinksLibraryPage" onclick="openTabLibraryPage(event, 'LibraryPageId104')" >情報セキュリティ規程</button>
                 </div>
             <div id="LibraryPageId101" class="tabcontentLibraryPage tabcontent">
-                <?php echo do_shortcode('[wpdm_all_packages category="各種ダウンロード"　 jstable=1 order_by="title" order="DESC"  cols="title,|update_date|download_link" colheads="タイトル|最終更新日付|ダウンロード"]'); ?>
+                <?php echo do_shortcode('[wpdm_all_packages jstable=1 order_by="title" order="DESC"  cols="title,|categories|update_date|download_link" colheads="タイトル|カテゴリー|最終更新日付|ダウンロード／閲覧"]'); ?>
             </div>  
             
             <div id="LibraryPageId102" class="tabcontentLibraryPage tabcontent">
@@ -35,7 +35,7 @@
                 </div>
             </div>                       
 
-            <div id="LibraryPageId106" class="tabcontentLibraryPage tabcontent">
+            <div id="LibraryPageId104" class="tabcontentLibraryPage tabcontent">
                 <div>
                     <h5 class="ul-title">社内規程（MD）</h5>
                     <h4>..........作成中..........</h4>  

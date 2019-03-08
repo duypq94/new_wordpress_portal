@@ -45,7 +45,7 @@
                             <?php wp_reset_postdata(); ?>
                             <?php else : ?>
                             <p>
-                                <?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?>
+                                <?php esc_html_e( '現在のお知らせがありません。' ); ?>
                             </p>
                             <?php endif; ?>
                     </div>

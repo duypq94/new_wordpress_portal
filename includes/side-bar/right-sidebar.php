@@ -9,7 +9,7 @@
 
 <div class="md-graph card">
     <div class="card-title">
-        <i class="fas fa-chart-area"></i>データで見るメディアドゥ<span style= "font-size: 15px">(毎日更新)</span>
+        <i class="fas fa-chart-area"></i>売り上げ<span style= "font-size: 15px">(毎日更新)</span>
         <h6>(作成中)</h6>
     </div>
     <div id="yellowfin"></div>
