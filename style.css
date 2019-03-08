@@ -768,7 +768,7 @@ i{
 }
 
 .main-page.group-page .group-company .tds-logo img{
-    width: 150px;
+    width: 140px;
     height: auto;
 }
 
@@ -930,7 +930,7 @@ i{
     }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 1110px) {
    
     .card-js .card-content .tab button {
         float: none;

@@ -353,7 +353,7 @@
                     </div>
 
                      <div class="group-company">
-                        <div class="group-company-logo">
+                        <div class="group-company-logo tds-logo">
                             <a href="https://www.iri.co.jp/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_iri_001.png" alt="" target="_blank"></a>
                         </div>
                         
@@ -372,7 +372,7 @@
 
 
                      <div class="group-company">
-                        <div class="group-company-logo">
+                        <div class="group-company-logo tds-logo">
                             <a href="https://www.ai2-jp.com/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/asset/imgs/companies/logo_aisquared_001.png" alt="" target="_blank"></a>
                         </div>
                         
