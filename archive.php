@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="container-fluid main-content">
-<div class="container main-page">
+<div class="container main-page archive-page">
 	<div class="card">
 		<h1 style="font-size: 30px;"><?php echo get_the_date(); ?><span style="font-style: italic;"><?php echo (get_query_var( 's' )) ?></span> </h1>
 		 <?php if( have_posts() ) : while( have_posts()) : the_post(); ?>		

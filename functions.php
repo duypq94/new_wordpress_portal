@@ -20,7 +20,7 @@ if(! function_exists('portal_setup')):
          'Description' => __('default sidebar', 'portal'),
          'class' => 'main-sidebar',
          'before_title' => '<h4 class="widget-title">',
-         'after_title' => '</h3>' );
+         'after_title' => '</h4>' );
         register_sidebar( $sidebar );
 
         $sidebar_single = array('name' => __('Single Sidebar','portal'),
@@ -28,7 +28,7 @@ if(! function_exists('portal_setup')):
          'Description' => __('sidebar for Single Page', 'portal'),
          'class' => 'single-sidebar',
          'before_title' => '<h4 class="widget-title">',
-         'after_title' => '</h3>' );
+         'after_title' => '</h4>' );
         register_sidebar( $sidebar_single );
 
     }

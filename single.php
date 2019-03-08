@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="right-column">
-        	<div class="card">
+        	<div class="card single-sidebar">
         		<?php 
 				if(is_active_sidebar('single-sidebar-id')) :
 						dynamic_sidebar('single-sidebar-id');

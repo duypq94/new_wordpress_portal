@@ -1125,3 +1125,12 @@ i{
    text-decoration: underline;
 }
 /**/
+
+
+/*single sidebar*/
+
+.single-sidebar table{
+    width: 100%;
+}
+
+/*end single-sidebar*/
