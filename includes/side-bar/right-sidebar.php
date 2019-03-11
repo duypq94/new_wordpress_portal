@@ -9,7 +9,7 @@
 
 <div class="md-graph card">
     <div class="card-title">
-        <i class="fas fa-chart-area"></i>売り上げ<span style= "font-size: 15px">(毎日更新)</span>
+        <i class="fas fa-chart-area"></i>データから見るメディアドゥ<span style= "font-size: 15px">(毎日更新)</span>
         <h6>(作成中)</h6>
     </div>
     <div id="yellowfin"></div>
@@ -122,8 +122,9 @@ axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URU
     `
   })
 
-axios.get('https://sheets.googleapis.com/v4/spreadsheets/1dfMXh0H62yLDOEUHn4-URUqJ8OfX-uVf8fIsK8J4w3A/values/%E3%82%B7%E3%83%BC%E3%83%881?key=AIzaSyDkR6TabPLmZlRNZUr373gYiXBMYPTD1ds')  
+axios.get('http://172.25.3.179:21380/analysis-ag/asu/analysis_api/yesterday_top_titles_api')  
     .then(function(response){
+        console.log(response.data);
 // todo
     document.getElementById("yellowfin").innerHTML=`
     <div class='uriage-gaku'> 
