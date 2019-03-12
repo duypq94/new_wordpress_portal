@@ -1109,3 +1109,28 @@ i{
 }
 
 /*end knowledge page*/
+/*panigation*/
+.pagination{
+
+    display:flex;
+}
+
+.pagination .prev{
+    margin-right:20px; 
+}
+
+.pagination .prev,.pagination .next{
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: underline;
+}
+/**/
+
+
+/*single sidebar*/
+
+.single-sidebar table{
+    width: 100%;
+}
+
+/*end single-sidebar*/ 
