@@ -12,8 +12,8 @@
             	</div>
                 <div class="card-content">
                     <div class="tab">
-                        <button class="tablinksFAQPage" onclick="openTabFAQPage(event, 'FAQPageId101')" id="defaultOpen-faq-page">メディアドゥ 向けFAQ</button>
-                        <button class="tablinksFAQPage" onclick="openTabFAQPage(event, 'FAQPageId102')" >出版デジタル機構向けFAQ</button>
+                        <button class="tablinksFAQPage" onclick="openTabFAQPage(event, 'FAQPageId101')" id="defaultOpen-faq-page">旧メディアドゥ 向けFAQ</button>
+                        <button class="tablinksFAQPage" onclick="openTabFAQPage(event, 'FAQPageId102')" >旧出版デジタル機構向けFAQ</button>
                     </div>
                     <div id="FAQPageId101" class="tabcontentFAQPage tabcontent">
                         <div class="faq-chatbot">
