@@ -24,7 +24,6 @@ Template Name: Library
             <div id="LibraryPageId102" class="tabcontentLibraryPage tabcontent">
                 <div>
                     <h5 class="ul-title">法務部</h5>
-                    <h4>..........作成中..........</h4>
                 </div>
                 <?php get_template_part('/includes/custom-template/library/houmu-tab') ?>
             <div id="LibraryPageId103" class="tabcontentLibraryPage tabcontent">
