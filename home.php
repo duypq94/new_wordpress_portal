@@ -13,12 +13,13 @@
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id103')">人事部</button>
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id104')">経営管理部</button>
                         <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id105')">情報システム部</button>
-                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id106')">技術本部</button>
+                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id106')">法務部</button>
+                        <button class="tablinksNoti tablinks" onclick="openTabNoti(event, 'id107')">技術本部</button>
                     </div>
 
                     <div id="id101" class="tabcontentNoti tabcontent">
                           <?php 
-                            $the_query = new WP_Query( array( 'post_type'=> array('zinzi','soumu','keiri','joushisu','gijutsu'),
+                            $the_query = new WP_Query( array( 'post_type'=> array('zinzi','soumu','keiri','joushisu','houmu','gijutsu'),
                                 'posts_per_page' => '5',
                                 'orderby'=>'date',
                                 'ignore_sticky_posts' => 1,) ); ?>
@@ -44,7 +45,7 @@
                             <?php wp_reset_postdata(); ?>
                             <?php else : ?>
                             <p>
-                                <?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?>
+                                <?php esc_html_e( '現在のお知らせがありません。' ); ?>
                             </p>
                             <?php endif; ?>
                     </div>
@@ -66,6 +67,9 @@
                     </div>
 
                     <div id="id106" class="tabcontentNoti tabcontent">
+                        <?php load_post_by_post_type('houmu','5'); ?>
+                    </div>
+                    <div id="id107" class="tabcontentNoti tabcontent">
                         <?php load_post_by_post_type('gijutsu','5'); ?>
                     </div>
                 </div>

@@ -13,8 +13,8 @@ function openTabLibraryPage(evt, tabId) {
     evt.currentTarget.className += " active";
   }
   
-  var elementList = document.querySelectorAll(".tabcontentLibraryPage a");
-  for (var i=0; i<elementList.length; i++){
-    elementList[i].setAttribute('target', '_blank');
-  }
+  // var elementList = document.querySelectorAll(".tabcontentLibraryPage a");
+  // for (var i=0; i<elementList.length; i++){
+  //   elementList[i].setAttribute('target', '_blank');
+  // }
   document.getElementById("defaultOpen-library-page").click();
