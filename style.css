@@ -1109,3 +1109,25 @@ i{
 }
 
 /*end knowledge page*/
+
+/*margin css*/
+.ml-30{
+	margin-left:30px;
+}
+
+.ml-15{
+    margin-left: 15px;
+}
+
+.ml-55{
+	margin-left:55px;
+}
+
+.mt-10{
+	margin-top:10px;
+}
+
+.mb-10{
+	margin-bottom:10px;
+}
+/*end margin css*/
