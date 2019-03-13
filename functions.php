@@ -60,6 +60,25 @@ if(!function_exists('portal_menu')){
         wp_nav_menu($menu);
     }
 }
+//*********************************
+//** pagination
+//*********************************
+function portal_pagination(){
+  if($GLOBALS['wp_query']->max_num_pages <  2){
+      return '';
+  } ?>
+  <nav class = "pagination" role = "navigation">
+      <?php if ( get_next_posts_link() ) : ?>
+          <div>&nbsp;</div>
+          <div class = "prev"><?php next_posts_link(__("次ページ",'portal')); ?> </div>
+      <?php endif; ?> 
+      <?php if ( get_previous_posts_link() ) : ?>
+          <div>&nbsp;</div>
+          <div class = "next"><?php previous_posts_link(__("前ページ",'portal')); ?> </div>
+      <?php endif; ?>
+  </nav>
+<?php }
+
 function utf8_truncate( $string, $max_chars = 80, $append = "\xC2\xA0…" )
 {
     $string = strip_tags( $string );
@@ -336,7 +355,7 @@ add_filter( 'get_calendar' , 'ucc_get_calendar_filter' , 10 , 2 );
 //*********************************
 function custom_post_date_archive($query) {
     if ($query->is_date)
-        $query->set( 'post_type', array('post', 'zinzi') );
+        $query->set( 'post_type', array('zinzi', 'soumu', 'joushisu', 'keiri', 'gijutsu', 'houmu') );
     remove_action( 'pre_get_posts', 'custom_post_author_archive' );
 }
 add_action('pre_get_posts', 'custom_post_date_archive');

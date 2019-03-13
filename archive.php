@@ -16,10 +16,7 @@
 
             </div>
 		 <?php endwhile; ?>
-		 <div class="content-footer">
-                    <?php previous_post_link('%link', '<span><i class="fas fa-angle-double-left"></i>PREVIOUS</span> <p>%title</p>', TRUE);?>
-                    <?php next_post_link('%link', '<span>NEXT<i class="fas fa-angle-double-right"></i></span><p>%title</p>', TRUE);?>
-                </div>
+		 <?php portal_pagination(); ?>
 		 <?php endif; ?>
 	</div>
     </div>
