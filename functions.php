@@ -17,10 +17,8 @@ if(! function_exists('portal_setup')):
         $sidebar = array(
             'name' => 'Right sidebar',
             'id' => 'right_sidebar_id',
-            'before_widget' => '<div>',
+            'before_widget' => '<div class="card-title"><i class="fas fa-calendar-alt"></i>投稿カレンダー </div>',
             'after_widget'  => '</div>',
-            'before_title'  => '<h4 class="widget-title">',
-            'after_title'   => '</h4>',
            );
            register_sidebar( $sidebar );
     }
