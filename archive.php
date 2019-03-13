@@ -3,7 +3,14 @@
 <div class="container main-page">
 <div class="left-column">
 	<div class="card">
-		<h1 style="font-size: 30px;"><?php echo get_the_date(); ?><span style="font-style: italic;"><?php echo (get_query_var( 's' )) ?></span> </h1>
+		<h1 style="font-size: 30px;">
+		<?php if(is_day()): 
+				echo get_the_date();
+				elseif (is_month()) : echo get_the_date('F Y'); 
+				elseif (is_year()) : echo get_the_date('Y'); 
+			endif;
+		 ?>
+		 <span style="font-style: italic;"><?php echo (get_query_var( 's' )) ?></span> </h1>
 		 <?php if( have_posts() ) : while( have_posts()) : the_post(); ?>		
 		   <div class="search-result">
                 <a href="<?php the_permalink(); ?>" >
