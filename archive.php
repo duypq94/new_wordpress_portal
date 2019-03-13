@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <div class="container-fluid main-content">
-<div class="container main-page archive-page">
+<div class="container main-page">
+<div class="left-column">
 	<div class="card">
 		<h1 style="font-size: 30px;"><?php echo get_the_date(); ?><span style="font-style: italic;"><?php echo (get_query_var( 's' )) ?></span> </h1>
 		 <?php if( have_posts() ) : while( have_posts()) : the_post(); ?>		
@@ -15,13 +16,23 @@
 
             </div>
 		 <?php endwhile; ?>
-		 <?php else: ?>
-	     <?php get_template_part('content','none'); ?>
+		 <div class="content-footer">
+                    <?php previous_post_link('%link', '<span><i class="fas fa-angle-double-left"></i>PREVIOUS</span> <p>%title</p>', TRUE);?>
+                    <?php next_post_link('%link', '<span>NEXT<i class="fas fa-angle-double-right"></i></span><p>%title</p>', TRUE);?>
+                </div>
 		 <?php endif; ?>
-		 <?php portal_pagination(); ?>
 	</div>
-
+    </div>
+        <div class="right-column">
+        	<div class="card single-sidebar">
+			<?php if ( is_active_sidebar( 'right_sidebar_id' ) ) : 
+				dynamic_sidebar( 'right_sidebar_id' ); 
+			else:
+				_e('This is sidebar ','portal');
+			endif; ?>
+        	</div>  
+        </div>
+    </div>
 </div>
-
-<?php get_footer(); ?> 
+<?php get_footer(); ?>
      
