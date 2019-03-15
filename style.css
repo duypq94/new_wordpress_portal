@@ -731,6 +731,40 @@ i{
 }
 /*end md-book*/
 
+/*system-list custom*/
+
+.system-list.xpoint{
+    justify-content: flex-start !important;
+}
+
+.system-list.redmine{
+     justify-content: flex-start !important;
+}
+.system-list.xpoint .xpoint-links{
+  width: 100%;
+  display: flex;
+  flex-basis: 55%;
+  margin-left: 20px; 
+}
+
+.system-list.xpoint .xpoint-links a{
+    text-align: center;
+}
+.system-list.xpoint > a{
+    flex-basis: 250px !important;
+}
+
+.system-list.redmine > a{
+    flex-basis: 250px !important;
+}
+
+.system-list.redmine a:nth-child(2){
+margin-left: 20px;
+    }
+
+.system-list.redmine 
+/*end system-list custom*/
+
 /*group page*/
 .main-page.group-page table,.main-page.group-page table tr,.main-page.group-page table td {
     border: none;
