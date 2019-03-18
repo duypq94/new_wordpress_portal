@@ -104,12 +104,12 @@
                             <div class="system-list">
                                 <a href="https://s3.kingtime.jp/admin" target="_blank"><img class="connect-logo"
                                         src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/kingoftime-logo.png" /></a>
-                                <a href="https://s3.kingtime.jp/admin" target="_blank">勤務管理を行う（メディアドゥ対象）</a><br>
+                                <a href="https://s3.kingtime.jp/admin" target="_blank">勤務管理を行う（旧MD対象）</a><br>
                             </div>
                             <div class="system-list">
                                 <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp" target="_blank"><img class="connect-logo"
                                         src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/cyberxeed-logo.png" /></a>
-                                <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp" target="_blank">勤務管理を行う（出版デジタル機構対象）</a><br>
+                                <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp" target="_blank">勤務管理を行う</a><br>
                             </div>
                         </div>
                     </div>   
