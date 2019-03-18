@@ -88,10 +88,10 @@
                      <div id="sysid101" class="tabcontentSys tabcontent">
                         <div class="link-info">
                             <div class="system-list xpoint">
-                                <a href="https://xpoint.mediado.info/xpoint/login.jsp?domCd=pubridge" target="_blank"><img
+                                <a href="https://xpoint.mediado.info/xpoint/login.jsp" target="_blank"><img
                                         class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/xpoint-logo.png" /></a>
                                         <div class="xpoint-links">
-                                            <a href="https://xpoint.mediado.info/xpoint/login.jsp?domCd=pubridge" target="_blank">社内業務手続きを行う</a>
+                                            <a href="https://xpoint.mediado.info/xpoint/login.jsp" target="_blank">社内業務手続きを行う</a>
                                             <a href="https://drive.google.com/file/d/1RTcFSD5pgdgPH7hRazWHxmpJGCisxAYz/view" target="_blank">マニュアルを開く</a>
                                         </div>
                                 <br>
@@ -138,7 +138,7 @@
                                 <a href="https://www.hr-platform.com/platform/Login.do?action=start&provider=0001" target="_blank">労務管理を行う</a><br>
                             </div>
                              <div class="system-list">
-                                <a href="https://www2.growassist.hitachi-triplewin.co.jp/htw_kanri-login2192/l000m001.aspx?LoginLanguage=0" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/POSITIVE_logo.png" /></a>
+                                <a href="https://www2.growassist.hitachi-triplewin.co.jp/htw_kanri-login2192/l000m001.aspx?LoginLanguage=0" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/POSITIVE_logo2.png" /></a>
                                 <a href="https://www2.growassist.hitachi-triplewin.co.jp/htw_kanri-login2192/l000m001.aspx?LoginLanguage=0" target="_blank">給与管理を行う</a><br>
                             </div>
                         </div>
