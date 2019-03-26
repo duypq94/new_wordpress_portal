@@ -1,7 +1,7 @@
-document.querySelector("#menu-primary-menu li:last-child").getElementsByTagName('a')[0].removeAttribute("href");
+// document.querySelector("#menu-primary-menu li:last-child").getElementsByTagName('a')[0].removeAttribute("href");
 
 var collapseButton = document.getElementById("collapse-button");
-var navBar = document.getElementById("menu-primary-menu");
+var navBar = document.getElementById("menu-menu-1");
 var collapseEnable = false;
 let aTagMenu = document.querySelectorAll("#menu-primary-menu > li > a");
 

@@ -76,6 +76,7 @@ i{
     font-weight: 600;
 }
 
+
 /* end basis css */
 
 /* logo */
@@ -192,7 +193,7 @@ i{
     justify-content: center;
 }
 
-#menu-primary-menu .current-menu-item > a{
+#menu-menu-1 .current-menu-item > a{
     background-color: #00aae1;
     color:#FFFFFF;
 }
@@ -297,10 +298,15 @@ i{
     text-align: center;
 }
 
+
 .main-content .main-page .right-column .md-graph .card-title{
     text-align: left;
 }
 
+.main-content .main-page .right-column .md-graph .card-title h6{
+    text-align: center;
+    font-size: 12px;
+}
 
 .main-content .main-page .right-column .md-graph img{ 
     width: 90%;
@@ -541,7 +547,6 @@ i{
   font-size: 0.875rem;
   font-weight: 700;
   text-align: center;
-  text-transform: capitalize;
   cursor: pointer;
   height: 45px;
 }
@@ -762,6 +767,17 @@ i{
    height: auto;
 }
 
+.main-page.group-page .group-company .tds-logo img{
+    width: 140px;
+    height: auto;
+}
+
+.main-page.group-page .group-company .tds-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .main-page.group-page .group-company .group-company-info{
    flex-basis: 75%;
 }
@@ -783,6 +799,58 @@ i{
     display: flex;
     justify-content: flex-end;
 } 
+
+
+.main-page.group-page .kanren-company {
+    border-bottom: 2px solid  #ccc;
+    position: relative;
+    margin-top:20px;
+    font-weight: bold;
+}
+
+
+.main-page.group-page .kanren-company:before{
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: #00aae1;
+    position: absolute;
+    bottom: -2px;
+}
+
+/*system-list custom*/
+.system-list.xpoint{
+    justify-content: flex-start !important;
+}
+
+.system-list.redmine{
+     justify-content: flex-start !important;
+}
+.system-list.xpoint .xpoint-links{
+  width: 100%;
+  display: flex;
+  flex-basis: 55%;
+  margin-left: 20px; 
+}
+
+.system-list.xpoint .xpoint-links a{
+    text-align: center;
+}
+.system-list.xpoint > a{
+    flex-basis: 250px !important;
+}
+
+.system-list.redmine > a{
+    flex-basis: 250px !important;
+}
+
+.system-list.redmine a:nth-child(2){
+margin-left: 20px;
+    }
+
+.system-list.redmine 
+/*end system-list custom*/
+
 /*end group page*/
 
 /* responsive Css */
@@ -875,7 +943,7 @@ i{
         bottom: 10px;
     }
       
-    .primary-menu-area .primary-menu #menu-primary-menu.open-menu{
+    .primary-menu-area .primary-menu #menu-menu-1.open-menu{
         height: 480px;
         overflow: visible;
     }
@@ -894,7 +962,7 @@ i{
     }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 1110px) {
    
     .card-js .card-content .tab button {
         float: none;
@@ -979,3 +1047,148 @@ i{
     margin-bottom: 5px;
     border-bottom: 1px dotted #ccc;
 }
+
+/*yellowfin css */
+   
+#yellowfin .title_nm{
+    display: flex;
+    border-bottom: 1px solid #000;
+    justify-content:space-around;
+    font-size: 17px;
+    align-items: center
+   }
+
+#yellowfin .uriage-gaku{
+    display: flex;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    justify-content:space-around;
+    font-size: 17px; 
+}
+
+#yellowfin img{
+	height:40px;
+    width:40px;
+    margin: 0;
+}
+   
+#yellowfin p:first-child{
+       flex-basis:15%
+   }
+#yellowfin p:last-child{
+       flex-basis:85%
+   }
+
+/* knowledge page*/
+
+
+.knowledge-page .card-title{
+    width: 70%;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.knowledge-page .group-logo-title{
+    display: inline;
+}
+
+.knowledge-page .big-logo {
+    flex-basis: 50%;
+}
+
+
+.knowledge-page .square-logo{
+    flex-basis: 50%;
+}
+
+.knowledge-page .big-logo img{
+    width: auto;
+    height: 50px;
+    flex-basis: 50%;
+}
+
+
+.knowledge-page .square-logo img{
+    width: auto;
+    height: 90px;
+    
+}
+
+.knowledge-page .group-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.knowledge-page .content-logo{
+    margin: 10px;
+}
+
+.knowledge-page .manuals{
+    margin-left: 40px;
+}
+
+.knowledge-page ul li{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.knowledge-page ul li i{
+    margin-right: 5px;
+}
+
+/*end knowledge page*/
+
+/*margin css*/
+.ml-30{
+	margin-left:30px;
+}
+
+.ml-15{
+    margin-left: 15px;
+}
+
+.ml-55{
+	margin-left:55px;
+}
+
+.mt-10{
+	margin-top:10px;
+}
+
+.mb-10{
+	margin-bottom:10px;
+}
+/*end margin css*/
+
+
+/*panigation*/
+.pagination{
+
+    display:flex;
+}
+
+.pagination .prev{
+    margin-right:20px; 
+}
+
+.pagination .prev,.pagination .next{
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: underline;
+}
+/**/
+
+
+/*single sidebar*/
+
+.single-sidebar table{
+    width: 100%;
+}
+
+/*end single-sidebar*/ 
+
+
