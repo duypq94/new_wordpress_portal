@@ -1,4 +1,4 @@
-<div class="container-fluid main-content employee-transistion">
+<div class="employee-transistion">
 	<div >
 		<div class="select" >
 			<p><b>TIMELINE: </b>&nbsp;&nbsp;
