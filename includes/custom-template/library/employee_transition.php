@@ -2,8 +2,9 @@
 	<div >
 		<div class="select" >
 			<p><b>TIMELINE: </b>&nbsp;&nbsp;
-				<select name="timeline" id="timeline" onchange=singleSelectChangeValue()>                      
-					<option value="2018">2018</option>
+				<select name="timeline" id="timeline" onchange=singleSelectChangeValue()>
+					<option value="2017">2017</option>                      
+					<option value="2018" selected="selected">2018</option>
 					<option value="2019">2019</option>
 				</select>
 			</p>
