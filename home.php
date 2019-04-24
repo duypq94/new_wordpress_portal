@@ -45,14 +45,18 @@
               <div class="biz-links">
                 <a href="https://www.primal-inc.com/product/bizforecast/bc/" target="_blank">予算申請を行う</a>
               </div>
+              <br>
+
               <a href="https://www.mjs.co.jp/" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/mjs-logo.png" /></a><br>
               <div class="mjs-links">
                 <a href="https://www.mjs.co.jp/" target="_blank">資産管理を行う</a>
               </div><br>
+
               <a href="https://www.hr-platform.com/platform/Login.do?action=start&provider=0001" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/hr.png" /></a><br>
               <div class="platform-links">
                 <a href="https://www.hr-platform.com/platform/Login.do?action=start&provider=0001" target="_blank">労務管理を行う</a>
               </div><br>
+
               <a href="https://www2.growassist.hitachi-triplewin.co.jp/htw_kanri-login2192/l000m001.aspx?LoginLanguage=0" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/POSITIVE_logo2.png" /></a>
               <div class="positive-links">
                 <a href="https://www2.growassist.hitachi-triplewin.co.jp/htw_kanri-login2192/l000m001.aspx?LoginLanguage=0" target="_blank">給与管理を行う</a>

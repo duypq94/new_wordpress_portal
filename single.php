@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container-fluid main-content">
     <div class="container main-page">
-        <div class="left-column">
+        <div class="single-content">
             <div class="card">
                 <?php if( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <h1 class="single-page-title"><?php the_title(); ?></h1>
@@ -23,7 +23,7 @@
                 <?php endif; ?>
             </div>
         </div>
-        <div class="right-column">
+        <div class="calendar-column">
         	<div class="card single-sidebar">
 			<?php if ( is_active_sidebar( 'right_sidebar_id' ) ) : 
 				dynamic_sidebar( 'right_sidebar_id' ); 

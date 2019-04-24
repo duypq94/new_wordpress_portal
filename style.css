@@ -81,7 +81,7 @@
   
   /* logo */
   .container{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
   }
   
@@ -276,6 +276,15 @@
       justify-content: space-between;
   }
   
+  .main-content .main-page .single-content{
+    flex-basis : 70%;
+    margin-right: 10px;
+  }
+
+  .main-content .main-page .calendar-column{
+    flex-basis: 30%;
+    margin-left: 10px;
+  }
   .main-content .main-page .left-column{
       flex-basis : 20%;
       margin-right: 10px;
@@ -283,8 +292,7 @@
   
   .main-content .main-page .left-column .calendar{
       width: 100%;
-      height: auto;
-      
+      height: auto;   
   }
   
   .main-content .main-page .middle-column{
