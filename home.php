@@ -10,57 +10,32 @@
           <div class="link-info">
             <div class="system-list">
               <a href="https://xpoint.mediado.info/xpoint/login.jsp" target="_blank"><img class="connect-logo"
-                    src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/xpoint-logo.png" /></a><br>
+                    src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/xpoint-logo.png" /></a>
               <div class="xpoint-links">
-                <a href="https://xpoint.mediado.info/xpoint/login.jsp" target="_blank">社内業務手続きを行う</a> <br>
                 <a href="https://drive.google.com/file/d/1RTcFSD5pgdgPH7hRazWHxmpJGCisxAYz/view" target="_blank">マニュアルを開く</a>
               </div>
               <br>
               <a href="http://redmine.intra.pubridge.jp/" target="_blank"><img class="connect-logo"
-                  src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/redmine-logo.png" /></a><br>
-              <div class="redmine-links">
-                <a href="http://redmine.intra.pubridge.jp/" target="_blank">プロジェクト管理を行う</a>
-              </div>
+                  src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/redmine-logo.png" /></a>
               <br>
               <a href="https://s3.kingtime.jp/admin" target="_blank"><img class="connect-logo"
-                      src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/kingoftime-logo.png" /></a><br>
-              <div class="kingtime-links">
-                <a href="https://s3.kingtime.jp/admin" target="_blank">勤務管理を行う（旧MD対象）</a>
-              </div>
+                  src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/kingoftime-logo.png" /></a>
               <br>
               <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp" target="_blank"><img class="connect-logo"
                       src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/cyberxeed-logo.png" /></a>
-              <div class="cyberx-links">
-                <a href="https://cxg2.i-abs.co.jp/cyberx/login.asp" target="_blank">勤務管理を行う</a>
-              </div>
               <br>
               <a href="https://expense.moneyforward.com/session/new" target="_blank"><img class="connect-logo"
-                      src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/mfcloud-logo.png" /></a><br>
-              <div class="moneyforward-links">
-                <a href="https://expense.moneyforward.com/session/new" target="_blank">経費申請を行う</a>
-              </div>
+                      src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/mfcloud-logo.png" /></a>
               <br>
               <a href="https://www.primal-inc.com/product/bizforecast/bc/" target="_blank"><img
-                      class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/bizforecast-logo.png" /></a><br>
-              <div class="biz-links">
-                <a href="https://www.primal-inc.com/product/bizforecast/bc/" target="_blank">予算申請を行う</a>
-              </div>
+                      class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/bizforecast-logo.png" /></a>
               <br>
-
-              <a href="https://www.mjs.co.jp/" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/mjs-logo.png" /></a><br>
-              <div class="mjs-links">
-                <a href="https://www.mjs.co.jp/" target="_blank">資産管理を行う</a>
-              </div><br>
-
-              <a href="https://www.hr-platform.com/platform/Login.do?action=start&provider=0001" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/hr.png" /></a><br>
-              <div class="platform-links">
-                <a href="https://www.hr-platform.com/platform/Login.do?action=start&provider=0001" target="_blank">労務管理を行う</a>
-              </div><br>
-
+              <a href="https://www.mjs.co.jp/" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/mjs-logo.png" /></a>
+              <br>
+              <a href="https://www.hr-platform.com/platform/Login.do?action=start&provider=0001" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/hr.png" /></a>
+              <br>
               <a href="https://www2.growassist.hitachi-triplewin.co.jp/htw_kanri-login2192/l000m001.aspx?LoginLanguage=0" target="_blank"><img class="connect-logo" src="<?php echo get_template_directory_uri()?>/asset/imgs/systems/POSITIVE_logo2.png" /></a>
-              <div class="positive-links">
-                <a href="https://www2.growassist.hitachi-triplewin.co.jp/htw_kanri-login2192/l000m001.aspx?LoginLanguage=0" target="_blank">給与管理を行う</a>
-              </div><br>
+              <br>
             </div>
           </div> 
         </div>
