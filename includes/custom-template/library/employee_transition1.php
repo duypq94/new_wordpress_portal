@@ -2,9 +2,9 @@
 	<div >
 		<div class="timeBox" style="display: inline-block;  vertical-align: top; ">
 				<select name="timeline" id="timeline" onchange=singleSelectChangeValue()>
-					<option value="2019" selected="selected">2019年度</option>                      
-					<option value="2018">2018年度</option>
-					<option value="2017">2017年度</option>
+					<option value="2019" selected="selected">2019年</option>                      
+					<option value="2018">2018年</option>
+					<option value="2017">2017年</option>
 				</select>
 		</div>
     <br>
@@ -36,7 +36,7 @@ renderTable();
 async function checkLastMonth() {
 	var selObj = document.getElementById("timeline");
 	var selValue = selObj.options[selObj.selectedIndex].value - 1;
-	var lastMonth = selValue.toString() + "年度" ;
+	var lastMonth = selValue.toString() + "年" ;
 	var result = [];
 	await axios.get(`https://sheets.googleapis.com/v4/spreadsheets/1w1jC8OG5z64eu8B0Ur_4NGip_0Im6TaKEBSOtAoNkT4/values/${lastMonth}?key=AIzaSyACRi5yaAcwIOF9QY3Fo1ful5AAyC38NEI`)
 		.then(function (response) {
@@ -97,7 +97,7 @@ function writeTable(response, location, title, lastMonthValue){
 					}
           switch(i) {
             case 0:
-             taps[0] +=`<th>${response.data.values[location][j]}</th>`;
+             taps[0] +=`<th>${j}月</th>`;
              break;
             case 10:
              taps[10] +=`<td style="background-color: #fff2cc;">${newArr[i][j]} <br>${changeValue[i][j]}</td>`;
