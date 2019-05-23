@@ -3,8 +3,8 @@
             <h4>Ⅰ 【契約台帳】</h4>
             <br>
             <div class="ml-55">
-                <p class="ml-30">MDHD、MDの契約台帳　⇒　<a target="_blank" href="https://docs.google.com/spreadsheets/d/11mlsFkI-3mzfZTKQHR_U1sI3G2szJg1lffO8Da_lW10/edit#gid=1371293777">こちら</b></a></p>
-                <p class="ml-30">旧出版デジタル機構の契約台帳　⇒　<a target="_blank" href="https://docs.google.com/spreadsheets/d/1X1KOQW5QA5X6D4MImY14sbZL58uL4pwECfKqLSeS0-c/edit?usp=drive_web&ouid=102059814129513654351">こちら</b></a></p><br>
+                <p class="ml-30">MDHD、MDの契約台帳　⇒　<a target="_blank" href="https://docs.google.com/spreadsheets/d/1bA4CpI-RyCJhcJWDC-lmBDLyEKrjdm8W7D_KZLaDSGY/edit#gid=484921842">こちら</b></a></p>
+                <p class="ml-30">旧出版デジタル機構の契約台帳　⇒　<a target="_blank" href="https://docs.google.com/spreadsheets/d/1-m8kB1WQQH04bTbVVO5_G0mEBkAwKcjngg3r3IVE5Lc/edit#gid=1432322761">こちら</b></a></p><br>
             </div>
             <div class="ml-55">
                 <div class="ml-30">

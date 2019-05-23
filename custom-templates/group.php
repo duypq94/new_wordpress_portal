@@ -16,6 +16,8 @@
                         id="defaultOpen-group-page">会社情報</button>
                     <button class="tablinksGroupPage tablinks"
                         onclick="openTabGroupPage(event, 'GroupPageId102')">グループ会社一覧</button>
+                    <button class="tablinksGroupPage tablinks"
+                        onclick="openTabGroupPage(event, 'GroupPageId103')">クラブ活動</button>
                 </div>
 
 
@@ -388,10 +390,12 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
 
+                <div id="GroupPageId103" class="tabcontentGroupPage tabcontent">
+                    <?php get_template_part('/includes/custom-template/group/club') ?>
+                </div>  
+                
             </div>
         </div>
     </div>

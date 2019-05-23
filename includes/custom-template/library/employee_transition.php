@@ -3,8 +3,6 @@
 		<div class="timeBox" style="display: inline-block;  vertical-align: top; ">
 				<select name="timeline" id="timeline" onchange=singleSelectChangeValue()>
 					<option value="2019" selected="selected">2019年度</option>                      
-					<option value="2018">2018年度</option>
-					<option value="2017">2017年度</option>
 				</select>
 		</div>
     <br>
@@ -53,17 +51,21 @@ function writeTable(response, location, title, lastMonthValue){
 	var changeValue = new Array([10], [13]); 
   var taps = new Array(11);
   var month = 0;
-  taps[0] = `<th>${response.data.values[location][0]}</th>`;
+	if(title == "mdhd_nichi_" || title == "mdhd_matsujitsu_") {
+		taps[0] = `<th style="background-color: #4CAF50;">${response.data.values[location][0]}</th>`;
+	} else {
+		taps[0] = `<th style="background-color: #183c48;">${response.data.values[location][0]}</th>`;
+	}
   taps[1] = '<td><b>役員</b></td>	';
-  taps[2] = '<td><b>社員<br>（執行役員含）</b></td>	';
-  taps[3] = '<td><b>社員内<br>（出向出し）</b></td>	';
-  taps[4] = '<td><b>社員<br>（出向受け）</b></td>	';
+  taps[2] = '<td><b>社員<br></b>【執行役員含<b>】</td>	';
+  taps[3] = '<td><b>社員<br></b>【出向出し<b>】</td>	';
+  taps[4] = '<td><b>社員<br></b>【出向受け】</td>	';
   taps[5] = '<td><b>嘱託</b></td>';
   taps[6] = '<td><b>契約社員</b></td>';
   taps[7] = '<td><b>アルバイト</b></td>';
   taps[8] = '<td><b>パート</b></td>';
   taps[9] = '<td><b>派遣</b></td>';
-  taps[10] = '<td style="background-color: #fff2cc;"><b>合計</b></td>';
+  taps[10] = '<td style="background-color: #fff2cc;"><b>合計<br></b>【出向出し】含まず</td>';
 	for(var i = 0; i<11; i++){
     tabtitle = title + i.toString()
 		if(!newArr[i]) {
@@ -97,10 +99,18 @@ function writeTable(response, location, title, lastMonthValue){
 					}
           switch(i) {
             case 0:
-             taps[0] +=`<th>${response.data.values[location][j]}</th>`;
+						 if(title == "mdhd_nichi_" || title == "mdhd_matsujitsu_") {
+								taps[0] +=`<th style="background-color: #4CAF50;">${response.data.values[location][j]}</th>`;
+							} else {
+								taps[0] +=`<th style="background-color: #183c48;">${response.data.values[location][j]}</th>`;
+							}
              break;
             case 10:
-             taps[10] +=`<td style="background-color: #fff2cc;">${newArr[i][j]} <br>${changeValue[i][j]}</td>`;
+							if(newArr[i][j] == 0){
+								taps[10] +=`<td style="background-color: #fff2cc;">${newArr[i][j]}</td>`;
+							} else {
+								taps[10] +=`<td style="background-color: #fff2cc;">${newArr[i][j]} <br>${changeValue[i][j]}</td>`;
+							}
              break;
             default:
              taps[i] +=`<td>${newArr[i][j]} <br>${changeValue[i][j]}</td>`;
